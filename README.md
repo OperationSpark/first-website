@@ -63,7 +63,7 @@ Using this feature is actually really easy.  If you create a repository on GitHu
     <li>Click "Create Repository" (See F).</li>
 </ol>
 
-    <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
 
     Awesome, you created your repository!
 
