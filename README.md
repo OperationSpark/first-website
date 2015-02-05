@@ -1,3 +1,8 @@
+First Website
+===
+
+We're gonna go live on GitHub with your very own website!
+
 ##Prerequisites
 
 * Students will require a GitHub account and will need to remember their GitHub username and password.
@@ -18,7 +23,7 @@
 * Basic web page navigation
 * Using git and GitHub
 
-### Entering Code
+### Work Flow
 
 You'll be creating a whole web page from scratch, from creating the `index.html` file, to writing all the `<html>` tags, adding content and style with CSS.  Because you're creating this page from scratch, there will be no TODO's to find in our code in this project.
 
@@ -46,7 +51,7 @@ Using this feature is actually really easy.  If you create a repository on GitHu
     
     Follow these steps and see the screen shot to create a new repository:
     
-    <a href="https://github.com/new">Click here to open a new browser tab and create create a new repository</a>.
+    <a href="https://github.com/new" target="_blank">Click here to open a new browser tab and create create a new repository</a>.
     
     A) On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual GitHub username.
     
@@ -120,16 +125,16 @@ Ok great!  We've created our `index.html` file and opened it in the text editor 
 
 You need to tell the browser you're writing an HTML page by adding the following at the top:
 
-```HTML
+````HTML
 <!DOCTYPE html>
-```
+````
 ### TODO 3 : Add Required HTML Tags
 
 By now, you should be familiar with the basic tags needed for the structure of an HTML5 page.  Let's add our `<html>` tags with `<head>` tags and `<body>` tags nested within. 
 
 Like this: 
 
-```HTML
+````HTML
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -138,7 +143,7 @@ Like this:
     <body>
     </body>
 </html>
-```
+````
 
 We made the structure of the site so now we need some content! Give your site a title.
 
@@ -146,9 +151,9 @@ We made the structure of the site so now we need some content! Give your site a 
 
 You should remember from our previous lessons on HTML5 that you create a title with the `<title>` tag inside of the `<head>`. 
 
-```
+````
 <title>Sheba's Amazing Website</title>
-```
+````
 ### TODO 5 : Add Content
 
 Now we'll add some content within the `<body>` tag.
@@ -181,14 +186,14 @@ Next add some of your interests below the `<p>` tag with a list.
 * Give the list a title with the `<h3>` tag and called it 'Interests'
 * Below that create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
 
-```HTML
+````HTML
 <h3>Interests</h3>
 <ul>
     <li></li>
     <li></li>
     <li></li>
 </ul>
-```
+````
 
 Add an interest of your's inside of each `<li>` tag. Save and view your changes.
 
@@ -206,7 +211,7 @@ We're going to make a menu so students know how to do it although there aren't a
 * We need to link to something with the **href** attribute but since we don't have other pages just use a # symbol.
 * Finally give each menu item a name: Home, About, Contact
 
-```HTML
+````HTML
 <nav>
     <ul>
         <li><a href="#">Home</a></li>
@@ -214,7 +219,7 @@ We're going to make a menu so students know how to do it although there aren't a
         <li><a href="#">Contact</a></li>
     </ul>
 </nav>
-```
+````
 
 Save and view your work.
 
@@ -224,7 +229,7 @@ We now have a fairly plain website but it's a website! Let's add some style.
 
 Copy the entire below section and place it inside the `<head>` below the `<title>` tag.
 
-```html
+````html
 <style>
         body {
             background: #FD7673;
@@ -262,7 +267,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
             color: #fff;
         }
     </style>
-```
+````
 
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
 
