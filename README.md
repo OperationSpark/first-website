@@ -1,7 +1,7 @@
 ##Prerequisites
 
-* Students will require a Github account and will need to remember their Github username and password.
-* Students will require a Cloud9 account - they will login to Cloud9 using their Github credentials.
+* Students will require a GitHub account and will need to remember their GitHub username and password.
+* Students will require a Cloud9 account - they will login to Cloud9 using their GitHub credentials.
 * Students should have basic knowledge of HTML and gone through the [Intro to HTML](https://github.com/OperationSpark/javascript-wiki/wiki/HTML-Intro) lesson.
 
 ##Overview
@@ -9,32 +9,32 @@
 ###Objectives
 
 * At the end of the lesson students will have built and designed their own website that is viewable on the web.
-* The website will be hosted on Github with their own accounts and is something they can build upon on over time. 
+* The website will be hosted on GitHub with their own accounts and is something they can build upon on over time. 
 * The website will be the student's own and will feature a short profile of the student.
 
 ##Setup
 
 ###Creating a New GitHub Repo For Your Site
 
-First things first, we need to create a new repository on Github, named using your Github username.
+First things first, we need to create a new repository on GitHub, named using your GitHub username.
 
-The very awesome Github will host a website for each user and organization for free.  The feature is called **Github Pages**.  
+The very awesome GitHub will host a website for each user and organization for free.  The feature is called **GitHub Pages**.  
 
-Using this feature is actually really easy.  If you create a repository on Github and name it in the pattern of:
+Using this feature is actually really easy.  If you create a repository on GitHub and name it in the pattern of:
 
     yoursusername.github.io
     
 ...GitHub will host the files of that repo at that URL, provided that repo contains a website.
 
-1. We're going to give you the link right here to click to create a new repository on Github.
+1. We're going to give you the link right here to click to create a new repository on GitHub.
 
-    NOTE: If you're not signed-in to Github, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to Github on this page and you will be forward to the _create new repository_ page.
+    NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forward to the _create new repository_ page.
     
     Follow these steps and see the screen shot to create a new repository:
     
     <a href="https://github.com/new">Click here to open a new browser tab and create create a new repository</a>.
     
-    A) On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual Github username.
+    A) On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual GitHub username.
     
     MAKE SURE your username is spelled correctly, otherwise you'll have problems (See A).
     
@@ -266,7 +266,7 @@ Check it out! We have some style but not much and some elements are too close to
 ### Make your site live on the web
 
 
-With <a href="https://pages.github.com/" target="_blank">Github Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, you page will be live on the Internet.
+With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, you page will be live on the Internet.
 
 To do so, you'll need to enter the following git commands into your bash terminal.  Select the bash terminal in the Console View - the bottom window pane in Cloud9.
 
