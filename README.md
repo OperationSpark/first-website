@@ -45,7 +45,7 @@ Using this feature is actually really easy.  If you create a repository on GitHu
     
 ...GitHub will host the files of that repo at that URL, provided that repo contains a website.
 
-1. We're going to give you the link right here to click to create a new repository on GitHub.
+* We're going to give you the link right here to click to create a new repository on GitHub.
 
     NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forward to the _create new repository_ page.
     
