@@ -6,11 +6,25 @@
 
 ##Overview
 
-###Objectives
+###Specs
 
 * At the end of the lesson students will have built and designed their own website that is viewable on the web.
 * The website will be hosted on GitHub with their own accounts and is something they can build upon on over time. 
 * The website will be the student's own and will feature a short profile of the student.
+
+### Take Away
+
+* Basic HTML5, including HTML (content) and CSS (style).
+* Basic web page navigation
+* Using git and GitHub
+
+### Entering Code
+
+You'll be creating a whole web page from scratch, from creating the `index.html` file, to writing all the `<html>` tags, adding content and style with CSS.  Because you're creating this page from scratch, there will be no TODO's to find in our code in this project.
+
+### Type of App
+
+We are building a website, to be viewed live on the web at your GitHub page, and it will be viewed in a web browser, like Chrome.
 
 ##Setup
 
@@ -18,7 +32,7 @@
 
 First things first, we need to create a new repository on GitHub, named using your GitHub username.
 
-The very awesome GitHub will host a website for each user and organization for free.  The feature is called **GitHub Pages**.  
+The very awesome GitHub will host a website for each user and organization for free.  The feature is called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 Using this feature is actually really easy.  If you create a repository on GitHub and name it in the pattern of:
 
@@ -263,7 +277,7 @@ Check it out! We have some style but not much and some elements are too close to
 * Add a border around the image
 * Change the color of the background
 
-### Make your site live on the web
+### Go Live
 
 
 With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, you page will be live on the Internet.
@@ -271,7 +285,6 @@ With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once 
 To do so, you'll need to enter the following git commands into your bash terminal.  Select the bash terminal in the Console View - the bottom window pane in Cloud9.
 
 Enter the following commands, pressing ENTER after each one:
-
 
 `git add .`
 
