@@ -61,11 +61,11 @@ Using this feature is actually really easy.  If you create a repository on GitHu
     
     C) Select the Public radio button to allow anyone to see this repository (See C).
     
-    D) Check the "Initialize this repository with a README" box 
+    D) Check the "Initialize this repository with a README" box (See D).
     
-    E) Click the "Add .gitignore" button, and select "Yeoman" from the dropdown.  (We won't be using Yeoman, yet...)
+    E) Click the "Add .gitignore" button, and select "Yeoman" from the dropdown.  Here, we're just selecting Yeoman because it gives us some default ignore patterns... we'll explain later (See E).
     
-    F) Click "Create Repository".
+    F) Click "Create Repository" (See F).
 
     <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
 
@@ -281,6 +281,16 @@ Check it out! We have some style but not much and some elements are too close to
 * Google border radius and add it to the `<nav>` element.
 * Add a border around the image
 * Change the color of the background
+
+### Add C9 to gitignore
+
+If you don't see the `.gitignore`, click on the _gear_ icon in the file system and select "Show Hidden Files.
+
+At the bottom of the `.gitignore` file, add the following:
+
+    .c9
+    
+Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
 
 ### Go Live
 
