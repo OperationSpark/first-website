@@ -1,14 +1,38 @@
-###Prerequisites
+##Prerequisites
 
-Students should have basic knowledge of HTML and gone through the [Intro to HTML](https://github.com/OperationSpark/javascript-wiki/wiki/HTML-Intro) lesson. 
+* Students will require a Github account and will need to remember their Github username and password.
+* Students will require a Cloud9 account - they will login to Cloud9 using their Github credentials.
+* Students should have basic knowledge of HTML and gone through the [Intro to HTML](https://github.com/OperationSpark/javascript-wiki/wiki/HTML-Intro) lesson.
 
-####Objectives
+##Overview
+
+###Objectives
 
 * At the end of the lesson students will have built and designed their own website that is viewable on the web.
 * The website will be hosted on Github with their own accounts and is something they can build upon on over time. 
-* The website will be the student's own and will feature a short profile of them.
+* The website will be the student's own and will feature a short profile of the student.
 
-First things first, setup a new workspace in Cloud9. 
+##Lesson Steps
+
+###Creating a New GitHub Repo For Your Site
+
+First things first, we need to create a new repository on Github, named using your Github username.
+
+The very awesome Github will host a website for each user and organization for free.  The feature is called **Github Pages**.  
+
+Using this feature is actually really easy.  If you create a repository on Github and name it in the pattern of:
+
+    yoursusername.github.io
+    
+...GitHub will host the files of that repo at that URL, provided that repo contains a website.
+
+1. If you're not signed-in to Github, you will be asked to do so in this next step when you <a href="https://github.com/new">click this link to open a new browser tab and create create a new repository</a>.
+
+So, go ahead an open a tab with GitHub (login if you're not already) and a tab with whatever Cloud9 workspace you're going to use. If you don't have a workspace set up, a simple HTML5 one will do.
+
+###Clone Into Cloud9
+
+Next setup a new workspace in Cloud9. 
 
 [Cloud 9 instructions here]
 
