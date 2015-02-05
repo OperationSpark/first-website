@@ -55,7 +55,6 @@ Using this feature is actually really easy.  If you create a repository on GitHu
     
 <ol style="list-style-type: upper-alpha;">
     <li>On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual GitHub username.  MAKE SURE your username is spelled correctly, otherwise you'll have problems (See A).</li>
-    
     <li>Enter a description for your repository in the **Description** box, like `My own awesome website!' (See B).</li>
     <li>Select the Public radio button to allow anyone to see this repository (See C).</li>
     <li>Check the "Initialize this repository with a README" box (See D).</li>
