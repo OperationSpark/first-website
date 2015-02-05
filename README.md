@@ -9,7 +9,7 @@
 ###Specs
 
 * At the end of the lesson students will have built and designed their own website that is viewable on the web.
-* The website will be hosted on GitHub with their own accounts and is something they can build upon on over time. 
+* The website will be hosted on GitHub under their own account, and is something they can build upon on over time. 
 * The website will be the student's own and will feature a short profile of the student.
 
 ### Take Away
