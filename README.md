@@ -192,7 +192,7 @@ You'll need to replace 'username' with your username in the following command:
 
 `git push origin master`
 
-Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' us your own username.)
+Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own username.)
 
 
 
