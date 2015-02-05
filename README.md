@@ -12,7 +12,7 @@
 * The website will be hosted on Github with their own accounts and is something they can build upon on over time. 
 * The website will be the student's own and will feature a short profile of the student.
 
-##Lesson Steps
+##Setup
 
 ###Creating a New GitHub Repo For Your Site
 
@@ -26,9 +26,31 @@ Using this feature is actually really easy.  If you create a repository on Githu
     
 ...GitHub will host the files of that repo at that URL, provided that repo contains a website.
 
-1. If you're not signed-in to Github, you will be asked to do so in this next step when you <a href="https://github.com/new">click this link to open a new browser tab and create create a new repository</a>.
+1. We're going to give you the link right here to click to create a new repository on Github.
 
-So, go ahead an open a tab with GitHub (login if you're not already) and a tab with whatever Cloud9 workspace you're going to use. If you don't have a workspace set up, a simple HTML5 one will do.
+    NOTE: If you're not signed-in to Github, you might see a page that says 404 (This is not the web page you are looking for).  Just sign-in to Github on this page and you will be forward to the _create new repository_ page.
+    
+    Follow these steps and see the screen shot to create a new repository:
+    
+    <a href="https://github.com/new">Click here to open a new browser tab and create create a new repository</a>.
+    
+    A) On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual Github username.
+    
+    MAKE SURE your username is spelled correctly, otherwise you'll have problems (See A).
+    
+    B) Enter a description for your repository, like `My own awesome website!' (See B).
+    
+    C) Select Public (See C)
+    
+    D) Check the "Initialize this repository with a README" box 
+    
+    E) Click the "Add .gitignore" button, and select "Node" from
+    the dropdown.
+    
+    F) Click "Create Repository".
+
+    <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
+
 
 ###Clone Into Cloud9
 
