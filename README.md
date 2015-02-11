@@ -41,7 +41,7 @@ The very awesome GitHub will host a website for each user and organization for f
 
 Using this feature is actually really easy.  If you create a repository on GitHub and name it in the pattern of:
 
-    yoursusername.github.io
+    yourusername.github.io
     
 ...GitHub will host the files of that repo at that URL, provided that repo contains a website.
 
