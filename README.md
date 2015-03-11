@@ -149,9 +149,44 @@ You should remember from our previous lessons on HTML5 that you create a title w
 ````
 <title>Sheba's Amazing Website</title>
 ````
-### TODO 5 : Add Content
+
+### TODO 5 : Add some divs
+
+Create a div with the `<div>` tag. Inside of that div, create two more.
+
+Like this:
+
+```HTML
+<div>
+    <div>
+    </div>
+    
+    <div>
+    </div>
+</div>
+```
+
+* Add a class called 'container' to the top level div.
+* Add a class called 'sidebar' to the second div.
+* Add a class called 'content' to the third div.
+
+Like this:
+
+```HTML
+<div class="container">
+    <div class="sidebar">
+    </div>
+    
+    <div class="content">
+    </div>
+</div>
+```
+
+### TODO 6 : Add Content
 
 Now we'll add some content within the `<body>` tag.
+
+Add the following tags inside of the 'content' div:
 
 * Create an `<h1>` element and put your name inside of it.
 * Below that make a `<p>` element and put your position or job title such as "Student at XYZ High."
@@ -163,7 +198,7 @@ It should look something like this:
 
 #### Image and list 
 
-* Above the `<h1>` tag add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
+* Inside of the 'sidebar' div add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
 * We need to add the URL of an actual image with the **src** attribute. Find an image of yourself on the web, right-click on the image, and choose 'Copy Image URL.'
 * Paste that URL into the **src** attribute. 
 
@@ -171,12 +206,12 @@ Like this:
 
 `<img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">`
 
-Save your page and preview it. You should see the image now. If you don't, go back and double check there are no
+Save your page and preview it. You should see the image now. If you don't, go back and double check that there are no
 errors in your `<img>` tag.
 
-### TODO 6 Add More Content : Interests
+### TODO 7 Add More Content : Interests
 
-Next add some of your interests below the `<p>` tag with a list.
+Next add some of your interests below the `<p>` tag (inside of the 'content' div) with a list.
 
 * Give the list a title with the `<h3>` tag and called it 'Interests'
 * Below that create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
@@ -196,29 +231,28 @@ Should look something like this:
 
 <img src="img/second-shot.png">
 
-### TODO 7 : Navigation
+### TODO 8 : Navigation
 
 We're going to make a menu so students know how to do it although there aren't any other pages to visit just yet.
 
-* Above the image right under the first `<body>` tag create a menu with the `<nav>` tag. 
-* Inside of that create an unordered list with three list items just like we did in the last step.
+* Right under the first `<div>` tag in the 'container' div create a menu with the `<nav>` tag. 
+* Inside of that create an unordered list with two list items like we did in the last step.
 * Create a link inside of each list item using the `<a>` tag. 
-* We need to link to something with the **href** attribute but since we don't have other pages just use a # symbol.
-* Finally give each menu item a name: Home, About, Contact
+* We need to link to something with the **href** attribute. For now, since we only have one page, use the pound sign.
+* Finally give each menu item a name: Menu item 1, Menu item 2
 
 ````HTML
 <nav>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Menu item 1</a></li>
+        <li><a href="#">Menu item 2</a></li>
     </ul>
 </nav>
 ````
 
 Save and view your work.
 
-### TODO 8 : Make it Pretty
+### TODO 9 : Make it Pretty
 
 We now have a fairly plain website but it's a website! Let's add some style.
 
@@ -226,7 +260,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
 
 ````html
 <style>
-        body {
+          body {
             background: #FD7673;
             color: #fff;
             padding: 10px;
@@ -239,13 +273,10 @@ Copy the entire below section and place it inside the `<head>` below the `<title
             margin-bottom: 100px;
         }
         
-        p {
-            width: 600px;
-        }
         
         nav {
             background: #7C0F0A;
-            padding: 1px;
+            padding: 10px;
         }
     
         nav ul {
@@ -260,6 +291,15 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         nav a {
             text-decoration: none;
             color: #fff;
+        }
+        
+        .sidebar {
+            width: 230px;
+            float: left;
+        }
+        
+        .content {
+            margin-left: 230px;
         }
     </style>
 ````
