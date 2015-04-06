@@ -244,8 +244,8 @@ We're going to make a menu so students know how to do it although there aren't a
 ````HTML
 <nav>
     <ul>
-        <li><a href="#">Menu item 1</a></li>
-        <li><a href="#">Menu item 2</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
     </ul>
 </nav>
 ````
