@@ -238,8 +238,8 @@ We're going to make a menu so students know how to do it although there aren't a
 * Right under the first `<div>` tag in the 'container' div create a menu with the `<nav>` tag. 
 * Inside of that create an unordered list with two list items like we did in the last step.
 * Create a link inside of each list item using the `<a>` tag. 
-* We need to link to something with the **href** attribute. For now, since we only have one page, use the pound sign.
-* Finally give each menu item a name: Menu item 1, Menu item 2
+* We need to link to something with the **href** attribute. For now, since we only have one page, so you can use the pound sign - BUT, we're going to make use of these links in our next lesson, so you can assign them the values of href="index.html" and href="portfolio.html", respectively.  See the example below.
+* Finally give each menu item a name by inserting Home and Portfolio between the opening and closing tags.  Again, see the example below.
 
 ````HTML
 <nav>
