@@ -231,9 +231,11 @@ Should look something like this:
 
 <img src="img/second-shot.png">
 
-### TODO 8 : Navigation
+### TODO 8 : Navigation and Site Title
 
-We're going to make a menu so students know how to do it although there aren't any other pages to visit just yet.
+
+
+We're going to make a menu. Explain to students that linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on beyond a collection of links. We'll create the portfolio page that we're linking to in the next lesson.
 
 * Right under the first `<div>` tag in the 'container' div create a menu with the `<nav>` tag. 
 * Inside of that create an unordered list with two list items like we did in the last step.
@@ -250,7 +252,17 @@ We're going to make a menu so students know how to do it although there aren't a
 </nav>
 ````
 
-Save and view your work.
+Save and view your work. You now have some menu items! One of them works since it's he home page (the page we made). The other link is for our portfolio page which we'll build out in the next lesson.
+
+Your site needs a title! Inside of the `<nav>` before the `<ul>` tag add an `<h1>` element and come up with a title.
+
+Like this:
+
+```HTML
+<h1>Sheba's Glorious Website</h1>
+```
+
+Save and view your work. You should see your title inside of the navbar to the left. 
 
 ### TODO 9 : Make it Pretty
 
@@ -329,6 +341,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         margin-top: 13px;
         margin-left: 10px;
         font-size: 21px;
+        color: #ffffff;
     }
     
     /* Portfolio page */
