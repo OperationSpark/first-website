@@ -266,80 +266,88 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         padding: 10px;
         font-family: arial;
     }
+    
     p {
         width: 600px;
     }
+    
     h1 {
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    /* Main container area beneath menu */
     
+    /* Main container area beneath menu */
     .container {
         max-width: 800px;
         margin: 0 auto;
         background: #F5EEDB;
     }
-    /* Content area within conatiner */
     
+    /* Content area within conatiner */
     .content {
         padding: 15px;
         margin-left: 225px;
     }
-    /* Left aligned sidebar */
     
+    /* Left aligned sidebar */
     .sidebar {
         width: 225px;
         float: left;
         padding: 10px;
     }
+    
     .sidebar img {
         width: 200px;
     }
-    /* Main menu */
     
+    /* Main menu */
     nav {
         background: #EF5029;
         height: 50px;
         max-width: 800px;
         margin: 0 auto;
-        margin-bottom: 20px;
     }
+    
     nav ul {
         list-style-image: none;
         float: right;
     }
+    
     nav ul li {
         display: inline;
         padding-right: 20px;
     }
+    
     nav a {
         text-decoration: none;
         color: #fff;
     }
-    /* Site Title */
     
+    /* Site Title */
     nav h1 {
         float: left;
         margin-top: 13px;
         margin-left: 10px;
         font-size: 21px;
     }
-    /* Portfolio page */
     
+    /* Portfolio page */
     ul.portfolio {
         list-style-type: none;
         padding-left: 0;
     }
+    
     ul.portfolio li {
         background: #fff;
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 10px;
     }
+    
     ul.portfolio li:hover {
         background: #eee;
     }
+    
     .portfolio a {
         text-decoration: none;
         color: #454545;
@@ -349,9 +357,9 @@ Copy the entire below section and place it inside the `<head>` below the `<title
 
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
 
-* Find the nav selector and add `margin-bottom: 20px;`
+* Find the nav selector in the CSS, and under `margin: 0 auto;` add `margin-bottom: 20px;`
 * Save and view the changes. The menu now has some space underneath it!
-* The text is smashed up against the image. We can add a margin to give it some room.
+* The text is smooshed up against the image in the sidebar. We can add a margin to give it some room.
 * Under the img selector add `margin-right: 40px;`
 
 ###Extra Credit
