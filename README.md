@@ -258,50 +258,93 @@ We now have a fairly plain website but it's a website! Let's add some style.
 
 Copy the entire below section and place it inside the `<head>` below the `<title>` tag.
 
-````html
+````CSS
 <style>
-          body {
-            background: #FD7673;
-            color: #fff;
-            padding: 10px;
-            font-family: arial;
-        }
-        
-        img {
-            width: 200px;
-            float: left;
-            margin-bottom: 100px;
-        }
-        
-        
-        nav {
-            background: #7C0F0A;
-            padding: 10px;
-        }
+    body {
+        background: #7DC6CD;
+        color: #454545;
+        padding: 10px;
+        font-family: arial;
+    }
+    p {
+        width: 600px;
+    }
+    h1 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    /* Main container area beneath menu */
     
-        nav ul {
-            list-style-image: none;
-        }
-        
-        nav ul li {
-            display: inline;
-            padding-right: 10px;
-        }
-        
-        nav a {
-            text-decoration: none;
-            color: #fff;
-        }
-        
-        .sidebar {
-            width: 230px;
-            float: left;
-        }
-        
-        .content {
-            margin-left: 230px;
-        }
-    </style>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #F5EEDB;
+    }
+    /* Content area within conatiner */
+    
+    .content {
+        padding: 15px;
+        margin-left: 225px;
+    }
+    /* Left aligned sidebar */
+    
+    .sidebar {
+        width: 225px;
+        float: left;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    /* Main menu */
+    
+    nav {
+        background: #EF5029;
+        height: 50px;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    nav ul {
+        list-style-image: none;
+        float: right;
+    }
+    nav ul li {
+        display: inline;
+        padding-right: 20px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+    /* Site Title */
+    
+    nav h1 {
+        float: left;
+        margin-top: 13px;
+        margin-left: 10px;
+        font-size: 21px;
+    }
+    /* Portfolio page */
+    
+    ul.portfolio {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    ul.portfolio li {
+        background: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    ul.portfolio li:hover {
+        background: #eee;
+    }
+    .portfolio a {
+        text-decoration: none;
+        color: #454545;
+    }
+</style>
 ````
 
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
