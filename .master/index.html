@@ -10,58 +10,57 @@
             padding: 10px;
             font-family: arial;
         }
+        header {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
         .main-content {
             max-width: 800px;
             margin: auto;
         }
 
-        /* Main container area beneath menu */
-        .container {
-            background: rgb(245, 238, 219);
-            display: flex;
-        }
-        
-        .content {
-            flex: 1;
-            padding: 15px;
-        }
-        .content h1 {
-            margin: 0;
-        }
-        
-        .sidebar {
-            margin-right: 25px;
-            padding: 10px;
-        }
-        
-        .sidebar img {
-            width: 200px;
-        }
 
+        /* Main navigation menu */
         nav {
             background: #EF5029;
             margin: 0 auto;
             display: flex;
             padding: 10px;
         }
-
-        nav h1 {
+        nav header {
             color: rgb(255, 255, 255);
             flex: 1;
         }
-        
         nav ul {
             list-style-image: none;
         }
-        
         nav li {
             display: inline-block;
             padding: 0 10px;
         }
-        
         nav a {
             text-decoration: none;
             color: #fff;
+        }
+
+        /* Main container area beneath menu */
+        main {
+            background: rgb(245, 238, 219);
+            display: flex;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar img {
+            width: 200px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        .interests header {
+            font-size: 1.25em;
         }
     </style>
 </head>
@@ -69,33 +68,34 @@
 <body>
     <div class="main-content"> 
         <nav>
-            <h1>Sheba's Glorious Website</h1>
+            <header>Sheba's Glorious Website</header>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
-        <div class="container">
+        <main>
             <div class="sidebar">
                 <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
             </div>
             <div class="content">
-                <!-- Heading of your site below - <h1> tag! -->
-                <h1>Sheba Turk</h1>
+                <header>Sheba Turk</header>
                 
                 <!-- Write something about yourself below -->
                 <p>
                     Morning news anchor at WWL-TV
                 </p>
 
-                <h2>Interests</h2>
-                <ul>
-                    <li>Ice Cream</li>
-                    <li>Talking in front of a camera</li>
-                    <li>Chess</li>
-                </ul>
+                <section class="interests">
+                    <header>Interests</header>
+                    <ul>
+                        <li>Ice Cream</li>
+                        <li>Talking in front of a camera</li>
+                        <li>Chess</li>
+                    </ul>
+                </section>
             </div>
-        </div>
+        </main>
     </div>
 </body>
 
