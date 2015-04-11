@@ -10,11 +10,13 @@
             padding: 10px;
             font-family: arial;
         }
-        
+        .main-content {
+            max-width: 800px;
+            margin: auto;
+        }
+
         /* Main container area beneath menu */
         .container {
-            max-width: 800px;
-            margin: 0 auto;
             background: #F5EEDB;
             display: flex;
         }
@@ -22,6 +24,9 @@
         .content {
             flex: 1;
             padding: 15px;
+        }
+        .content h1 {
+            margin: 0;
         }
         /* Left aligned sidebar */
         
@@ -38,9 +43,7 @@
 
         nav {
             background: #EF5029;
-            max-width: 800px;
             margin: 0 auto;
-        
             display: flex;
             padding: 10px;
         }
@@ -67,32 +70,34 @@
 </head>
 
 <body>
-    <!-- Main menu below -->
-    <nav>
-        <h1>Sheba's Glorious Website</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <div class="sidebar">
-            <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
-        </div>
-        <div class="content">
-            <!-- Heading of your site below - <h1> tag! -->
-            <h1>Sheba Turk</h1>
-            <!-- Write something about yourself below -->
-            <p>Morning news anchor at WWL-TV</p>
-            <!-- Make an <h3> element and call it 'Interests' -->
-            <h3>Interests</h3>
-            <!-- List three things you're interested in...with a list! -->
+    <div class="main-content"> 
+        <nav>
+            <h1>Sheba's Glorious Website</h1>
             <ul>
-                <li>Ice Cream</li>
-                <li>Talking in front of a camera</li>
-                <li>Chess</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
+        </nav>
+        <div class="container">
+            <div class="sidebar">
+                <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
+            </div>
+            <div class="content">
+                <!-- Heading of your site below - <h1> tag! -->
+                <h1>Sheba Turk</h1>
+                <!-- Write something about yourself below -->
+                <p>Morning news anchor at WWL-TV</p>
+                <!-- Make an <h3> element and call it 'Interests' -->
+                <h3>Interests</h3>
+                <!-- List three things you're interested in...with a list! -->
+                <ul>
+                    <li>Ice Cream</li>
+                    <li>Talking in front of a camera</li>
+                    <li>Chess</li>
+                </ul>
+            </div>
         </div>
+    </div>
 </body>
 
 </html>
