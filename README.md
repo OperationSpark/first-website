@@ -178,7 +178,7 @@ You should remember from our previous lessons on HTML5 that you create a title w
 </body>
 ```
 
-We're going to create use `<div>` tags to group our content together.  The `<div>` tag stand for _document divisions_, and they are special tags that help us divide or group together content on our web page.  You can consider them sort of like containers, into which we group content, and they can be invisible or _styled_ with visible properties, like a background color, a border, etc.
+We're going to create `<div>` tags to group our content together.  The `<div>` tag stand for _document divisions_, and they are special tags that help us divide or group together content on our web page.  You can consider them sort of like containers, into which we group content, and they can be invisible or _styled_ with visible properties, like a background color, a border, etc.
 
 So, to start grouping together our content in a meaningful way, inside the `<body>` tag, create a new div using the `<div>` tag.  This is going to contain all the site contents so let's annotate it as such by settings its _class_ attribute to `class="all-contents"`.  Attributes are properties that tell us something more specialized about the tag, and you'll come to understand how these work as you work more with HTML.
 
