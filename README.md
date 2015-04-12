@@ -212,7 +212,7 @@ Inside the `<main>` element, create two new `<div>` elements. These will act as 
 
 ### TODO 7 : Add Content
 
-Add the following tags inside of the 'content' div:
+Add the following tags inside of the `<div class="content">` tag:
 
 * Create a `<header>` element and put your name inside of it.
 * Below that make a `<p>` element and inside it put your position or job title such as "Student at XYZ High."
