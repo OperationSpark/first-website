@@ -374,7 +374,7 @@ Enter the following commands, be careful to place your spaces correctly and pres
 
 First, add all the files we worked into git so that they can be archived in our source control
 
-`git add -A :/`
+`git add -A`
 
 Then archive everything that has been added
 
