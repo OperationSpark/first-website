@@ -5,8 +5,8 @@ We're gonna go live on GitHub with your very own website!
 
 ##Prerequisites
 
-* Students will require a GitHub account and will need to remember their GitHub username and password.
-* Students will require a Cloud9 account - they will login to Cloud9 using their GitHub credentials.
+* [Students will require a GitHub account](https://github.com/join) and will need to remember their GitHub username and password.
+* [Students will require a Cloud9 account - they will login to Cloud9 using their GitHub credentials](https://c9.io/web/login).
 * Students should have basic knowledge of HTML and gone through the [Intro to HTML](https://github.com/OperationSpark/javascript-wiki/wiki/HTML-Intro) lesson.
 
 ##Overview
