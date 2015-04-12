@@ -116,6 +116,24 @@ Next, double click the `index.html` file to open it so we can begin editing the 
 
 Ok great!  We've created our `index.html` file and opened it in the text editor to start devleoping our website!
 
+### An Important Note on HTML Tags
+
+Remember that most HTML tags have both an opening and closing tag.  So, when you create a `<div>` tag, you must also create its closing tag, like so:
+
+```HTML
+<div>
+    <!-- All other tags and content in here belong to the <div></div> tag -->
+</div>
+```
+
+Some HTML tags, like the `<img>` tag, do not require a closing tag, because they are not designed to hold content between the opening and closing tag.  The image tag specifies the source of the image it should display using what's called a tag _attribute_, which is a property of the tag, not content of the tag.  Check it out:
+
+```HTML
+<img src="path/to/my-image.jpg">
+```
+
+Notice, above, that the `src` attribute is located _inside_ the `<img>` tag.
+
 ### TODO 2 : Add the DOCTYPE
 
 You need to tell the browser you're writing an HTML page by adding the following at the top:
@@ -150,10 +168,21 @@ You should remember from our previous lessons on HTML5 that you create a title w
 <title>Sheba's Amazing Website</title>
 ````
 
-### TODO 5 : Create areas for the menu and the main page content
+### TODO 5 : Create Areas for the Menu and Main Content
 
-Create a div with the `<div>` tag. This is going to contain all the site contents so let's annotate it as such. Inside we're going to put the site navigation menu
-and the main content of our site. So let's create tags for that as well
+**Please note:** All of the tags used to mark our HTML content will reside _between_ the opening and closing of the `<body>` tag.  So for rest of the HTML tags you create, _make sure_ you place them _between_:
+
+```HTML
+<body>
+    <!-- YOUR HTML TAGS GO HERE  -->
+</body>
+```
+
+We're going to create use `<div>` tags to group our content together.  The `<div>` tag stand for _document divisions_, and they are special tags that help us divide or group together content on our web page.  You can consider them sort of like containers, into which we group content, and they can be invisible or _styled_ with visible properties, like a background color, a border, etc.
+
+So, to start grouping together our content in a meaningful way, inside the `<body>` tag, create a new div using the `<div>` tag.  This is going to contain all the site contents so let's annotate it as such by settings its _class_ attribute to `class="all-contents"`.  Attributes are properties that tell us something more specialized about the tag, and you'll come to understand how these work as you work more with HTML.
+
+Ok, inside our _all-contents_ div, we're going to put the site navigation menu and the main content of our site, so while we're at it, let's also create opening and closing tags for `<nav>` and `<main>`.
 
 Like this:
 
@@ -167,10 +196,9 @@ Like this:
 </div>
 ```
 
-### TODO 6: Create structure for our content
+### TODO 6: Create Structure for our Content
 
-Inside the `<main>` element create two `<div>` elements. These will act as the two columns of our page - the sidebar and the main content
-
+Inside the `<main>` element, create two new `<div>` elements. These will act as the two columns of our page - the sidebar and the main content, as noted by the class we give each:
 
 ```HTML
 <main>
@@ -194,9 +222,9 @@ It should look something like this:
 
 <img src="img/first-shot.png">
 
-#### Image and list 
+#### Image and List 
 
-* Inside of the 'sidebar' div add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
+* Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
 * We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from facebook, or anything else using google image search. Right-click on the image, and choose 'Copy Image URL.'
 * Paste that URL into the **src** attribute. 
 
