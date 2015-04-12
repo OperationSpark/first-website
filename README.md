@@ -88,7 +88,7 @@ Nice, you've copied the required URL to clone your repository into Cloud9, which
     
     <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/clone-workspace.png">
 
-3. Wait for the workspace to finish spooling (while spooling up, you'll see a spinning gear on the newly created workspace in the sidebar), and once the workspace is completed, click the green button, "START EDITING".
+3. Wait for the workspace to finish starting (while starting up, you'll see a spinning gear on the newly created workspace in the sidebar), and once the workspace is completed, click the green button, "START EDITING".
 
     <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/start-editing.png">
 
@@ -123,7 +123,7 @@ You need to tell the browser you're writing an HTML page by adding the following
 ````HTML
 <!DOCTYPE html>
 ````
-### TODO 3 : Add Required HTML Tags
+### TODO 3 : Add HTML Tags Requied For a Webpage
 
 By now, you should be familiar with the basic tags needed for the structure of an HTML5 page.  Let's add our `<html>` tags with `<head>` tags and `<body>` tags nested within. 
 
@@ -150,47 +150,45 @@ You should remember from our previous lessons on HTML5 that you create a title w
 <title>Sheba's Amazing Website</title>
 ````
 
-### TODO 5 : Add some divs
+### TODO 5 : Create areas for the menu and the main page content
 
-Create a div with the `<div>` tag. Inside of that div, create two more.
+Create a div with the `<div>` tag. This is going to contain all the site contents so let's annotate it as such. Inside we're going to put the site navigation menu
+and the main content of our site. So let's create tags for that as well
 
 Like this:
 
 ```HTML
-<div>
-    <div>
-    </div>
+<div class="all-contents">
+    <nav>
+    </nav>
     
-    <div>
-    </div>
+    <main>
+    </main>
 </div>
 ```
 
-* Add a class called 'container' to the top level div.
-* Add a class called 'sidebar' to the second div.
-* Add a class called 'content' to the third div.
+### TODO 6: Create structure for our content
 
-Like this:
+Inside the `<main>` element create two `<div>` elements. These will act as the two columns of our page - the sidebar and the main content
+
 
 ```HTML
-<div class="container">
+<main>
     <div class="sidebar">
     </div>
     
     <div class="content">
     </div>
-</div>
+</main>
 ```
 
-### TODO 6 : Add Content
-
-Now we'll add some content within the `<body>` tag.
+### TODO 7 : Add Content
 
 Add the following tags inside of the 'content' div:
 
-* Create an `<h1>` element and put your name inside of it.
-* Below that make a `<p>` element and put your position or job title such as "Student at XYZ High."
-* Save your work and click 'Preview' at the top to view it.
+* Create a `<header>` element and put your name inside of it.
+* Below that make a `<p>` element and inside it put your position or job title such as "Student at XYZ High."
+* Save your work and click *Preview > Live Preview File* at the top to view it.
 
 It should look something like this:
 
@@ -199,49 +197,52 @@ It should look something like this:
 #### Image and list 
 
 * Inside of the 'sidebar' div add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
-* We need to add the URL of an actual image with the **src** attribute. Find an image of yourself on the web, right-click on the image, and choose 'Copy Image URL.'
+* We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from facebook, or anything else using google image search. Right-click on the image, and choose 'Copy Image URL.'
 * Paste that URL into the **src** attribute. 
 
 Like this:
 
-`<img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">`
+```
+<div class="sidebar">
+    <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
+</div>
+```
 
 Save your page and preview it. You should see the image now. If you don't, go back and double check that there are no
 errors in your `<img>` tag.
 
-### TODO 7 Add More Content : Interests
+### TODO 8: Add More Content - Interests
 
-Next add some of your interests below the `<p>` tag (inside of the 'content' div) with a list.
+Let's create a section for your interests below the `<p>` tag (inside of the '[class=content]' div) with a list.
 
-* Give the list a title with the `<h3>` tag and called it 'Interests'
+* Create a section element with a `class="interests"`
+* Give the list a title with the `<header>` tag and called it 'Interests'
 * Below that create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
 
-````HTML
-<h3>Interests</h3>
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-````
+```HTML
+<section class="interests">
+    <header>Interests</header>
+    <ul>
+        <li>Thing 1</li>
+        <li>Thing 2</li>
+        <li>Thing 3</li>
+    </ul>
+</section>
+```
 
-Add an interest of your's inside of each `<li>` tag. Save and view your changes.
+Use your own interests! Save and view your changes.
 
 Should look something like this:
 
 <img src="img/second-shot.png">
 
-### TODO 8 : Navigation and Site Title
+### TODO 9 : Navigation and Site Title
 
+We're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
 
-
-We're going to make a menu. Explain to students that linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on beyond a collection of links. We'll create the portfolio page that we're linking to in the next lesson.
-
-* Right under the first `<div>` tag in the 'container' div create a menu with the `<nav>` tag. 
-* Inside of that create an unordered list with two list items like we did in the last step.
+* Inside of the `<nav>` tag we created earlier create an unordered list using the `<ul>` tag. Inside it create two `<li>` tags to contain your list items
 * Create a link inside of each list item using the `<a>` tag. 
-* We need to link to something with the **href** attribute. For now, since we only have one page, so you can use the pound sign - BUT, we're going to make use of these links in our next lesson, so you can assign them the values of href="index.html" and href="portfolio.html", respectively.  See the example below.
-* Finally give each menu item a name by inserting Home and Portfolio between the opening and closing tags.  Again, see the example below.
+* Finally give each menu item a name by inserting Home and Portfolio between the opening and closing tags.  See the example below.
 
 ````HTML
 <nav>
@@ -252,19 +253,25 @@ We're going to make a menu. Explain to students that linking to other pages form
 </nav>
 ````
 
-Save and view your work. You now have some menu items! One of them works since it's he home page (the page we made). The other link is for our portfolio page which we'll build out in the next lesson.
+Save and view your work. You now have some menu items! The *Home* link even works since it simply links to the page we are currently working on. The other link is for our portfolio page which we'll build out in the next lesson.
 
-Your site needs a title! Inside of the `<nav>` before the `<ul>` tag add an `<h1>` element and come up with a title.
+Your site needs a title! Inside of the `<nav>` before the `<ul>` tag add an `<header>` and type your site's title in there.
 
 Like this:
 
 ```HTML
-<h1>Sheba's Glorious Website</h1>
+<nav>
+    <header>Sheba's Glorious Website</header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+</nav>
 ```
 
 Save and view your work. You should see your title inside of the navbar to the left. 
 
-### TODO 9 : Make it Pretty
+### TODO 10: Make it Pretty
 
 We now have a fairly plain website but it's a website! Let's add some style.
 
@@ -273,138 +280,111 @@ Copy the entire below section and place it inside the `<head>` below the `<title
 ````CSS
 <style>
     body {
-        background: #7DC6CD;
-        color: #454545;
+        background: rgb(125, 198, 205);
+        color: rgb(45, 45, 45);
         padding: 10px;
         font-family: arial;
     }
-    
-    p {
-        width: 600px;
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
     }
-    
-    h1 {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    
-    /* Main container area beneath menu */
-    .container {
+    [class=all-contents] {
         max-width: 800px;
+        margin: auto;
+    }
+
+    /* Main navigation menu */
+    nav {
+        background: rgb(239,80,41);
         margin: 0 auto;
-        background: #F5EEDB;
-    }
-    
-    /* Content area within conatiner */
-    .content {
-        padding: 15px;
-        margin-left: 225px;
-    }
-    
-    /* Left aligned sidebar */
-    .sidebar {
-        width: 225px;
-        float: left;
+        display: flex;
         padding: 10px;
     }
-    
-    .sidebar img {
-        width: 200px;
+    nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        flex: 1;
     }
-    
-    /* Main menu */
-    nav {
-        background: #EF5029;
-        height: 50px;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-    
     nav ul {
         list-style-image: none;
-        float: right;
     }
-    
-    nav ul li {
-        display: inline;
-        padding-right: 20px;
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
     }
-    
     nav a {
         text-decoration: none;
-        color: #fff;
+        color: rgb(255, 255, 255);
     }
-    
-    /* Site Title */
-    nav h1 {
-        float: left;
-        margin-top: 13px;
-        margin-left: 10px;
-        font-size: 21px;
-        color: #ffffff;
+
+    /* Main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
     }
-    
-    /* Portfolio page */
-    ul.portfolio {
-        list-style-type: none;
-        padding-left: 0;
-    }
-    
-    ul.portfolio li {
-        background: #fff;
+    [class=sidebar] {
+        margin-right: 25px;
         padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
     }
-    
-    ul.portfolio li:hover {
-        background: #eee;
+    [class=sidebar] img {
+        width: 200px;
     }
-    
-    .portfolio a {
-        text-decoration: none;
-        color: #454545;
+    [class=content] {
+        flex: 1;
+        padding: 15px;
+    }
+    [class=interests] header {
+        font-size: 1.25em;
     }
 </style>
 ````
 
+###TODO 11: Play around with the CSS
+
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
 
 * Find the nav selector in the CSS, and under `margin: 0 auto;` add `margin-bottom: 20px;`
-* Save and view the changes. The menu now has some space underneath it!
-* The text is smooshed up against the image in the sidebar. We can add a margin to give it some room.
-* Under the img selector add `margin-right: 40px;`
+   * Save and view the changes. The menu now has some space underneath it!
+* Do you like these colors? Remember that all colors can be represented as a combination of red, green, and blue numbers 0-255. See the rgb(...) functions above? Play around with these to use your own colors
 
-###Extra Credit
+####Extra Credit
 
-* Google border radius and add it to the `<nav>` element.
+* Google `border-radius` and add it to the `<nav>` element.
 * Add a border around the image
-* Change the color of the background
 
-### Add C9 to gitignore
+###TODO 12: Add C9 to gitignore
 
-If you don't see the `.gitignore`, click on the _gear_ icon in the file system and select "Show Hidden Files.
+We need to do some cleanup before putting your site onto the internet. This step will make working with our site easier in the future by making our site ignore files generated by Cloud 9 that we don't need.
 
-At the bottom of the `.gitignore` file, add the following:
+* Click on the _gear_ icon in the file system and select "Show Hidden Files.
+* At the bottom of the `.gitignore` file, on a blank line add `.c9`
+* Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
 
-    .c9
-    
-Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
+###TODO 13: Go Live!
 
-### Go Live
-
+Let's put our site on the internet so that anyone can look at it!
 
 With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, you page will be live on the Internet.
 
 To do so, you'll need to enter the following git commands into your bash terminal.  Select the bash terminal in the Console View - the bottom window pane in Cloud9.
 
-Enter the following commands, pressing ENTER after each one:
+Enter the following commands, be careful to place your spaces correctly and press ENTER after each one. Read the results of each command and check for errors.
 
-`git add .`
+First, add all the files we worked into git so that they can be archived in our source control
 
-`git commit -m 'First commit'`
+`git add -A :/`
+
+Then archive everything that has been added
+
+`git commit -m 'A basic website'`
+
+Finally, sync the repository in cloud9 with the one on github. Type 'yes' when prompted.
 
 `git push`
+
+You just sent your code to github where it will be backed up and made into a website anyone can see. You should be able to see your code should now appear on the github page from the Setup step above.
 
 Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own username.)
 

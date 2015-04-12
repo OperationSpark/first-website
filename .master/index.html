@@ -1,140 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sheba's Amazing Website</title>
-        <style>
-            body {
-                background: #7DC6CD;
-                color: #454545;
-                padding: 10px;
-                font-family: arial;
-            }
-            
-            p {
-                width: 600px;
-            }
-            
-            h1 {
-                margin-top: 5px;
-                margin-bottom: 5px;
-            }
-            
-            /* Main container area beneath menu */
-            .container {
-                max-width: 800px;
-                margin: 0 auto;
-                background: #F5EEDB;
-            }
-            
-            /* Content area within conatiner */
-            .content {
-                padding: 15px;
-                margin-left: 225px;
-            }
-            
-            /* Left aligned sidebar */
-            .sidebar {
-                width: 225px;
-                float: left;
-                padding: 10px;
-            }
-            
-            .sidebar img {
-                width: 200px;
-            }
-            
-            
-            /* Main menu */
-            nav {
-                background: #EF5029;
-                height: 50px;
-                max-width: 800px;
-                margin: 0 auto;
-                margin-bottom: 20px;
-            }
-            
-            nav ul {
-                list-style-image: none;
-                float: right;
-            }
-            
-            nav ul li {
-                display: inline;
-                padding-right: 20px;
-            }
-            
-            nav a {
-                text-decoration: none;
-                color: #fff;
-            }
-            
-            /* Site Title */
-            nav h1 {
-                float: left;
-                margin-top: 13px;
-                margin-left: 10px;
-                font-size: 21px;
-                color: #ffffff;
-            }
-            
-            /* Portfolio page */
-            ul.portfolio {
-                list-style-type: none;
-                padding-left: 0;
-            }
-            
-            ul.portfolio li {
-                background: #fff;
-                padding: 10px;
-                border-radius: 10px;
-                margin-bottom: 10px;
-            }
-            
-            ul.portfolio li:hover {
-                background: #eee;
-            } 
-            
-            .portfolio a {
-                text-decoration: none;
-                color: #454545;
-            }
 
-        </style>
-    </head>
-    <body>
-        <!-- Main menu below -->
+<head>
+    <title>Sheba's Amazing Website</title>
+    <style>
+        body {
+            background: rgb(125, 198, 205);
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family: arial;
+        }
+        header {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        [class=all-contents] {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Main navigation menu */
+        nav {
+            background: rgb((239,80,41));
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+        nav header {
+            display: flex;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            flex: 1;
+        }
+        nav ul {
+            list-style-image: none;
+        }
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Main container area beneath menu */
+        main {
+            background: rgb(245, 238, 219);
+            display: flex;
+        }
+        [class=sidebar] {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        [class=sidebar] img {
+            width: 200px;
+        }
+        [class=content] {
+            flex: 1;
+            padding: 15px;
+        }
+        [class=interests] header {
+            font-size: 1.25em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all-contents"> 
         <nav>
-            <h1>Sheba's Glorious Website</h1>
+            <header>Sheba's Glorious Website</header>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
-        
-        <div class="container">
+        <main>
             <div class="sidebar">
                 <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
             </div>
-        
             <div class="content">
-                <!-- Heading of your site below - <h1> tag! -->
-                <h1>Sheba Turk</h1>
+                <header>Sheba Turk</header>
                 
                 <!-- Write something about yourself below -->
-                <p>Morning news anchor at WWL-TV</p>
-                
-                
-                <!-- Make an <h3> element and call it 'Interests' -->
-                
-                <h3>Interests</h3>
-                
-                <!-- List three things you're interested in...with a list! -->
-               
-                <ul>
-                    <li>Ice Cream</li>
-                    <li>Talking in front of a camera</li>
-                    <li>Chess</li>
-                </ul>
+                <p>
+                    Morning news anchor at WWL-TV
+                </p>
+
+                <section class="interests">
+                    <header>Interests</header>
+                    <ul>
+                        <li>Ice Cream</li>
+                        <li>Talking in front of a camera</li>
+                        <li>Chess</li>
+                    </ul>
+                </section>
             </div>
-    </body>
+        </main>
+    </div>
+</body>
+
 </html>
