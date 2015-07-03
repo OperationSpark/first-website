@@ -70,7 +70,7 @@ Awesome, you created your repository!
 
 Great, GitHub is where we store and version our code, but we need a place to edit our source code.  That's where Cloud9 comes in.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferrable for this course.
 
-1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
+1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
     
     A) Select SSH by clicking the blue text, SSH (See A).
     
@@ -126,9 +126,13 @@ Next, double click the `index.html` file to open it so we can begin editing the 
 
 Ok great!  We've created our `index.html` file and opened it in the text editor to start devleoping our website!
 
-### An Important Note on HTML Tags
+### HTML in 3 Minutes
 
-Remember that most HTML tags have both an opening and closing tag.  So, when you create a `<div>` tag, you must also create its closing tag, like so:
+Very simply put, HTML is a set of text-tags that tell a web browser how to structure and identify the content of a web page. Developers _markup_ the content of a webpage, essentially text, using HTML tags to _section off_ the parts of the page. Take a look at any webpage, and you'll see things like a header with some type of naviation, maybe a sidebar with more navigation options, and then headings, paragraph text, images and buttons.  All of these _page elements_ are marked as such using HTML tags.
+
+### Before we Start Marking Up Our Webpage: An Important Note on HTML Tags
+
+Try to remember that most HTML tags have both an opening and closing tag.  So, when you create a `<div>` tag, which stands for _document division_ (a way of sectioning off page content), you must also create its closing tag, like so:
 
 ```HTML
 <div>
@@ -144,6 +148,21 @@ Some HTML tags, like the `<img>` tag, do not require a closing tag, because they
 
 Notice, above, that the `src` attribute is located _inside_ the `<img>` tag.
 
+Also note that HTML tags are hierarchical, and **need to be indented to illustrate their hierarchical relationship!**  Tags can contain content, like text or images, but can also contain or _nest_ other tags. Have a look:
+
+```HTML
+<div id="content">
+    <div id="sidebar">
+        <!-- sidebar conent goes here -->
+    </div>
+    <div id="main">
+        <!-- main conent goes here -->
+    </div>
+</div>
+```
+
+Above, you'll see this pattern often - notice that we have one `<div>` tag with an id attribute of `content`, and inside this tag, we have two other `<div>` tags, one for a sidebar and one for a main section of the page.  The _content_ `<div>` is the parent of both the _sidebar_ and _main_ `<div>`, while _sidebar_ and _main_ are siblings.  Notice the indentation - this is extremely as it clearly and visually spells out these hierarchical relationship.  Indentation and relationships of tags (and code blocks) are the things newcomers struggle with the most! Be vigilent here.
+
 ### TODO 2 : Add the DOCTYPE
 
 You need to tell the browser you're writing an HTML page by adding the following at the top:
@@ -153,7 +172,7 @@ You need to tell the browser you're writing an HTML page by adding the following
 ````
 ### TODO 3 : Add HTML Tags Requied For a Webpage
 
-By now, you should be familiar with the basic tags needed for the structure of an HTML5 page.  Let's add our `<html>` tags with `<head>` tags and `<body>` tags nested within. 
+If your not familiar with the basic tags needed for the structure of an HTML5 page, you'll want to memorize them:  Let's add our `<html>` tags with `<head>` tags and `<body>` tags nested within. 
 
 Like this: 
 
@@ -167,6 +186,12 @@ Like this:
     </body>
 </html>
 ````
+
+At least for now, every HTML page contains DOCTYPE, html, head and body tags.  The DOCTYPE tells the browser you want to render the document using the most recent version of HTLM.  The opening and closing tags of `<html></html>` wrap our html page, but are in fact somewhat redundant.
+
+The next two tag sets make up the two sections of any wellformed HTML page: The `<head></head>` tag represents meta-data for a webpage, that is, information about the webpage used by the browser, providing extra information about the webpage, but is not content.  This is similar to the information on the outside of a postal evelop - the to and from address, the stamp, the processing stamp from the post office - information important to the delivery of the letter, but _nothing_ to do with the _content_ of the letter.
+
+Finally, `<body></body>`
 
 We made the structure of the site so now we need some content! Give your site a title.
 
