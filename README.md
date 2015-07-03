@@ -439,12 +439,12 @@ nav {
 
 Nice, we've also shown you two ways to specify selectors, the long form, which is more explicit, and the short form:
 
-````
+
 | Long form                      | Short form            | 
 | ------------------------------ |:---------------------:|
 | [class=all-contents] { ... }   | .all-contents { ... } |
 | [id=portfolio] { ... }         | #portfolio { ... }    |
-````
+
 
 ####Extra Credit
 
