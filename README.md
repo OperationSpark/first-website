@@ -64,9 +64,13 @@ Using this feature is actually really easy.  If you create a repository on GitHu
 
 <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
 
-    Awesome, you created your repository!
+Awesome, you created your repository!
 
-2.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
+###Creating a Cloud9 Workspace for our Website Project
+
+Great, GitHub is where we store and version our code, but we need a place to edit our source code.  That's where Cloud9 comes in.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferrable for this course.
+
+1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
     
     A) Select SSH by clicking the blue text, SSH (See A).
     
@@ -76,13 +80,11 @@ Using this feature is actually really easy.  If you create a repository on GitHu
     
     <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/copy-repo-url.png">
 
-###Creating a New Cloud9 Workspace For Your Site
+    Nice, you've copied the required URL to clone your repository into Cloud9, which is what we're gonna do next.
 
-Nice, you've copied the required URL to clone your repository into Cloud9, which is what we're gonna do next.
+2. If you do not have Cloud9 open, open it now in a new browser tab and from your Cloud9 Dashboard.
 
-1. If you do not have Cloud9 open, open it now in a new browser tab and from your Cloud9 Dashboard.
-
-2. We need to create a new Cloud9 workspace for our website project. Cloud9's interface has recently changed, so if you're using the new interface, you'll find the add-new-workspace button in the upper-right-side of the screen, like so:
+3. We need to create a new Cloud9 workspace for our website project. Cloud9's interface has recently changed, so if you're using the new interface, you'll find the add-new-workspace button in the upper-right-side of the screen, like so:
 
     <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-new-dashboard-create-new-button.png">
 
@@ -90,13 +92,13 @@ Nice, you've copied the required URL to clone your repository into Cloud9, which
 
     <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/clone-new-workspace.png">
 
-2. The next screen should be relatively the same for either old or new interface, though in the new interface, you may have to manually name your workspac, etc.  Either way, find the "Source URL" form input, copy and paste in the URL you copied from you GitHub repository (it should still be on your clipboard).
+4. The next screen should be relatively the same for either old or new interface, though in the new interface, you may have to manually name your workspac, etc.  Either way, find the "Source URL" form input, copy and paste in the URL you copied from you GitHub repository (it should still be on your clipboard).
     
     Then, in the environment selection box, select "HTML5" (see B).  Finally, click the green button "Create" (see C).
     
     <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/clone-workspace.png">
 
-3. Wait for the workspace to finish starting (while starting up, you'll see a spinning gear on the newly created workspace in the sidebar), and once the workspace is completed, click the green button, "START EDITING".
+5. Wait for the workspace to finish starting (while starting up, you'll see a spinning gear on the newly created workspace in the sidebar), and once the workspace is completed, click the green button, "START EDITING".
 
     <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/start-editing.png">
 
