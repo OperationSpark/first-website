@@ -68,7 +68,9 @@ Using this feature is actually really easy.  If you create a repository on GitHu
 
 2.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
     
-    A) Select SSH by clicking the blue text, SSH (See A). **NOTE: THIS STEP IS IMPORTANT! Make sure you select SSH**
+    A) Select SSH by clicking the blue text, SSH (See A).
+    
+    NOTE: THIS STEP IS IMPORTANT! Make sure you select SSH!
     
     B) Click the "Copy URL to clipboard" button (See B).
     
@@ -78,11 +80,17 @@ Using this feature is actually really easy.  If you create a repository on GitHu
 
 Nice, you've copied the required URL to clone your repository into Cloud9, which is what we're gonna do next.
 
-1. If you do not have Cloud9 open, open it now in a new browser tab and from your Cloud9 Dashboard, find in the upper left corner and click the green button, "Create New Workspace" > "Clone From URL":
+1. If you do not have Cloud9 open, open it now in a new browser tab and from your Cloud9 Dashboard.
+
+2. We need to create a new Cloud9 workspace for our website project. Cloud9's interface has recently changed, so if you're using the new interface, you'll find the add-new-workspace button in the upper-right-side of the screen, like so:
+
+    <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-new-dashboard-create-new-button.png">
+
+    If you're using the older interface, find in the upper-left-corner and click the green button, "Create New Workspace" > "Clone From URL":
 
     <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/clone-new-workspace.png">
 
-2. In the dialogue that pops up: "Source URL" form input, copy and paste in the URL you copied from step 2 (it should still be on your clipboard).
+2. The next screen should be relatively the same for either old or new interface, though in the new interface, you may have to manually name your workspac, etc.  Either way, find the "Source URL" form input, copy and paste in the URL you copied from you GitHub repository (it should still be on your clipboard).
     
     Then, in the environment selection box, select "HTML5" (see B).  Finally, click the green button "Create" (see C).
     
