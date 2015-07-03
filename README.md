@@ -27,6 +27,8 @@ We're gonna go live on GitHub with your very own website!
 
 You'll be creating a whole web page from scratch, from creating the `index.html` file, to writing all the `<html>` tags, adding content and style with CSS.  Because you're creating this page from scratch, there will be no TODO's to find in our code in this project.
 
+To complete the assignment, below you'll find numbered **TODO** lesson steps.  While reading this lesson, whenever you come across a **TODO** step, you are expected to do this step, which may require you to create a file, or insert some HTML, CSS or JavaScript in the appropriate place. Please follow the instructions closely. Sometimes, however, we may be showing you code examples to make a point, so you only need to add code if we're explicity telling you to do a lesson step, so please be aware of the actual lesson steps.  <a href="https://pages.github.com/" target="_blank">If you want to learn more about GitHub Pages, have a look here...</a>
+
 ### Type of App
 
 We are building a website, to be viewed live on the web at your GitHub page, and it will be viewed in a web browser, like Chrome.
@@ -126,11 +128,19 @@ Next, double click the `index.html` file to open it so we can begin editing the 
 
 Ok great!  We've created our `index.html` file and opened it in the text editor to start devleoping our website!
 
+### The Big 3
+
+There's really three parts at play in a webpage:
+
+* HTML: Hypertext Markup Language - A set of tags to mark or section-off the structure and content of a webpage.
+* CSS: Cascading Syle Sheets - A syntax for specifying a set of rules that _style_ webpages.  CSS is responsible for how a webpage looks!
+* JavaScript: An programming language that allows webpages to repsond to user input, to dynamically change the content or appearance of a webpage, or make request to load data into a webpage.  Essentially, JavaScript is responsible for the _behaviour_ of a webpage.
+
 ### HTML in 3 Minutes
 
-Very simply put, HTML is a set of text-tags that tell a web browser how to structure and identify the content of a web page. Developers _markup_ the content of a webpage, essentially text, using HTML tags to _section off_ the parts of the page. Take a look at any webpage, and you'll see things like a header with some type of naviation, maybe a sidebar with more navigation options, and then headings, paragraph text, images and buttons.  All of these _page elements_ are marked as such using HTML tags.
+Very simply put, HTML is a set of text-tags that tell a web browser how to structure and identify the content of a web page. Developers _markup_ or _section off_ the structure and content of a webpage using HTML tags to _section off_ the parts of the page. Take a look at any webpage, and you'll see things like a header with some type of naviation, maybe a sidebar with more navigation options, and then headings, paragraph text, images and buttons.  All of these _page elements_ are marked as such using HTML tags.
 
-### Before we Start Marking Up Our Webpage: An Important Note on HTML Tags
+Before we start marking-up our webpage, here's a few things to note about HTML Tags:
 
 Try to remember that most HTML tags have both an opening and closing tag.  So, when you create a `<div>` tag, which stands for _document division_ (a way of sectioning off page content), you must also create its closing tag, like so:
 
@@ -172,7 +182,7 @@ You need to tell the browser you're writing an HTML page by adding the following
 ````
 ### TODO 3 : Add HTML Tags Requied For a Webpage
 
-If your not familiar with the basic tags needed for the structure of an HTML5 page, you'll want to memorize them:  Let's add our `<html>` tags with `<head>` tags and `<body>` tags nested within. 
+If you're not familiar with the basic tags needed for the structure of an HTML page, you'll want to memorize them:  Let's add our `<html>` tags with `<head>` and `<body>` tags nested within.
 
 Like this: 
 
@@ -187,13 +197,13 @@ Like this:
 </html>
 ````
 
-At least for now, every HTML page contains DOCTYPE, html, head and body tags.  The DOCTYPE tells the browser you want to render the document using the most recent version of HTLM.  The opening and closing tags of `<html></html>` wrap our html page, but are in fact somewhat redundant.
+At least for now, every HTML page contains the DOCTYPE, html, head and body tags.  The `<!DOCTYPE HTML>` tag tells the browser you want to render the document using the most recent version of HTLM.  The opening and closing tags of `<html></html>` wrap our html page, but are in fact somewhat redundant.
 
 The next two tag sets make up the two sections of any wellformed HTML page: The `<head></head>` tag represents meta-data for a webpage, that is, information about the webpage used by the browser, providing extra information about the webpage, but is not content.  This is similar to the information on the outside of a postal evelop - the to and from address, the stamp, the processing stamp from the post office - information important to the delivery of the letter, but _nothing_ to do with the _content_ of the letter.
 
-Finally, `<body></body>`
+Finally, every page has a `<body></body>` tag, and it is between the body tag that all visible content will be placed.  That's right, all content you want to show to the user will be children of the `<body>`, so pay careful attention to ensure that when your adding navigation, paragraphs and images tags, you're doing so within the `<body>` tag.
 
-We made the structure of the site so now we need some content! Give your site a title.
+Ok then, we made the structure of the site so now we need some content! Give your site a title.
 
 ### TODO 4 : Add a Title
 
@@ -213,9 +223,9 @@ You should remember from our previous lessons on HTML5 that you create a title w
 </body>
 ```
 
-We're going to create `<div>` tags to group our content together.  The `<div>` tag stand for _document divisions_, and they are special tags that help us divide or group together content on our web page.  You can consider them sort of like containers, into which we group content, and they can be invisible or _styled_ with visible properties, like a background color, a border, etc.
+We're going to create `<div>` tags to group our content together.  The `<div>` tag stand for _document division_, and they are special tags that help us divide or group together content on our web page.  You can consider them sort of like containers, into which we group content, and those containers can be invisible or _styled_ with visible properties, like a background color, a border, etc.
 
-So, to start grouping together our content in a meaningful way, inside the `<body>` tag, create a new div using the `<div>` tag.  This is going to contain all the site contents so let's annotate it as such by settings its _class_ attribute to `class="all-contents"`.  Attributes are properties that tell us something more specialized about the tag, and you'll come to understand how these work as you work more with HTML.
+So, to start grouping together our content in a meaningful way, inside the `<body>` tag, create a new div using the `<div>` tag.  This is going to contain all the site content so let's annotate it as such by settings its _class_ attribute to `class="all-contents"`.  Attributes are properties that tell us something more specialized about the tag, and you'll come to understand how these work as you work more with HTML.
 
 Ok, inside our _all-contents_ div, we're going to put the site navigation menu and the main content of our site, so while we're at it, let's also create opening and closing tags for `<nav>` and `<main>`.
 
@@ -336,81 +346,105 @@ Save and view your work. You should see your title inside of the navbar to the l
 
 ### TODO 10: Make it Pretty
 
-We now have a fairly plain website but it's a website! Let's add some style.
+We now have a fairly plain website but it's a website! Let's add some style.  Here's where CSS comes in!
 
 Copy the entire below section and place it inside the `<head>` below the `<title>` tag.
 
 ````CSS
-<style>
-    body {
-        background: rgb(125, 198, 205);
-        color: rgb(45, 45, 45);
-        padding: 10px;
-        font-family: arial;
-    }
-    header {
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-    [class=all-contents] {
-        max-width: 800px;
-        margin: auto;
-    }
-
-    /* Main navigation menu */
-    nav {
-        background: rgb(239,80,41);
-        margin: 0 auto;
-        display: flex;
-        padding: 10px;
-    }
-    nav header {
-        display: flex;
-        align-items: center;
-        color: rgb(255, 255, 255);
-        flex: 1;
-    }
-    nav ul {
-        list-style-image: none;
-    }
-    nav li {
-        display: inline-block;
-        padding: 0 10px;
-    }
-    nav a {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-    }
-
-    /* Main container area beneath menu */
-    main {
-        background: rgb(245, 238, 219);
-        display: flex;
-    }
-    [class=sidebar] {
-        margin-right: 25px;
-        padding: 10px;
-    }
-    [class=sidebar] img {
-        width: 200px;
-    }
-    [class=content] {
-        flex: 1;
-        padding: 15px;
-    }
-    [class=interests] header {
-        font-size: 1.25em;
-    }
-</style>
+    <style>
+        body {
+            background: rgb(125, 198, 205);
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family: arial;
+        }
+        header {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        [class=all-contents] {
+            max-width: 800px;
+            margin: auto;
+        }
+    
+        /* Main navigation menu */
+        nav {
+            background: rgb(239, 80, 41);
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+        nav header {
+            display: flex;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            flex: 1;
+        }
+        nav ul {
+            list-style-image: none;
+        }
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+    
+        /* Main container area beneath menu */
+        main {
+            background: rgb(245, 238, 219);
+            display: flex;
+        }
+        [class=sidebar] {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        [class=sidebar] img {
+            width: 200px;
+        }
+        [class=content] {
+            flex: 1;
+            padding: 15px;
+        }
+        [class=interests] header {
+            font-size: 1.25em;
+        }
+    </style>
 ````
 
 ###TODO 11: Play around with the CSS
 
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
 
-* Find the nav selector in the CSS, and under `margin: 0 auto;` add `margin-bottom: 20px;`
-   * Save and view the changes. The menu now has some space underneath it!
+CSS allows us to specify styling rules for our HTML elements (all the HTML tags within a webpage).  We can identify tags by their type (body, p, h1, nav) or by _class_ or _id_.
+
+In our HTML so far, we've given one element a class of _sidebar_ by specifying this in its _class attribute_, `<div class="sidebar">`.  This allows us to select this element by its class, and for this reason, the rules we specify in CSS are called _selectors_.  Selectors and their styling rules tell the web browser which elements to select, and how to style them.  We'll now add some more style to our `<nav>` element, and factually, by doing so using the `nav` selector, we are creating a style rule that will be applied to _all nav tags_ on our webpage.  
+
+Find the `nav` CSS selector within the `<style>` you just pasted in place, it looks like this:
+
+````CSS
+nav {
+        background: rgb(239, 80, 41);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+````
+
+* Under the style rule: `margin: 0 auto;` add `margin-bottom: 20px;`
+* Save and view the changes. The menu now has some space underneath it!
 * Do you like these colors? Remember that all colors can be represented as a combination of red, green, and blue numbers 0-255. See the rgb(...) functions above? Play around with these to use your own colors
+
+Nice, we've also shown you two ways to specify selectors, the long form, which is more explicit, and the short form:
+
+````
+| Long form                      | Short form            | 
+| ------------------------------ |:---------------------:|
+| [class=all-contents] { ... }   | .all-contents { ... } |
+| [id=portfolio] { ... }         | #portfolio { ... }    |
+````
 
 ####Extra Credit
 
