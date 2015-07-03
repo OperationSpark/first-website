@@ -414,13 +414,15 @@ Copy the entire below section and place it inside the `<head>` below the `<title
     </style>
 ````
 
+Ok, we've pasted-in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your page, you should see that your page is now styled with some colors and some positioning.
+
+CSS allows us to specify styling rules for our HTML elements.  When we say _elements_, we're talking about all the HTML tags within a webpage. We can identify tags by their type (body, p, h1, nav) or by _class_ or _id_ attributes.
+
+In our HTML so far, we've given one element a class of _sidebar_ by specifying this in its _class attribute_: `<div class="sidebar">`. This allows us to select this element by its class, and for this reason, the rules we specify in CSS are called _selectors_.  Selectors and their styling rules tell the web browser which elements to select, and how to style them.  We'll now add some more style to our `<nav>` element, and factually, by doing so using the `nav` selector, we are creating a style rule that will be applied to _all nav tags_ on our webpage.
+
 ###TODO 11: Play around with the CSS
 
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
-
-CSS allows us to specify styling rules for our HTML elements (all the HTML tags within a webpage).  We can identify tags by their type (body, p, h1, nav) or by _class_ or _id_.
-
-In our HTML so far, we've given one element a class of _sidebar_ by specifying this in its _class attribute_, `<div class="sidebar">`.  This allows us to select this element by its class, and for this reason, the rules we specify in CSS are called _selectors_.  Selectors and their styling rules tell the web browser which elements to select, and how to style them.  We'll now add some more style to our `<nav>` element, and factually, by doing so using the `nav` selector, we are creating a style rule that will be applied to _all nav tags_ on our webpage.  
 
 Find the `nav` CSS selector within the `<style>` you just pasted in place, it looks like this:
 
