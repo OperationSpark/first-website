@@ -68,7 +68,7 @@ Using this feature is actually really easy.  If you create a repository on GitHu
 
 2.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
     
-    A) Select SSH by clicking the blue text, SSH (See A).
+    A) Select SSH by clicking the blue text, SSH (See A). **NOTE: THIS STEP IS IMPORTANT! Make sure you select SSH**
     
     B) Click the "Copy URL to clipboard" button (See B).
     
