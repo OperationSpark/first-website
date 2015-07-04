@@ -27,7 +27,7 @@ We're gonna go live on GitHub with your very own website!
 
 You'll be creating a whole web page from scratch, from creating the `index.html` file, to writing all the `<html>` tags, adding content and style with CSS.  Because you're creating this page from scratch, there will be no TODO's to find in our code in this project.
 
-To complete the assignment, below you'll find numbered **TODO** lesson steps.  While reading this lesson, whenever you come across a **TODO** step, you are expected to do this step, which may require you to create a file, or insert some HTML, CSS or JavaScript in the appropriate place. Please follow the instructions closely. Sometimes, however, we may be showing you code examples to make a point, so you only need to add code if we're explicity telling you to do a lesson step, so please be aware of the actual lesson steps.  <a href="https://pages.github.com/" target="_blank">If you want to learn more about GitHub Pages, have a look here...</a>
+To complete the assignment, below you'll find numbered **TODO** lesson steps.  While reading this lesson, whenever you come across a **TODO** step, you are expected to do this step, which may require you to create a file, or insert some HTML, CSS or JavaScript in the appropriate place. Please follow the instructions closely. Sometimes, however, we may be showing you code examples to make a point, so you only need to add code if we're explicitly telling you to do a lesson step, so please be aware of the actual lesson steps.  <a href="https://pages.github.com/" target="_blank">If you want to learn more about GitHub Pages, have a look here...</a>
 
 ### Type of App
 
@@ -51,7 +51,7 @@ Using this feature is actually really easy.  If you create a repository on GitHu
 
     NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forward to the _create new repository_ page.
     
-    Follow these steps and see the screen shot to create a new repository:
+    Follow these steps and see the screenshot to create a new repository:
     
     <a href="https://github.com/new" target="_blank">Click here to open a new browser tab and create create a new repository</a>.
     
@@ -70,7 +70,7 @@ Awesome, you created your repository!
 
 ###Creating a Cloud9 Workspace for our Website Project
 
-Great, GitHub is where we store and version our code, but we need a place to edit our source code.  That's where Cloud9 comes in.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferrable for this course.
+Great, GitHub is where we store and version our code, but we need a place to edit our source code.  That's where Cloud9 comes in.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferable for this course.
 
 1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
     
@@ -92,7 +92,7 @@ Great, GitHub is where we store and version our code, but we need a place to edi
 
     <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/clone-new-workspace.png">
 
-4. The next screen should be relatively the same for either old or new interface, though in the new interface, you may have to manually name your workspac, etc.  Either way, find the "Source URL" form input, copy and paste in the URL you copied from you GitHub repository (it should still be on your clipboard).
+4. The next screen should be relatively the same for either old or new interface, though in the new interface, you may have to manually name your workspace, etc.  Either way, find the "Source URL" form input, copy and paste in the URL you copied from your GitHub repository (it should still be on your clipboard).
     
     Then, in the environment selection box, select "HTML5" (see B).  Finally, click the green button "Create" (see C).
     
@@ -124,19 +124,19 @@ Next, double click the `index.html` file to open it so we can begin editing the 
 
 <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/open-index-html.png">
 
-Ok great!  We've created our `index.html` file and opened it in the text editor to start devleoping our website!
+Ok great!  We've created our `index.html` file and opened it in the text editor to start developing our website!
 
 ### The Big 3
 
 There's really three parts at play in a webpage:
 
 * HTML: Hypertext Markup Language - A set of tags to mark or section-off the structure and content of a webpage.
-* CSS: Cascading Syle Sheets - A syntax for specifying a set of rules that _style_ webpages.  CSS is responsible for how a webpage looks!
-* JavaScript: A programming language that allows webpages to repsond to user input, to dynamically change the content or appearance of a webpage, or make request to load data into a webpage.  Essentially, JavaScript is responsible for the _behaviour_ of a webpage.
+* CSS: Cascading Style Sheets - A syntax for specifying a set of rules that _style_ web pages.  CSS is responsible for how a webpage looks!
+* JavaScript: A programming language that allows web pages to respond to user input, to dynamically change the content or appearance of a webpage, or make request to load data into a webpage.  Essentially, JavaScript is responsible for the _behaviour_ of a webpage.
 
 ### HTML in 3 Minutes
 
-Very simply put, HTML is a set of text-tags that tell a web browser how to structure and identify the content of a web page. Developers _markup_ or _section off_ the structure and content of a webpage using HTML tags to _section off_ the parts of the page. Take a look at any webpage, and you'll see things like a header with some type of naviation, maybe a sidebar with more navigation options, and then headings, paragraph text, images and buttons.  All of these _page elements_ are marked as such using HTML tags.
+Very simply put, HTML is a set of text-tags that tell a web browser how to structure and identify the content of a web page. Developers _markup_ or _section off_ the structure and content of a webpage using HTML tags to _section off_ the parts of the page. Take a look at any webpage, and you'll see things like a header with some type of navigation, maybe a sidebar with more navigation options, and then headings, paragraph text, images and buttons.  All of these _page elements_ are marked as such using HTML tags.
 
 Before we start marking-up our webpage, here's a few things to note about HTML Tags:
 
@@ -161,15 +161,15 @@ Also note that HTML tags are hierarchical, and **need to be indented to illustra
 ```HTML
 <div id="content">
     <div id="sidebar">
-        <!-- sidebar conent goes here -->
+        <!-- sidebar content goes here -->
     </div>
     <div id="main">
-        <!-- main conent goes here -->
+        <!-- main content goes here -->
     </div>
 </div>
 ```
 
-Above, you'll see this pattern often - notice that we have one `<div>` tag with an id attribute of `content`, and inside this tag, we have two other `<div>` tags, one for a sidebar and one for a main section of the page.  The _content_ `<div>` is the parent of both the _sidebar_ and _main_ `<div>`, while _sidebar_ and _main_ are siblings.  Notice the indentation - this is extremely as it clearly and visually spells out these hierarchical relationship.  Indentation and relationships of tags (and code blocks) are the things newcomers struggle with the most! Be vigilent here.
+Above, you'll see this pattern often - notice that we have one `<div>` tag with an id attribute of `content`, and inside this tag, we have two other `<div>` tags, one for a sidebar and one for a main section of the page.  The _content_ `<div>` is the parent of both the _sidebar_ and _main_ `<div>`, while _sidebar_ and _main_ are siblings.  Notice the indentation - this is extremely as it clearly and visually spells out these hierarchical relationship.  Indentation and relationships of tags (and code blocks) are the things newcomers struggle with the most! Be vigilant here!
 
 ### TODO 2 : Add the DOCTYPE
 
@@ -178,7 +178,7 @@ You need to tell the browser you're writing an HTML page by adding the following
 ````HTML
 <!DOCTYPE html>
 ````
-### TODO 3 : Add HTML Tags Requied For a Webpage
+### TODO 3 : Add HTML Tags Required For a Webpage
 
 If you're not familiar with the basic tags needed for the structure of an HTML page, you'll want to memorize them:  Let's add our `<html>` tags with `<head>` and `<body>` tags nested within.
 
@@ -195,11 +195,11 @@ Like this:
 </html>
 ````
 
-At least for now, every HTML page contains the DOCTYPE, html, head and body tags.  The `<!DOCTYPE HTML>` tag tells the browser you want to render the document using the most recent version of HTLM.  The opening and closing tags of `<html></html>` wrap our html page, but are in fact somewhat redundant.
+At least for now, every HTML page contains the DOCTYPE, html, head and body tags.  The `<!DOCTYPE HTML>` tag tells the browser you want to render the document using the most recent version of HTML.  The opening and closing tags of `<html></html>` wrap our html page, but are in fact somewhat redundant.
 
-The next two tag sets make up the two sections of any wellformed HTML page: The `<head></head>` tag represents meta-data for a webpage, that is, information about the webpage used by the browser, providing extra information about the webpage, but is not content.  This is similar to the information on the outside of a postal evelop - the to and from address, the stamp, the processing stamp from the post office - information important to the delivery of the letter, but _nothing_ to do with the _content_ of the letter.
+The next two tag sets make up the two sections of any well formed HTML page: The `<head></head>` tag represents metadata for a webpage, that is, information about the web page used by the browser, providing extra information about the webpage, but is not content.  This is similar to the information on the outside of a postal envelope - the to and from address, the stamp, the processing stamp from the post office - information important to the delivery of the letter, but _nothing_ to do with the _content_ of the letter.
 
-Finally, every page has a `<body></body>` tag, and it is between the body tag that all visible content will be placed.  That's right, all content you want to show to the user will be children of the `<body>`, so pay careful attention to ensure that when your adding navigation, paragraphs and images tags, you're doing so within the `<body>` tag.
+Finally, every page has a `<body></body>` tag, and it is between the body tag that all visible content will be placed.  That's right, all content you want to show to the user will be children of the `<body>`, so pay careful attention to ensure that when you're adding navigation, paragraphs and images tags, you're doing so within the `<body>` tag.
 
 Ok then, we made the structure of the site so now we need some content! Give your site a title.
 
@@ -286,7 +286,7 @@ This will give you the website running in a separate Chrome tab. As you save you
 * We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from Facebook, or anything else using a Google image search. Right-click on the image, and choose 'Copy Image URL.'
 * Paste that URL into the **src** attribute. 
 
-So your full image tag should look this this:
+So, your full image tag should look this this:
 
 ```
 <div class="sidebar">
@@ -446,7 +446,7 @@ By more concretely describing HTML elements by id or class, we can then select t
 
 Selectors and their styling rules tell the web browser which elements to select, and how to style them.  In a moment, we are going to add some more style to our `<nav>` element, and by doing so using the `nav` selector, we are creating a style rule that will be applied to _all nav tags_ on our webpage.
 
-Selecting an element by id should only return one element, if your webpage is well formed, so applying a style rule by id should only style one element on the page.
+Selecting an element by id should only return one element, if your web page is well formed, so applying a style rule by id should only style one element on the page.
 
 Selecting an element by its tag type or by its class will style all tags of that type, or all tags of that class.
 
@@ -551,4 +551,4 @@ You just sent your code to github where it will be backed up and made into a web
 
 Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own username.)
 
-You are LIVE ON THE INTERNET!
+Congratulations!  You are LIVE ON THE INTERNET!
