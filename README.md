@@ -310,9 +310,33 @@ This will give you the website running in a separate Chrome browser tab, like th
 
 <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-working-in-tabs.png">
 
-As you save your future work, changes to your code will be reflected in the website - you don't have to press "Run" again - as long as the Apache web server is still running - you need only press the refresh button on the Chrome tab with the app running in it.
+You'll notice above, we have two tabs open in Chrome now - one running your website (the tab that current has focus), and the other tab, (the one with the blue Cloud9 icon) is your Cloud9 workspace.  So to continue working, switch to your workspace tab, code a little, save your changes, then switch back to the website tab, and refresh.
 
+As you save your future work, changes to your code will be reflected in your website - **you don't have to press "Run" again, and shouldn't** - as long as the Apache web server is still running - you need only to switch back to the tab running your website, and only press the refresh button on the Chrome tab with the  running in it.  
 
+#### Serve Only index.html
+
+Be careful not to open too many processes in Cloud9.  Cloud9 is a powerful set of tools, and it's easy to feel a little overwhelmed by all the menus and buttons. We want you to start using industrial tools, and it will benefit you to watch some YouTube videos on "getting started with Cloud9" to learn more about how to use Cloud9.
+
+For our purposes, and in the short term, you need only follow the above steps to serve the index.html file of your website, once.  Doing so will open up a process in its own tab in the Console View.  This process is an Apache webserver that is serving up your index.html. index.html is the default web page returned when we ask a web browser to fetch a URL that does not explicit request a particular file. So a URL like "www.google.com" will fetch "www.google.com/index.html". Again, once your Apache webserver is running and serving up your index.html file, your Console View should include only a maximum of three tabs, your bash terminal, perhaps an immediate JavaScript tab, and your Apache serving up your index.html file.  The Console View should look like this:
+
+<img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-serve-index-only.png">
+
+Sometimes, while students are working in other files, they might accidentally press Run again, and Cloud9 will start another process, run another instance of an Apache webserver, and serve that file.  This is unnessary, and undesireable. You should only need to be running one webserver, that is, one instance of Apache serving your index.html file.  So, if you find yourself with more than 3 tabs open, stop the extra processes by selecting the tab in which their running, pressing the red Stop button, the click the x to close the unnecessary tab.  Here's a shot of too many files being served:
+
+<img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-serving-too-many-files.png">
+
+Above, you're serving both the index.html file in tab 3 _and_ serving the porfolio.html file in tab 4.  Here, you'd want to stop serving in tab 4, and close it.
+
+You need only serve index.html - from there, you can get to any part of your website.
+
+Finally, if for some reason your Apache webserver stops, which might happen if you do not revisit your workspace for several days, you need only press the green Run button on the Console View tab where Apache has stopped, like so:
+
+<img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-apache-restart.png">
+
+In the above image, notice the tab says "index.html - Idle" - this means the process, Apache is idle and not running.  So here, you'd just press the green Run button to restart your Apache server.
+
+Don't worry if this feels very new to you - it is, but you'll get use to it.
 
 ### TODO 8 : Add an Image and List 
 
