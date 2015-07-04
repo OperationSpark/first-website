@@ -296,7 +296,7 @@ Add the following tags inside of the `<div class="content">` tag:
 
 It's now time to serve your website like a pro, so we can preview it as if looking at it live on the web, only, we won't be _live_ yet, we'll be serving from our Cloud9 workspace.  The public won't really be able to see it yet, not really - we'll push our website live to GitHub in a later step so the public can see it, but for now, we're serving in development mode.
 
-With the index.html tab selected in the editor (see A), you can simply press the green **Run** button (see B).
+With the index.html tab selected in the editor (see A), you can simply press the green `Run` button (see B).
 
 This will start an Apache web server in a new tab of the Console View, the bottom window pane of the Cloud9 IDE. Once Apache has booted, you can click the URL `https://myusername-github-io-myusername.c9.io/index.html (see C) - this will open a new tab with the appliation running.
 
@@ -318,11 +318,17 @@ As you save your future work, changes to your code will be reflected in your web
 
 Be careful not to open too many processes in Cloud9.  Cloud9 is a powerful set of tools, and it's easy to feel a little overwhelmed by all the menus and buttons. We want you to start using industrial tools, and it will benefit you to watch some YouTube videos on "getting started with Cloud9" to learn more about how to use Cloud9.
 
-For our purposes, and in the short term, you need only follow the above steps to serve the index.html file of your website, once.  Doing so will open up a process in its own tab in the Console View.  This process is an Apache webserver that is serving up your index.html. index.html is the default web page returned when we ask a web browser to fetch a URL that does not explicit request a particular file. So a URL like "www.google.com" will fetch "www.google.com/index.html". Again, once your Apache webserver is running and serving up your index.html file, your Console View should include only a maximum of three tabs, your bash terminal, perhaps an immediate JavaScript tab, and your Apache serving up your index.html file.  The Console View should look like this:
+For our purposes, and in the short term, you need only follow the above steps to serve the index.html file of your website, once.  Doing so will open up a process in its own tab in the Console View.  This process is an Apache webserver that is serving up your `index.html`.
+
+`index.html` is the default web page returned when we ask a web browser to fetch a URL that does not explicit request a particular file. So a URL like "www.google.com" will fetch "www.google.com/index.html".
+
+Again, once your Apache webserver is running and serving up your `index.html` file, your Console View should include only a maximum of three tabs, your **bash terminal**, perhaps an **immediate JavaScript** tab, and **Apache** serving up your `index.html` file.  In otherwords, the Console View should look like this:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-serve-index-only.png">
 
-Sometimes, while students are working in other files, they might accidentally press Run again, and Cloud9 will start another process, run another instance of an Apache webserver, and serve that file.  This is unnessary, and undesireable. You should only need to be running one webserver, that is, one instance of Apache serving your index.html file.  So, if you find yourself with more than 3 tabs open, stop the extra processes by selecting the tab in which their running, pressing the red Stop button, the click the x to close the unnecessary tab.  Here's a shot of too many files being served:
+Sometimes, while students are working in other files, they might accidentally press Run again, and Cloud9 will start another process, run another instance of an Apache webserver, and serve that file.  This is unnessary, and undesireable. You should only need to be running one webserver, that is, one instance of Apache serving your index.html file.
+
+If you find yourself with more than 3 tabs open, stop the extra processes by selecting their tab, pressing the red `Stop` button, then click the `x` to close the unnecessary tab.  Here's a shot of too many files being served:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-serving-too-many-files.png">
 
