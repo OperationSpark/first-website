@@ -82,9 +82,9 @@ Great, GitHub is where we store and version our code, but we need a place to edi
 
     Nice, you've copied the required URL to clone your repository into Cloud9, which is what we're gonna do next.
 
-2. If you do not have Cloud9 open, open it now in a new browser tab and from your Cloud9 Dashboard.
+2. If you do not have Cloud9 open, open it now in a new browser tab.
 
-3. We need to create a new Cloud9 workspace for our website project. Cloud9's interface has recently changed, so if you're using the new interface, you'll find the add-new-workspace button in the upper-right-side of the screen, like so:
+3. We need to create a new Cloud9 workspace for our website project. Cloud9's interface has recently changed, so if you're using the new interface, you'll find the create-new-workspace button in the upper-right-side of the screen, like so:
 
     <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-new-dashboard-create-new-button.png">
 
