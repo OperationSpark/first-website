@@ -26,7 +26,7 @@ We're gonna go live on GitHub with your very own website!
     - [TODO 6: Create Structure for our Content](#todo-6-create-structure-for-our-content)
     - [TODO 7 : Add Content](#todo-7--add-content)
   - [Serve Your Website](#serve-your-website)
-    - [Serve Only index.html](#serve-only-index-html)
+    - [Serve Only the index page](#serve-only-the-index-page)
     - [TODO 8 : Add an Image and List](#todo-8--add-an-image-and-list)
     - [TODO 9: Add More Content - Interests](#todo-9-add-more-content---interests)
     - [TODO 10 : Navigation and Site Title](#todo-10--navigation-and-site-title)
@@ -315,7 +315,7 @@ You'll notice above, we have two tabs open in Chrome now - one running your webs
 
 As you save your future work, changes to your code will be reflected in your website - **you don't have to press "Run" again, and shouldn't** - as long as the Apache web server is still running - you need only to switch back to the tab running your website, and only press the refresh button on the Chrome tab with the  running in it.  
 
-### Serve Only index.html
+### Serve Only the index Page
 
 Be careful not to open too many processes in Cloud9.  Cloud9 is a powerful set of tools, and it's easy to feel a little overwhelmed by all the menus and buttons. We want you to start using industrial tools, and it will benefit you to watch some YouTube videos on "getting started with Cloud9" to learn more about how to use Cloud9.
 
