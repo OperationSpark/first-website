@@ -30,7 +30,7 @@
     - [TODO 12: Play around with the CSS](#todo-12-play-around-with-the-css)
     - [Extra Credit](#extra-credit)
     - [TODO 13: Add C9 to gitignore](#todo-13-add-c9-to-gitignore)
-    - [TODO 14: Go Live!](#todo-14-go-live)
+    - [TODO 14: Go Live](#todo-14-go-live)
 
 First Website
 ===
