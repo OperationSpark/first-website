@@ -557,7 +557,7 @@ We need to do some cleanup before putting your site onto the internet. This step
 
 ### TODO 14: Go Live
 
-Let's put our site on the internet so that anyone can look at it!
+Let's put our site on the Internet so that anyone can look at it!
 
 With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, you page will be live on the Internet.
 
