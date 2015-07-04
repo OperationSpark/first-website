@@ -439,7 +439,7 @@ Selecting an element by id should only return one element, if your webpage is we
 
 Selecting an element by its tag type or by its class will style all tags of that type, or all tags of that class.
 
-Finally, in our CSS, we've also shown you two ways to specify selectors, the long form, which is more explicit, and the short form. This is the long form of for a class selector:
+Finally, in our CSS, we've also shown you two ways to specify selectors, the long form, which is more explicit, and the short form. This is the long form of for an id selector:
 
 ````CSS
 [id=all-contents] {
