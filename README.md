@@ -26,7 +26,7 @@ We're gonna go live on GitHub with your very own website!
     - [TODO 6: Create Structure for our Content](#todo-6-create-structure-for-our-content)
     - [TODO 7 : Add Content](#todo-7--add-content)
   - [Serve Your Website](#serve-your-website)
-    - [Serve Only index.html](#serve-only-index.html)
+    - [Serve Only index.html](#serve-only-index-html)
     - [TODO 8 : Add an Image and List](#todo-8--add-an-image-and-list)
     - [TODO 9: Add More Content - Interests](#todo-9-add-more-content---interests)
     - [TODO 10 : Navigation and Site Title](#todo-10--navigation-and-site-title)
