@@ -559,11 +559,11 @@ We need to do some cleanup before putting your site onto the internet. This step
 
 Let's put our site on the Internet so that anyone can look at it!
 
-With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, you page will be live on the Internet.
+With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, your page will be live on the Internet.
 
 To do so, you'll need to enter the following git commands into your bash terminal.  Select the bash terminal in the Console View - the bottom window pane in Cloud9.
 
-Enter the following commands, be careful to place your spaces correctly and press ENTER after each one. Read the results of each command and check for errors.
+Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
 
 First, add all the files we worked into git so that they can be archived in our source control
 
