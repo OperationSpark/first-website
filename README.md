@@ -577,6 +577,6 @@ Finally, sync the repository in cloud9 with the one on github. Type 'yes' when p
 
 You just sent your code to github where it will be backed up and made into a website anyone can see. You should be able to see your code should now appear on the github page from the Setup step above.
 
-Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own username.)
+Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own GitHub username.)
 
 Congratulations!  You are LIVE ON THE INTERNET!
