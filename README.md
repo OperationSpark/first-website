@@ -1,3 +1,8 @@
+First Website
+===
+
+We're gonna go live on GitHub with your very own website!
+
 **Table of Contents**
 
 - [First Website](#first-website)
@@ -31,11 +36,6 @@
     - [Extra Credit](#extra-credit)
     - [TODO 13: Add C9 to gitignore](#todo-13-add-c9-to-gitignore)
     - [TODO 14: Go Live](#todo-14-go-live)
-
-First Website
-===
-
-We're gonna go live on GitHub with your very own website!
 
 ##Prerequisites
 
