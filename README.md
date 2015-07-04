@@ -294,7 +294,9 @@ Add the following tags inside of the `<div class="content">` tag:
 
 ## Serve Your Website
 
-It's now time to serve your website like a pro, so we can preview it as if looking at it live on the web, only, we won't be _live_ yet, we'll be serving from our workspace.  With the index.html tab selected in the editor (see A), you can simply press the green play button (see B).
+It's now time to serve your website like a pro, so we can preview it as if looking at it live on the web, only, we won't be _live_ yet, we'll be serving from our Cloud9 workspace.  The public won't really be able to see it yet, not really - we'll push our website live to GitHub in a later step so the public can see it, but for now, we're serving in development mode.
+
+With the index.html tab selected in the editor (see A), you can simply press the green play button (see B).
 
 This will start an Apache web server in a new tab of the Console View, the bottom window pane of the Cloud9 IDE. Once Apache has booted, you can click the URL `https://myusername-github-io-myusername.c9.io/index.html (see C) - this will open a new tab with the appliation running.
 
