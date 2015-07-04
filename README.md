@@ -134,7 +134,7 @@ There's really three parts at play in a webpage:
 
 * HTML: Hypertext Markup Language - A set of tags to mark or section-off the structure and content of a webpage.
 * CSS: Cascading Syle Sheets - A syntax for specifying a set of rules that _style_ webpages.  CSS is responsible for how a webpage looks!
-* JavaScript: An programming language that allows webpages to repsond to user input, to dynamically change the content or appearance of a webpage, or make request to load data into a webpage.  Essentially, JavaScript is responsible for the _behaviour_ of a webpage.
+* JavaScript: A programming language that allows webpages to repsond to user input, to dynamically change the content or appearance of a webpage, or make request to load data into a webpage.  Essentially, JavaScript is responsible for the _behaviour_ of a webpage.
 
 ### HTML in 3 Minutes
 
