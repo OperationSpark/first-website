@@ -306,9 +306,13 @@ Once this tab opens, we recommend popping out the tab into Chrome, into a separa
 
 <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-pop-out-website-tab.png">
 
-This will give you the website running in a separate Chrome tab. As you save your future work, changes to your code will be reflected in the website - you don't have to press "Run" again - as long as the Apache web server is still running - you need only press the refresh button on the Chrome tab with the app running in it.
+This will give you the website running in a separate Chrome browser tab, like this:
 
-<img src="img/first-shot.png">
+<img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-working-in-tabs.png">
+
+As you save your future work, changes to your code will be reflected in the website - you don't have to press "Run" again - as long as the Apache web server is still running - you need only press the refresh button on the Chrome tab with the app running in it.
+
+
 
 ### TODO 8 : Add an Image and List 
 
