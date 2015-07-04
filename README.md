@@ -207,13 +207,13 @@ Ok then, we made the structure of the site so now we need some content! Give you
 
 ### TODO 4 : Add a Title
 
-You should remember from our previous lessons on HTML5 that you create a title with the `<title>` tag inside of the `<head>`. 
+You should remember from our previous lessons on HTML5 that you create a title with the `<title>` tag inside of the `<head>`. This will add your title text to the browser tab.  Go ahead and do this now:
 
 ````
 <title>Sheba's Amazing Website</title>
 ````
 
-### TODO 5 : Create Areas for the Menu and Main Content
+### TODO 5 : Create Sections for the Menu and Main Content
 
 **Please note:** All of the tags used to mark our HTML content will reside _between_ the opening and closing of the `<body>` tag.  So for rest of the HTML tags you create, _make sure_ you place them _between_:
 
@@ -257,25 +257,38 @@ Inside the `<main>` element, create two new `<div>` elements. These will act as 
 </main>
 ```
 
+Ok, so far, we've sectioned of our webpage, now we need to add some content...
+
 ### TODO 7 : Add Content
 
 Add the following tags inside of the `<div class="content">` tag:
 
 * Create a `<header>` element and put your name inside of it.
 * Below that make a `<p>` element and inside it put your position or job title such as "Student at XYZ High."
-* Save your work and click *Preview > Live Preview File* at the top to view it.
 
-It should look something like this:
+### Serve Your Website
+
+It's now time to serve your website like a pro, so we can preview it as if looking at it live on the web, only, we won't be _live_ yet, we'll be serving from our workspace.  With the index.html tab selected in the editor (see A), you can simply press the green play button (see B).
+
+This will start an Apache web server in a new tab of the Console View, the bottom window pane of the Cloud9 IDE. Once Apache has booted, you can click the URL `https://myusername-github-io-myusername.c9.io/index.html (see C) - this will open a new tab with the appliation running.
+
+<img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-serve-website.png">
+
+Once this tab opens, we recommend popping out the tab into Chrome, into a separate browser tab. To do so, click on the popout button on the right side of the preview tab (see A), like so:
+
+<img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-pop-out-website-tab.png">
+
+This will give you the website running in a separate Chrome tab. As you save your future work, changes to your code will be reflected in the website - you don't have to press "Run" again - as long as the Apache web server is still running - you need only press the refresh button on the Chrome tab with the app running in it.
 
 <img src="img/first-shot.png">
 
-#### Image and List 
+### TODO 8 : Add an Image and List 
 
 * Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
-* We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from facebook, or anything else using google image search. Right-click on the image, and choose 'Copy Image URL.'
+* We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from Facebook, or anything else using a Google image search. Right-click on the image, and choose 'Copy Image URL.'
 * Paste that URL into the **src** attribute. 
 
-Like this:
+So your full image tag should look this this:
 
 ```
 <div class="sidebar">
@@ -286,7 +299,7 @@ Like this:
 Save your page and preview it. You should see the image now. If you don't, go back and double check that there are no
 errors in your `<img>` tag.
 
-### TODO 8: Add More Content - Interests
+### TODO 9: Add More Content - Interests
 
 Let's create a section for your interests below the `<p>` tag (inside of the '[class=content]' div) with a list.
 
@@ -311,7 +324,7 @@ Should look something like this:
 
 <img src="img/second-shot.png">
 
-### TODO 9 : Navigation and Site Title
+### TODO 10 : Navigation and Site Title
 
 We're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
 
@@ -346,7 +359,7 @@ Like this:
 
 Save and view your work. You should see your title inside of the navbar to the left. 
 
-### TODO 10: Make it Pretty
+### TODO 11: Make it Pretty
 
 We now have a fairly plain website but it's a website! Let's add some style.  Here's where CSS comes in!
 
@@ -481,7 +494,7 @@ The long form of sidebar class selector is:
 |id    | [id=portfolio] { ... }         | #portfolio { ... }    |
 
 
-###TODO 11: Play around with the CSS
+### TODO 12: Play around with the CSS
 
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
 
@@ -501,12 +514,12 @@ nav {
 * Do you like these colors? Remember that all colors can be represented as a combination of red, green, and blue numbers 0-255. See the `rgb(...)` functions above? Play around with the values in the `rgb(...)` function calls to use your own colors.
 
 
-####Extra Credit
+### Extra Credit
 
 * Google `border-radius` and add it to the `<nav>` element.
 * Add a border around the image
 
-###TODO 12: Add C9 to gitignore
+### TODO 13: Add C9 to gitignore
 
 We need to do some cleanup before putting your site onto the internet. This step will make working with our site easier in the future by making our site ignore files generated by Cloud 9 that we don't need.
 
@@ -514,7 +527,7 @@ We need to do some cleanup before putting your site onto the internet. This step
 * At the bottom of the `.gitignore` file, on a blank line add `.c9`
 * Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
 
-###TODO 13: Go Live!
+### TODO 14: Go Live!
 
 Let's put our site on the internet so that anyone can look at it!
 
