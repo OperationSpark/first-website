@@ -73,9 +73,9 @@ We are building a website, to be viewed live on the web at your GitHub page, and
 
 First things first, we need to create a new repository on GitHub, named using your GitHub username.
 
-The very awesome GitHub will host a website for each user and organization for free.  The feature is called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+GitHub will host a website for each user and organization for free.  The feature is called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-Using this feature is actually really easy.  GitHub will host the files of a repo at that URL, provided that repo contains a website, if you create a repository on GitHub and name it using the pattern of:
+Using this feature is actually really easy.  The first thing we need to do is create a repository on GitHub using the following naming pattern:
 
     yourusername.github.io
     
