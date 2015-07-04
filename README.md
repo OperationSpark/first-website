@@ -416,11 +416,70 @@ Copy the entire below section and place it inside the `<head>` below the `<title
     </style>
 ````
 
-Ok, we've pasted-in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your page, you should see that your page is now styled with some colors and some positioning.
+Ok, we've pasted-in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your website, you should see that your page is now styled with some colors and some positioning.
 
-CSS allows us to specify styling rules for our HTML elements.  When we say _elements_, we're talking about all the HTML tags within a webpage. We can identify tags by their type (body, p, h1, nav) or by _class_ or _id_ attributes.
+### CSS Selectors in a Nutshell
 
-In our HTML so far, we've given one element a class of _sidebar_ by specifying this in its _class attribute_: `<div class="sidebar">`. This allows us to select this element by its class, and for this reason, the rules we specify in CSS are called _selectors_.  Selectors and their styling rules tell the web browser which elements to select, and how to style them.  We'll now add some more style to our `<nav>` element, and factually, by doing so using the `nav` selector, we are creating a style rule that will be applied to _all nav tags_ on our webpage.
+CSS allows us to specify styling rules for our HTML elements.  When we say _elements_, we're talking about all the HTML tags within a webpage.
+
+### Selecting HTML Elements by ID, Class, or by Tag Type
+
+When we create HTML elements, we can assign them an id or a class. In our HTML so far, we've given one element an id of _all-contents_ and another a class of _sidebar_. We did this by using the id and class attributes of the `<div>`. For example:
+
+````HTML
+<div id="all-contents">
+    <div class="sidebar"></div>
+</div>
+````
+By more concretely describing HTML elements by id or class, we can then select those elements by their id or class, and style them the way we like, and for this reason, the rules we specify in CSS are called _selectors_. We can also select elements by their tag type, as in, body, p, h1, nav.
+
+Selectors and their styling rules tell the web browser which elements to select, and how to style them.  In a moment, we are going to add some more style to our `<nav>` element, and by doing so using the `nav` selector, we are creating a style rule that will be applied to _all nav tags_ on our webpage.
+
+Selecting an element by id should only return one element, if your webpage is well formed, so applying a style rule by id should only style one element on the page.
+
+Selecting an element by its tag type or by its class will style all tags of that type, or all tags of that class.
+
+Finally, in our CSS, we've also shown you two ways to specify selectors, the long form, which is more explicit, and the short form. This is the long form of for a class selector:
+
+````CSS
+[id=all-contents] {
+    max-width: 800px;
+    margin: auto;
+}
+````
+
+However, the same selector can be spelled using the number symbol `#`, for id, like this:
+
+````CSS
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+````
+
+The short form to specify a CSS selector by class is the dot `.`, as in:
+
+````CSS
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+````
+
+The long form of sidebar class selector is:
+
+````CSS
+[class=sidebar] {
+    margin-right: 25px;
+    padding: 10px;
+}
+````
+
+|Type  | Long form                      | Short form            | 
+|------| ------------------------------ |-----------------------|
+|class | [class=all-contents] { ... }   | .all-contents { ... } |
+|id    | [id=portfolio] { ... }         | #portfolio { ... }    |
+
 
 ###TODO 11: Play around with the CSS
 
@@ -439,15 +498,7 @@ nav {
 
 * Under the style rule: `margin: 0 auto;` add `margin-bottom: 20px;`
 * Save and view the changes. The menu now has some space underneath it!
-* Do you like these colors? Remember that all colors can be represented as a combination of red, green, and blue numbers 0-255. See the rgb(...) functions above? Play around with these to use your own colors
-
-Nice, we've also shown you two ways to specify selectors, the long form, which is more explicit, and the short form:
-
-
-|Type  | Long form                      | Short form            | 
-|------| ------------------------------ |-----------------------|
-|class | [class=all-contents] { ... }   | .all-contents { ... } |
-|id    | [id=portfolio] { ... }         | #portfolio { ... }    |
+* Do you like these colors? Remember that all colors can be represented as a combination of red, green, and blue numbers 0-255. See the `rgb(...)` functions above? Play around with the values in the `rgb(...)` function calls to use your own colors.
 
 
 ####Extra Credit
