@@ -30,7 +30,7 @@
     - [TODO 12: Play around with the CSS](#todo-12-play-around-with-the-css)
     - [Extra Credit](#extra-credit)
     - [TODO 13: Add C9 to gitignore](#todo-13-add-c9-to-gitignore)
-    - [TODO 14: Go Live!](#todo-14-go-live!)
+    - [TODO 14: Go Live!](#todo-14-go-live)
 
 First Website
 ===
@@ -75,19 +75,13 @@ First things first, we need to create a new repository on GitHub, named using yo
 
 The very awesome GitHub will host a website for each user and organization for free.  The feature is called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-Using this feature is actually really easy.  If you create a repository on GitHub and name it in the pattern of:
+Using this feature is actually really easy.  GitHub will host the files of a repo at that URL, provided that repo contains a website, if you create a repository on GitHub and name it using the pattern of:
 
     yourusername.github.io
     
-...GitHub will host the files of that repo at that URL, provided that repo contains a website.
+Follow these steps and see the screenshot to create a new repository, but NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forward to the _create new repository_ page.
 
-* We're going to give you the link right here to click to create a new repository on GitHub.
-
-    NOTE: If you're not signed-in to GitHub, you might see a web page that says 404 (This is not the web page you are looking for).  Just sign-in to GitHub on this page and you will be forward to the _create new repository_ page.
-    
-    Follow these steps and see the screenshot to create a new repository:
-    
-    <a href="https://github.com/new" target="_blank">Click here to open a new browser tab and create create a new repository</a>.
+<a href="https://github.com/new" target="_blank">Click here to open a new browser tab and create create a new GitHub repository</a>.
     
 <ol style="list-style-type: upper-alpha;">
     <li>On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual GitHub username.  MAKE SURE your username is spelled correctly, otherwise you'll have problems (See A).</li>
@@ -559,7 +553,7 @@ We need to do some cleanup before putting your site onto the internet. This step
 * At the bottom of the `.gitignore` file, on a blank line add `.c9`
 * Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
 
-### TODO 14: Go Live!
+### TODO 14: Go Live
 
 Let's put our site on the internet so that anyone can look at it!
 
