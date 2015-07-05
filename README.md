@@ -496,7 +496,9 @@ Ok, we've pasted-in a bunch of style rules between the `<style></style>` tag, an
 
 #### CSS Selectors in a Nutshell
 
-CSS allows us to specify styling rules for our HTML elements.  When we say _elements_, we're talking about all the HTML tags within a webpage.
+CSS allows us to specify styling rules for our HTML elements.  When we say _elements_, we're talking about all the HTML tags within a webpage.  In best practice, we separate the content of an HTML document from the style or presentation of the content.  This allows us to change appearence without modifying content, allows styles to be better managed across multiple pages, and creates a cleaner code base.
+
+In order to style HTML elements, we need a way to _select_ the elements.
 
 #### Selecting HTML Elements by ID, Class, or by Tag Type
 
