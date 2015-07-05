@@ -277,13 +277,13 @@ Finally, inside our _all-contents_ div, we're going to put the site navigation m
 Inside the `<main>` element, create two new `<div>` elements. These will act as the two columns of our page - the sidebar and the main content, as noted by the class we give each:
 
 ```HTML
-<main>
-    <div class="sidebar">
-    </div>
+            <main>
+                <div class="sidebar">
+                </div>
     
-    <div class="content">
-    </div>
-</main>
+                <div class="content">
+                </div>
+            </main>
 ```
 
 Ok, so far, we've sectioned of our webpage, now we need to add some content...
@@ -355,11 +355,13 @@ Don't worry if this feels very new to you - it is, but you'll get use to it.
 
 So, your full image tag should look this this:
 
-```
-<div class="sidebar">
-    <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
-</div>
-```
+
+````HTML
+                <div class="sidebar">
+
+                    <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
+                </div>
+````
 
 Save your page and preview it. You should see the image now. If you don't, go back and double check that there are no
 errors in your `<img>` tag.
@@ -372,16 +374,16 @@ Let's create a section for your interests below the `<p>` tag (inside of the '[c
 * Give the list a title with the `<header>` tag and called it 'Interests'
 * Below that create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
 
-```HTML
-<section class="interests">
-    <header>Interests</header>
-    <ul>
-        <li>Thing 1</li>
-        <li>Thing 2</li>
-        <li>Thing 3</li>
-    </ul>
-</section>
-```
+````HTML
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Thing 1</li>
+                            <li>Thing 2</li>
+                            <li>Thing 3</li>
+                        </ul>
+                    </section>
+````
 
 Use your own interests! Save and view your changes.
 
@@ -398,12 +400,12 @@ We're going to make a menu. Linking to other pages forms the foundation of the w
 * Finally give each menu item a name by inserting Home and Portfolio between the opening and closing tags.  See the example below.
 
 ````HTML
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
-</nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
 ````
 
 Save and view your work. You now have some menu items! The *Home* link even works since it simply links to the page we are currently working on. The other link is for our portfolio page which we'll build out in the next lesson.
@@ -412,15 +414,15 @@ Your site needs a title! Inside of the `<nav>` before the `<ul>` tag add an `<he
 
 Like this:
 
-```HTML
-<nav>
-    <header>Sheba's Glorious Website</header>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
-</nav>
-```
+````HTML
+            <nav>
+                <header>Sheba's Glorious Website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+````
 
 Save and view your work. You should see your title inside of the navbar to the left. 
 
@@ -431,67 +433,67 @@ We now have a fairly plain website but it's a website! Let's add some style.  He
 Copy the entire below section and place it inside the `<head>` below the `<title>` tag.
 
 ````CSS
-    <style>
-        body {
-            background: rgb(125, 198, 205);
-            color: rgb(45, 45, 45);
-            padding: 10px;
-            font-family: arial;
-        }
-        header {
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-        [id=all-contents] {
-            max-width: 800px;
-            margin: auto;
-        }
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
     
-        /* Main navigation menu */
-        nav {
-            background: rgb(239, 80, 41);
-            margin: 0 auto;
-            display: flex;
-            padding: 10px;
-        }
-        nav header {
-            display: flex;
-            align-items: center;
-            color: rgb(255, 255, 255);
-            flex: 1;
-        }
-        nav ul {
-            list-style-image: none;
-        }
-        nav li {
-            display: inline-block;
-            padding: 0 10px;
-        }
-        nav a {
-            text-decoration: none;
-            color: rgb(255, 255, 255);
-        }
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
     
-        /* Main container area beneath menu */
-        main {
-            background: rgb(245, 238, 219);
-            display: flex;
-        }
-        [class=sidebar] {
-            margin-right: 25px;
-            padding: 10px;
-        }
-        [class=sidebar] img {
-            width: 200px;
-        }
-        [class=content] {
-            flex: 1;
-            padding: 15px;
-        }
-        [class=interests] header {
-            font-size: 1.25em;
-        }
-    </style>
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
 ````
 
 Ok, we've pasted-in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your website, you should see that your page is now styled with some colors and some positioning.
