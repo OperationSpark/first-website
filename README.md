@@ -123,9 +123,9 @@ Great, GitHub is where we store and version our code, but we need a place to edi
 
 4. The next screen should be relatively the same for either old or new interface, though in the new interface, you may have to manually name your workspace, etc.  Either way, find the "Source URL" form input, copy and paste in the URL you copied from your GitHub repository (it should still be on your clipboard).
     
-    Then, in the environment selection box, select "HTML5" (see B).  Finally, click the green button "Create" (see C).
+  Finally, click the green button "Create" (see C).
     
-    <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/clone-workspace.png">
+  
 
 5. Wait for the workspace to finish starting (while starting up, you'll see a spinning gear on the newly created workspace in the sidebar), and once the workspace is completed, click the green button, "START EDITING".
 
