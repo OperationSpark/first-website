@@ -41,7 +41,12 @@ We're gonna go live on GitHub with your very own website!
 ##Prerequisites
 
 * [Students will require a GitHub account](https://github.com/join) and will need to remember their GitHub username and password.
+
+    GitHub is a place on the Internet where we can store code! It's a cool social coding platform, kind of like Facebook for coders.
+
 * [Students will require a Cloud9 account - they will login to Cloud9 using their GitHub credentials](https://c9.io/web/login).
+
+    Cloud9, or c9, is a place on the Internet where we can _work_ on code. Cloud9 allows us to create virtual workspaces for our coding projects.
 
 ##Overview
 
@@ -72,9 +77,11 @@ We are building a website, to be viewed live on the web at your GitHub page, and
 ### Sign In to Required Accounts
 
 1. Sign into GitHub: <a href="https://github.com/login" target="_blank">https://github.com/login</a>
-2. Sign into Cloud9 using GitHub: Always sign into Cloud9 using GitHub - this allows you to pair your code repositories at GitHub with your Cloub9 workspaces. Look for the cat-icon on Cloud9: 
+2. Sign into Cloud9 using GitHub: Always sign into Cloud9 using GitHub - this allows you to pair your code repositories at GitHub with your Cloub9 workspaces. <a href="https://c9.io/" target="_bank">Click this link, then look for the cat-icon on Cloud9</a>, as shown here (screens might look somewhat different - don't panic!): 
 
 <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png">
+
+Once you click on the cat icon to sign in to Cloud9 using GitHub, you will eventually be taken to a temporary webpage on GitHub. On this page, GitHub will ask you to authorize Cloud9 to use your account. Click the green authorize button to move forward. You will then be returned to Cloud9.
 
 ###Creating a New GitHub Repo For Your Site
 
