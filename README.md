@@ -42,7 +42,6 @@ We're gonna go live on GitHub with your very own website!
 
 * [Students will require a GitHub account](https://github.com/join) and will need to remember their GitHub username and password.
 * [Students will require a Cloud9 account - they will login to Cloud9 using their GitHub credentials](https://c9.io/web/login).
-* Students should have basic knowledge of HTML and gone through the [Intro to HTML](https://github.com/OperationSpark/javascript-wiki/wiki/HTML-Intro) lesson.
 
 ##Overview
 
@@ -70,13 +69,20 @@ We are building a website, to be viewed live on the web at your GitHub page, and
 
 ##Setup
 
+### Sign In to Required Accounts
+
+1. Sign into GitHub: <a href="https://github.com/login" target="_blank">https://github.com/login</a>
+2. Sign into Cloud9 using GitHub: Always sign into Cloud9 using GitHub - this allows you to pair your code repositories at GitHub with your Cloub9 workspaces. Look for the cat-icon on Cloud9: 
+
+<img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-signin-github.png">
+
 ###Creating a New GitHub Repo For Your Site
 
-First things first, we need to create a new repository on GitHub, named using your GitHub username.
+Now that you're signed into GitHub and have signed into Cloud9 through GitHub (make sure you're signed into Cloud9 with GitHub), the next step is to create a new repository on GitHub.
 
 GitHub will host a website for each user and organization for free.  The feature is called <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-Using this feature is actually really easy.  The first thing we need to do is create a repository on GitHub using the following naming pattern:
+The first thing we need to do is create a new repository on GitHub and name it using the following naming pattern:
 
     yourusername.github.io
     
