@@ -53,7 +53,8 @@ We're gonna go live on GitHub with your very own website!
 ###Specs
 
 * At the end of the lesson students will have built and designed their own website that is viewable on the web.
-* The website will be hosted on GitHub under student's own account, and is something they can build upon on over time. 
+* The website will be hosted on GitHub under student's own account, and is something they can build upon on over time.
+* The live website is hosted using a service called GitHub Pages: <a href="https://pages.github.com/" target="_blank">If you want to learn more about GitHub Pages, have a look here...</a>
 * The website will be the student's own and will feature a short profile of the student.
 
 ### Take Away
@@ -64,9 +65,11 @@ We're gonna go live on GitHub with your very own website!
 
 ### Work Flow
 
-You'll be creating a whole web page from scratch, from creating the `index.html` file, to writing all the `<html>` tags, adding content and style with CSS.  Because you're creating this page from scratch, there will be no TODO's to find in our code in this project.
+You'll be creating a whole web page from scratch, from creating the `index.html` file, to writing all the `<html>` tags, adding content and style with CSS.
 
-To complete the assignment, below you'll find numbered **TODO** lesson steps.  While reading this lesson, whenever you come across a **TODO** step, you are expected to do this step, which may require you to create a file, or insert some HTML, CSS or JavaScript in the appropriate place. Please follow the instructions closely. Sometimes, however, we may be showing you code examples to make a point, so you only need to add code if we're explicitly telling you to do a lesson step, so please be aware of the actual lesson steps.  <a href="https://pages.github.com/" target="_blank">If you want to learn more about GitHub Pages, have a look here...</a>
+To complete the assignment, below you'll find numbered **TODO** lesson steps.  While reading this lesson, whenever you come across a **TODO** step, you are expected to do this step, which may require you to create a file, or insert some HTML, CSS or JavaScript in the appropriate place.
+
+Please follow the instructions closely. Sometimes, however, we may be showing you code examples to make a point, so you only need to add code if we're explicitly telling you to do a lesson step, so please be aware of the actual lesson steps.
 
 ### Type of App
 
