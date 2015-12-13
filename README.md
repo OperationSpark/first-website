@@ -101,14 +101,15 @@ Follow these steps and see the screenshot to create a new repository, but NOTE: 
 <a href="https://github.com/new" target="_blank">Click here to open a new browser tab and create create a new GitHub repository</a>.
     
 <ol style="list-style-type: upper-alpha;">
-    <li>On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual GitHub username.  MAKE SURE your username is spelled correctly, otherwise you'll have problems (See A).</li>
-    <li>Enter a description for your repository in the **Description** box, like `My own awesome website!' (See B).</li>
-    <li>Select the Public radio button to allow anyone to see this repository (See C).</li>
-    <li>Check the "Initialize this repository with a README" box (See D).</li>
-    <li>Click the "Add .gitignore" button, and select "Node" from the dropdown.  Here, we're just selecting Node because it gives us some default ignore patterns... we'll explain later (See E).</li>
-    <li>Click "Create Repository" (See F).</li>
+    <li>On the Create New Repository page, in the box for **Repository name**, name the repository like `your-github-username.github.io`, replacing `your-github-username` with you actual GitHub username.  MAKE SURE your username is spelled correctly, otherwise you'll have problems **(See A)**.</li>
+    <li>Enter a description for your repository in the **Description** box, like `My own awesome website!' **(See B)**.</li>
+    <li>Select the Public radio button to allow anyone to see this repository **(See C)**.</li>
+    <li>Check the "Initialize this repository with a README" box **(See D)**.</li>
+    <li>Click the "Add .gitignore" button, and select "Node" from the dropdown.  Here, we're just selecting Node because it gives us some default ignore patterns... we'll explain later **(See E)**.</li>
+    <li>Click "Create Repository" **(See F)**.</li>
 </ol>
 
+**Click to enlarge image**
 <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
 
 Awesome, you created your repository!
