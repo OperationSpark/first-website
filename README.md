@@ -77,7 +77,7 @@ We are building a website, to be viewed live on the web at your GitHub page, and
 
 ##Setup
 
-### Sign In to Required Accounts
+### Sign-in to Required Accounts
 
 1. Sign into GitHub: <a href="https://github.com/login" target="_blank">https://github.com/login</a>
 2. Sign into Cloud9 using GitHub: Always sign into Cloud9 using GitHub - this allows you to pair your code repositories at GitHub with your Cloub9 workspaces. <a href="https://c9.io/" target="_bank">Click this link, then look for the cat-icon on Cloud9</a>, as shown here (screens might look somewhat different - don't panic!): 
