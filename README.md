@@ -251,10 +251,18 @@ Ok then, we made the structure of the site so now we need some content! Give you
 
 ### TODO 4 : Add a Title
 
-You should remember from our previous lessons on HTML5 that you create a title with the `<title>` tag inside of the `<head>`. This will add your title text to the browser tab.  Go ahead and do this now:
+The `<title>` tag of a webpage belongs inside of the `<head>` tag. So go ahead and add your title `<title></title>` tag to your `<head>` tag. This will add your title text to the browser tab.  When your done step 4, your whole `index.html` file should look like this:
 
-````
-<title>Sheba's Amazing Website</title>
+````HTML
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sheba's Amazing Website</title>
+    </head>
+    
+    <body>
+    </body>
+</html>
 ````
 
 ### TODO 5 : Create Sections for the Menu and Main Content
