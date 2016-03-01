@@ -631,18 +631,20 @@ To do so, you'll need to enter the following git commands into your bash termina
 
 Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
 
-First, add all the files we worked into git so that they can be archived in our source control
+First, add all the files we worked into git so that they can be archived in our source control:
 
-`git add -A`
+1. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
+    
+        git add -A
 
-Then archive everything that has been added
+2. Then **commit** everything that has been added to the set of changes:
+    
+        git commit -m 'A basic website'
 
-`git commit -m 'A basic website'`
-
-Finally, sync the repository in cloud9 with the one on github. Type 'yes' when prompted.
-
-`git push`
-
+3. Finally, sync the repository in cloud9 with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
+    
+        git push
+    
 You just sent your code to github where it will be backed up and made into a website anyone can see. You should be able to see your code should now appear on the github page from the Setup step above.
 
 Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own GitHub username.)
