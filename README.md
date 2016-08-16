@@ -138,19 +138,20 @@ Great, GitHub is where we store and version our code, but we need a place to edi
 4. The next screen will ask you to enter more details to create your Cloud9 workspace. You should:
     
     A) Give your Wokspace a name that matches your GitHub repositoy name. Since Cloud9 doesn't allow periods, lets set it as "username-github-io" (See A).
-    B) Give your Workspace a short description of your choice. It should relate to the project you are building, i.e. "My first Website" (See B). 
+
+    B) Give your Workspace a short description of your choice. It should relate to the project you are building, i.e. "My first Website" (See B).
+    
     C) THIS IS IMPORTANT: Make sure "Hosted Workspace" is selected on the next row. This will allow you to paste your SSH URL from GitHub (See C).
+    
     D) Paste in the URL you copied from your GitHub repository where it says Clone from Git or Mercurial URL (it should still be on your clipboard) (See D).
+    
     D) Leave "Choose a template" blank. It may appear that HTML5 is highlighted, but don't change or select any new options.
+    
     E) Finally, click the green button "Create Workspace".
 
-    <img src="">
+    <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-cloud9-workspace.png">
     
   
-
-5. Wait for the workspace to finish starting (while starting up, you'll see a spinning gear on the newly created workspace in the sidebar), and once the workspace is completed, click the green button, "START EDITING".
-
-    <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/start-editing.png">
 
 When the workspace loads, you'll see something like this:
 
