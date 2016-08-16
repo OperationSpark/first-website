@@ -118,13 +118,13 @@ Awesome, you created your repository!
 
 Great, GitHub is where we store and version our code, but we need a place to edit our source code.  That's where Cloud9 comes in.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferable for this course.
 
-1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
+1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the top right corner of the screen, you will want to:
     
-    A) Select SSH by clicking the blue text, SSH (See A).  PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure you select SSH!
+    A) Click Clone or download (See A). Make sure that "Clone with SSH" appears in the top right corner of the dropdown box. PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure you select SSH!
     
     B) Click the "Copy URL to clipboard" button (See B).
     
-    <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/copy-repo-url.png">
+    <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/copy-repo-url.png"> 
 
     Nice, you've copied the required URL to clone your repository into Cloud9, which is what we're gonna do next.
 
