@@ -120,7 +120,7 @@ Great, GitHub is where we store and version our code, but we need a place to edi
 
 1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the top right corner of the screen, you will want to:
     
-    A) Click Clone or download (See A). Make sure that "Clone with SSH" appears in the top right corner of the dropdown box. PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure you select SSH!
+    A) Click Clone or download (See A). Make sure that "Clone with SSH" appears in the top right corner of the dropdown box. PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure Clone with SSH is selected! IF it is not, an option to select it should appear in the top right corner of the dropdown box.
     
     B) Click the "Copy URL to clipboard" button (See B).
     
