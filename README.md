@@ -110,7 +110,7 @@ Follow these steps and see the screenshot to create a new repository, but NOTE: 
 </ol>
 
 **Click to enlarge image**
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
+<img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-repo.png">
 
 Awesome, you created your repository!
 
