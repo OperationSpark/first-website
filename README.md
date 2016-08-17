@@ -110,7 +110,7 @@ Follow these steps and see the screenshot to create a new repository, but NOTE: 
 </ol>
 
 **Click to enlarge image**
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-repo.png">
+<img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-repo.png">
 
 Awesome, you created your repository!
 
@@ -118,35 +118,40 @@ Awesome, you created your repository!
 
 Great, GitHub is where we store and version our code, but we need a place to edit our source code.  That's where Cloud9 comes in.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferable for this course.
 
-1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the bottom right corner of the screen, you will want to:
+1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the top right corner of the screen, you will want to:
     
-    A) Select SSH by clicking the blue text, SSH (See A).  PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure you select SSH!
+    A) Click Clone or download (See A). Make sure that "Clone with SSH" appears in the top right corner of the dropdown box. PLEASE NOTE: THIS STEP IS IMPORTANT! Make sure Clone with SSH is selected! IF it is not, an option to select it should appear in the top right corner of the dropdown box.
     
     B) Click the "Copy URL to clipboard" button (See B).
     
-    <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/copy-repo-url.png">
+    <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/copy-repo-url.png"> 
 
     Nice, you've copied the required URL to clone your repository into Cloud9, which is what we're gonna do next.
 
 2. If you do not have Cloud9 open, open it now in a new browser tab.
 
-3. We need to create a new Cloud9 workspace for our website project. Cloud9's interface has recently changed, so if you're using the new interface, you'll find the create-new-workspace button in the upper-right-side of the screen, like so:
+3. We need to create a new Cloud9 workspace for our website project. Find the create-new-workspace button in the upper-right-side of the screen, like so:
 
     <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-new-dashboard-create-new-button.png">
 
-    If you're using the older interface, find in the upper-left-corner and click the green button, "Create New Workspace" > "Clone From URL":
 
-    <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/clone-new-workspace.png">
-
-4. The next screen should be relatively the same for either old or new interface, though in the new interface, you may have to manually name your workspace, etc.  Either way, find the "Source URL" form input, copy and paste in the URL you copied from your GitHub repository (it should still be on your clipboard).
+4. The next screen will ask you to enter more details to create your Cloud9 workspace. You should:
     
-  Finally, click the green button "Create" (see C).
+    A) Give your Wokspace a name that matches your GitHub repositoy name. Since Cloud9 doesn't allow periods, lets set it as "username-github-io" (See A).
+
+    B) Give your Workspace a short description of your choice. It should relate to the project you are building, i.e. "My first Website" (See B).
+    
+    C) THIS IS IMPORTANT: Make sure "Hosted Workspace" is selected on the next row. This will allow you to paste your SSH URL from GitHub (See C).
+    
+    D) Paste in the URL you copied from your GitHub repository where it says Clone from Git or Mercurial URL (it should still be on your clipboard) (See D).
+    
+    D) Leave "Choose a template" blank. It may appear that HTML5 is highlighted, but don't change or select any new options.
+    
+    E) Finally, click the green button "Create Workspace".
+
+    <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-cloud9-workspace.png">
     
   
-
-5. Wait for the workspace to finish starting (while starting up, you'll see a spinning gear on the newly created workspace in the sidebar), and once the workspace is completed, click the green button, "START EDITING".
-
-    <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/start-editing.png">
 
 When the workspace loads, you'll see something like this:
 
