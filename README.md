@@ -229,6 +229,9 @@ You need to tell the browser you're writing an HTML page by adding the following
 ````HTML
 <!DOCTYPE html>
 ````
+
+The DOCTYPE line is a browser directive, not HTML, so it does not need a closing tag. 
+
 ### TODO 3 : Add HTML Tags Required For a Webpage
 
 If you're not familiar with the basic tags needed for the structure of an HTML page, you'll want to memorize them:  Let's add our `<html>` tags with `<head>` and `<body>` tags nested within.
@@ -316,7 +319,7 @@ Inside the `<main>` element, create two new `<div>` elements. These will act as 
             </main>
 ```
 
-Ok, so far, we've sectioned of our webpage, now we need to add some content...
+Ok, so far, we've made structure for our webpage, now we need to add some content...
 
 ### TODO 7 : Add Content
 
@@ -331,7 +334,7 @@ It's now time to serve your website like a pro, so we can preview it as if looki
 
 With the index.html tab selected in the editor (see A), you can simply press the green `Run` button (see B).
 
-This will start an Apache web server in a new tab of the Console View, the bottom window pane of the Cloud9 IDE. Once Apache has booted, you can click the URL `https://myusername-github-io-myusername.c9.io/index.html (see C) - this will open a new tab with the appliation running.
+This will start an Apache web server in a new tab of the Console View, the bottom window pane of the Cloud9 IDE. Once Apache has booted, you can click the URL `https://myusername-github-io-myusername.c9.io/index.html (see C) - this will open a new tab with the application running.
 
 <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-serve-website.png">
 
@@ -345,7 +348,7 @@ This will give you the website running in a separate Chrome browser tab, like th
 
 You'll notice above, we have two tabs open in Chrome now - one running your website (the tab that current has focus), and the other tab, (the one with the blue Cloud9 icon) is your Cloud9 workspace.  So to continue working, switch to your workspace tab, code a little, save your changes, then switch back to the website tab, and refresh.
 
-As you save your future work, changes to your code will be reflected in your website - **you don't have to press "Run" again, and shouldn't** - as long as the Apache web server is still running - you need only to switch back to the tab running your website, and only press the refresh button on the Chrome tab with the  running in it.  
+As you save your future work, changes to your code will be reflected in your website - **you don't have to press "Run" again, and shouldn't** - as long as the Apache web server is still running - you need only to switch back to the tab running your website, and only press the refresh button on the Chrome tab with the website running in it.  
 
 ## Serve Only the index Page
 
