@@ -650,6 +650,9 @@ First, add all the files we worked into git so that they can be archived in our 
     
         git push
     
+If asked, enter your Github username and password. 
+**Note:** While entering your password, the cursor will _not_ move as you type. This is an intentional security feature so that if someone is looking at your screen, they can not see the what you're typing.
+
 You just sent your code to github where it will be backed up and made into a website anyone can see. You should be able to see your code should now appear on the github page from the Setup step above.
 
 Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own GitHub username.)
