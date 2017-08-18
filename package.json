@@ -1,0 +1,30 @@
+{
+  "name": "first-website",
+  "version": "1.0.0",
+  "description": "Create and host a website on Github",
+  "main": ".js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OperationSpark/first-website.git"
+  },
+  "author": "jfraboni",
+  "license": "CC",
+  "bugs": {
+    "url": "https://github.com/OperationSpark/first-website/issues"
+  },
+  "homepage": "https://github.com/OperationSpark/first-website",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.1",
+    "sinon": "^2.2.0",
+    "zombie": "^5.0.7"
+  },
+}
