@@ -12,4 +12,4 @@ app.listen(7777, () => {
 	console.log('Running on http://localhost:7777');
 });
 
-app.use(express.static(path.join(__dirname, '../../')));
+app.use(express.static(path.join(__dirname, '../../../')));
