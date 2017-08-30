@@ -1,8 +1,17 @@
-var _ = require('underscore');
-var Browser = require('zombie');
-var browser = new Browser();
+'use strict';
 
-const server = 'http://localhost:7777/';
+const express = require('express');
+const path = require('path');
+const bodyParser = require('body-parser');
+const Browser = require('zombie');
+const browser = new Browser();
+const PORT = 7777;
+const app = express();
+const server = `http://localhost:${PORT}/`;
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, '../../../')));
+app.listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
 
 describe('First Website', function(){
 

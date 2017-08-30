@@ -1,31 +1,20 @@
 {
   "name": "first-website",
-  "version": "1.0.0",
-  "description": "Create and host a website on Github",
-  "main": ".js",
-  "directories": {
-    "test": "test"
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "~3.5.0",
+    "concurrently": "^3.4.0",
+    "express": "^4.15.3",
+    "mocha": "^3.4.1",
+    "zombie": "^5.0.5"
   },
   "scripts": {
+    "serve": "node ./test/server.js",
+    "pretest": "npm install",
+    "test": "mocha ./test/index.spec.js",
     "posttest": "rm -rf ../first-website",
-    "test": "mocha ./test/website.spec.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OperationSpark/first-website.git"
-  },
-  "author": "jfraboni",
-  "license": "CC",
-  "bugs": {
-    "url": "https://github.com/OperationSpark/first-website/issues"
-  },
-  "homepage": "https://github.com/OperationSpark/first-website",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "istanbul": "^0.4.5",
-    "lodash": "^4.17.4",
-    "mocha": "^3.4.1",
-    "sinon": "^2.2.0",
-    "zombie": "^5.0.7"
+    "start": "concurrently --kill-others \"npm run serve\" \"npm test\""
   }
 }
