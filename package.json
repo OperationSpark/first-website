@@ -12,6 +12,7 @@
   },
   "scripts": {
     "serve": "node ./test/server.js",
+    "pretest": "npm install",
     "test": "mocha ./test/index.spec.js",
     "posttest": "rm -rf ../first-website",
     "start": "concurrently --kill-others \"npm run serve\" \"npm test\""
