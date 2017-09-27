@@ -272,7 +272,7 @@ The `<title>` tag of a webpage belongs inside of the `<head>` tag. So go ahead a
 
 ### TODO 5 : Create Sections for the Menu and Main Content
 
-**Please note:** All of the tags used to mark our HTML content will reside _between_ the opening and closing of the `<body>` tag.  So for rest of the HTML tags you create, _make sure_ you place them _between_:
+**Please note:** All of the tags used to mark our HTML content will reside _between_ the opening and closing of the `<body>` tag.  So for rest of the HTML tags you create, _make sure_ you place them _between_ `<body>` and `</body>` like so:
 
 ```HTML
 <body>
