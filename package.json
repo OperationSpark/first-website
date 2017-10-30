@@ -5,16 +5,13 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "chai": "~3.5.0",
-    "concurrently": "^3.4.0",
     "express": "^4.15.3",
     "mocha": "^3.4.1",
     "zombie": "^5.0.5"
   },
   "scripts": {
-    "serve": "node ./test/server.js",
     "pretest": "npm install",
-    "test": "mocha ./test/index.spec.js",
-    "posttest": "rm -rf ../first-website",
-    "start": "concurrently --kill-others \"npm run serve\" \"npm test\""
+    "test": "mocha ./test/index.spec.js || :",
+    "xposttest": "rm -rf ../first-website"
   }
 }

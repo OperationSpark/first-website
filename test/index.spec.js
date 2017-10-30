@@ -1,12 +1,12 @@
 'use strict';
-
-const express = require('express');
 const path = require('path');
-const bodyParser = require('body-parser');
 const Browser = require('zombie');
-const browser = new Browser();
+const express = require('express');
+const bodyParser = require('body-parser');
+
 const PORT = 7777;
 const app = express();
+const browser = new Browser();
 const server = `http://localhost:${PORT}/`;
 
 app.use(bodyParser.urlencoded({ extended: true }));
