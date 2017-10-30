@@ -12,6 +12,6 @@
   "scripts": {
     "pretest": "npm install",
     "test": "mocha ./test/index.spec.js || :",
-    "xposttest": "rm -rf ../first-website"
+    "posttest": "rm -rf ../first-website"
   }
 }
