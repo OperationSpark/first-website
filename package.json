@@ -10,7 +10,7 @@
     "zombie": "^5.0.5"
   },
   "scripts": {
-    "pretest": "npm install",
+    "pretest": "npm install loglevel=silent",
     "test": "mocha ./test/index.spec.js || :",
     "posttest": "rm -rf ../first-website"
   }
