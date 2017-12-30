@@ -86,7 +86,7 @@ We are building a website, to be viewed live on the web at your GitHub page, and
 
 Once you click on the cat icon to sign in to Cloud9 using GitHub, you will eventually be taken to a temporary webpage on GitHub. On this page, GitHub will ask you to authorize Cloud9 to use your account. Click the green authorize button to move forward. You will then be returned to Cloud9.
 
-###Creating a New GitHub Repo For Your Site
+### Creating a New GitHub Repo For Your Site
 
 Now that you're signed into GitHub and have signed into Cloud9 through GitHub (make sure you're signed into Cloud9 with GitHub), the next step is to create a new repository on GitHub.
 
