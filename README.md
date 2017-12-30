@@ -38,7 +38,7 @@ We're gonna go live on GitHub with your very own website!
     - [TODO 13 : Add C9 to gitignore](#todo-13--add-c9-to-gitignore)
     - [TODO 14 : Go Live](#todo-14--go-live)
 
-##Prerequisites
+## Prerequisites
 
 * [Students will require a GitHub account](https://github.com/join) and will need to remember their GitHub username and password.
 
@@ -48,9 +48,9 @@ We're gonna go live on GitHub with your very own website!
 
     Cloud9, or c9, is a place on the Internet where we can _work_ on code. Cloud9 allows us to create virtual workspaces for our coding projects.
 
-##Overview
+## Overview
 
-###Specs
+### Specs
 
 * At the end of the lesson students will have built and designed their own website that is viewable on the web.
 * The website will be hosted on GitHub under student's own account, and is something they can build upon on over time.
@@ -75,7 +75,7 @@ Please follow the instructions closely. Sometimes, however, we may be showing yo
 
 We are building a website, to be viewed live on the web at your GitHub page, and it will be viewed in a web browser, like Chrome.
 
-##Setup
+## Setup
 
 ### Sign-in to Required Accounts
 
