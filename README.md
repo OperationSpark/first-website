@@ -114,9 +114,9 @@ Follow these steps and see the screenshot to create a new repository, but NOTE: 
 
 Awesome, you created your repository!
 
-###Creating a Cloud9 Workspace for our Website Project
+### Creating a Cloud9 Workspace for our Website Project
 
-Great, GitHub is where we store and version our code, but we need a place to edit our source code.  That's where Cloud9 comes in.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferable for this course.
+GitHub is where we store and version our code. Cloud9 is where we edit our code.  Cloud9 is web-based set of tools for creating software.  By working in the cloud, our projects workspace is independent from any one computer.  Plus, no matter what operating system you're using, Cloud9 gives us access to Linux, which is preferable for this course.
 
 1.  Next step, we need to _clone_ our repository into our Cloud9 workspace, where we will do our work.  After creating the repository on GitHub, you'll be brought to the repository's default view.  In the top right corner of the screen, you will want to:
     
