@@ -159,7 +159,7 @@ When the workspace loads, you'll see something like this:
 
 Awesome, we're ready to create our website!
 
-##Lesson Steps
+## Lesson Steps
 
 ### TODO 1 : Create index.html
 
