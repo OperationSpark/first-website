@@ -624,6 +624,7 @@ We need to do some cleanup before putting your site onto the internet. This step
 
 * Click on the _gear_ icon at the top left above the project folders and select "Show Hidden Files."
 * At the bottom of the `.gitignore` file, on a blank line add `.*`
+* Then, on delete lines 26 and 27 which contain `bower_components`
 * Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
 
 ### TODO 14 : Go Live
