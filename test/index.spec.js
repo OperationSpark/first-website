@@ -20,7 +20,7 @@ describe('First Website', function(){
   });
 
   describe('basic markup', function() {
-    const singleTags = ['head', 'title', 'body', 'nav', 'main', 'header'];
+    const singleTags = ['head', 'title', 'body', 'nav', 'main'];
 
     singleTags.forEach(tag => {
       it(`should have <${tag}> tag`, function(done) {
@@ -105,6 +105,13 @@ describe('First Website', function(){
       browser.assert.elements('main > div.content', { atLeast: 1 }, '<div> tag does not have class "content"');
       done();
     });
+    // !
+    it('should have <header> tag inside <div> tag with class "content"', function(done) {
+      browser.assert.elements('header', { atLeast: 1 }, '<header> tag does not exist');
+      browser.assert.elements('header', { atLeast: 2 }, 'Second <header> tag does not exist');
+      browser.assert.elements('div.content > header', 1, '<header> tag is not inside <div> tag with class "content');
+      done();
+    });
 
     it('should have <p> tag inside <div> tag with class "content"', function(done) {
       browser.assert.elements('p', { atLeast: 1 }, '<p> tag does not exist');
@@ -116,6 +123,14 @@ describe('First Website', function(){
       browser.assert.elements('section', { atLeast: 1 }, '<section> tag does not exist');
       browser.assert.elements('div.content > section', 1, '<section> tag is not inside <div> tag with class "content');
       browser.assert.elements('div.content > section.interests', 1, '<section> tag does not have class "interests');
+      done();
+    });
+    // !
+    it('should have <header> tag inside <section> tag with class "interests"', function(done) {
+      browser.assert.elements('header', { atLeast: 1 }, '<header> tag does not exist');
+      browser.assert.elements('header', { atLeast: 2 }, 'Second <header> tag does not exist');
+      browser.assert.elements('header', { atLeast: 3 }, 'Third <header> tag does not exist');
+      browser.assert.elements('section.interests > header', 1, '<header> tag is not inside <section> tag with class "interests"');
       done();
     });
 
