@@ -54,7 +54,6 @@ describe('First Website', function(){
 
     it('should have <header> tag inside <nav> tag', function(done) {
       browser.assert.elements('header', { atLeast: 1 }, '<header> tag does not exist');
-      browser.assert.elements('header', 1, 'More than 1 <header> tag exists');
       browser.assert.elements('nav > header', 1, '<header> tag is not inside <nav> tag');
       done();
     });
