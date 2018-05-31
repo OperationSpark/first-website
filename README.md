@@ -37,6 +37,9 @@ We're gonna go live on GitHub with your very own website!
     - [Extra Credit](#extra-credit)
     - [TODO 13 : Add C9 to gitignore](#todo-13--add-c9-to-gitignore)
     - [TODO 14 : Go Live](#todo-14--go-live)
+  - [Submission](#submission)
+    - [TODO 15 : Test project](#todo-14--test-project)
+    - [TODO 16 : Submit project](#todo-14--test-project)
 
 ## Prerequisites
 
@@ -659,3 +662,27 @@ You just sent your code to github where it will be backed up and made into a web
 Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own GitHub username.)
 
 Congratulations!  You are LIVE ON THE INTERNET!
+
+## Submission
+### TODO 15 : Test project
+
+Once you have created notes for all the subtopics you can test to make sure your files are up to snuff. To test your website you must have the `opspark` package installed in your workspace. To install the `opspark` package run the following script:
+
+> $ npm install --global opspark
+
+Once `opspark` is installed you can continue the following steps:
+
+1. In your c9 terminal, run `os test`. 
+2. Select your class.
+3. Select `studies-v2`
+4. You should get back some test results! 
+5. If you are failing any tests, make sure to fix those up. Ask your teacher if you are confused!
+
+**NOT:** There is ONE test that you will ALWAYS fail. This test represents your teacher personally checking your notes. Once you submit your project, your teacher will read your studies and either give you notes on things to update, or update your grade to green!
+
+### TODO 16 : Submit project
+
+If you pass all the tests, you are ready to submit your project to greenlight! 
+
+1. Run `os submit` in your c9 terminal and follow the same directions as you did to test.
+2. Now that you have submitted, your teacher will look over your notes and look over your awesome work! 
