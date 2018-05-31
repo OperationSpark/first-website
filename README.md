@@ -38,8 +38,8 @@ We're gonna go live on GitHub with your very own website!
     - [TODO 13 : Add C9 to gitignore](#todo-13--add-c9-to-gitignore)
     - [TODO 14 : Go Live](#todo-14--go-live)
   - [Submission](#submission)
-    - [TODO 15 : Test project](#todo-14--test-project)
-    - [TODO 16 : Submit project](#todo-14--test-project)
+    - [TODO 15 : Test project](#todo-15--test-project)
+    - [TODO 16 : Submit project](#todo-16--submit-project)
 
 ## Prerequisites
 
