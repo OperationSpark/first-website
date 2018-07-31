@@ -474,7 +474,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
                 font-size: 1.5em;
                 font-weight: bold;
             }
-            [id=all-contents] {
+            #all-contents {
                 max-width: 800px;
                 margin: auto;
             }
@@ -509,18 +509,18 @@ Copy the entire below section and place it inside the `<head>` below the `<title
                 background: rgb(245, 238, 219);
                 display: flex;
             }
-            [class=sidebar] {
+            .sidebar {
                 margin-right: 25px;
                 padding: 10px;
             }
-            [class=sidebar] img {
+            .sidebar img {
                 width: 200px;
             }
-            [class=content] {
+            .content {
                 flex: 1;
                 padding: 15px;
             }
-            [class=interests] header {
+            .interests header {
                 font-size: 1.25em;
             }
         </style>
