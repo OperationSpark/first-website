@@ -155,7 +155,7 @@ GitHub is where we store and version our code. Cloud9 is where we edit our code.
 
 When the workspace loads, you'll see something like this:
 
-<img src="img/workspace.png">
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
 
 Awesome, we're ready to create our website!
 
@@ -165,15 +165,15 @@ Awesome, we're ready to create our website!
 
 Right-click in the file system and select `New File`
 
-<img src="img/create-new-file.png">
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
 
 Name the file, `index.html`, (press return after naming it to save the new name) like so:
 
-<img src="img/name-it-index.png">
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/name-it-index.png">
 
 Next, double click the `index.html` file to open it so we can begin editing the file, like so:
 
-<img src="img/open-index-html.png">
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/open-index-html.png">
 
 Ok great!  We've created our `index.html` file and opened it in the text editor to start developing our website!
 
@@ -419,7 +419,7 @@ Use your own interests! Save and view your changes.
 
 Should look something like this:
 
-<img src="img/second-shot.png">
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/second-shot.png">
 
 ### TODO 10 : Navigation and Site Title
 
