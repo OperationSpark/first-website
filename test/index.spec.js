@@ -8,9 +8,9 @@ const PORT = 7777;
 const app = express();
 const browser = new Browser();
 const server = `http://localhost:${PORT}/`;
-
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, '../../../')));
+const githubFolder = /[\w]+\.github.io/ // student folder that contains main index.html for first website
+app.use(express.static(path.join(__dirname, `../../${githubFolder}/`)));
 app.listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
 
 describe('First Website', function(){
