@@ -130,32 +130,88 @@ GitHub is where we store and version our code. Cloud9 is where we edit our code.
 
 2. If you do not have Cloud9 open, open it now in a new browser tab.
 
-3. We need to create a new Cloud9 workspace for our website project. Find the create-new-workspace button in the upper-right-side of the screen, like so:
+3. We need to create a new Cloud9 workspace for our website project. You'll need to follow these steps:
 
-    <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-new-dashboard-create-new-button.png">
+    A) You will receive an email inviting them to create an account an AWS Educate Account. There will be a link to create an AWS Educate account
+    
+    B) Fill out the application
 
+    C) You will receive another email asking them to verify their email address.
+
+    D) Follow the link to Verify the email address
+
+    E) You will receive a third email asking them to set their password
+
+    F) Follow the link to set your password
+
+    G) This will take you to <a href="http://awseducate.com">awseducate.com</a>. The page should look like this:
+
+    <img src="img/aws-educate-main.png">
+
+    H) Click the "Login to AWS Educate" under the yellow button in the center of the screen.
+
+    I) On the next screen, You'll see a "MY CLASSROOMS" button in the center near the bottom of the page, click it to go to the classrooms.
+  
+    <img src="img/aws-educate-main-student.png">
+
+    J) You should see our Boot-camp class room, on the far left column, click the button "Go to classroom".
+    It should look something like this: 
+
+    <img src="img/goto-classroom.png">
+    
+    You'll be asked to confirm that the next website you are linked to is managed by a third party, click confirm
+
+    K) On the next page, you should see a Terms and Conditions page, read the terms, and when you're done scroll down to the bottom and click "I agree".
+
+    L) On the next page, click the "AWS Console" button on the right side to go to the AWS Management Console page,
+    it should look like this: 
+
+    <img src="img/goto-console.png">
+
+    M) Now on the AWS Management Console, you should see a search bar near the top of the page, in the search bar type "cloud9" and then select the Cloud9 service that shows up like so: 
+
+    <img src="img/searchbar.png">
+
+    N) While on the AWS Cloud9 page, click the "Create Environment" button on the right to make a new workspace.
+    Should look like this:
+
+    <img src="img/create-environment.png">
 
 4. The next screen will ask you to enter more details to create your Cloud9 workspace. You should:
     
     A) Give your Wokspace a name that matches your GitHub repositoy name. Since Cloud9 doesn't allow periods, lets set it as "username-github-io" (See A).
 
-    B) Give your Workspace a short description of your choice. It should relate to the project you are building, i.e. "My first Website" (See B).
-    
-    C) THIS IS IMPORTANT: Make sure "Hosted Workspace" is selected on the next row. This will allow you to paste your HTTPS URL from GitHub (See C).
-    
-    D) Paste in the URL you copied from your GitHub repository where it says Clone from Git or Mercurial URL (it should still be on your clipboard) (See D).
-    
-    D) Leave "Choose a template" blank. It may appear that HTML5 is highlighted, but don't change or select any new options.
-    
-    E) Finally, click the green button "Create Workspace".
+    B) Give your Workspace a short description of your choice. It should relate to the project you are building, i.e. "My first Website" (See B). then click next.
 
-    <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-cloud9-workspace.png">
+    <img src="img/workspace-name/>
+    
+    C) THIS IS IMPORTANT: Make sure under "Platform", Ubuntu Server 18.04 LTS should be selected. This should be the only option you change! Do not change any other configuration option.
+
+    The Environment settings should look like this:
+
+    <img src="img/config-setting.png">
+    
+    D) Once you've made sure the correct options are selected, click "Next"
+
+    E) Now you should be on the "Review" page, again make sure the configuration settings and the name of the workspace is correct, if everything looks good you can go ahead and click "Create Environment" near the bottom of the page.
+
     
   
 
 When the workspace loads, you'll see something like this:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
+
+Before you're ready to start on your first website, you need to clone the repository down from github using git in the bash terminal.
+
+At the bottom of the workspace after it's completed loading, you should see a tab that says `bash`
+
+In the bash terminal, you need to type the ```git clone <your-repo-URL-here>```
+
+## Show an example of cloning ##
+```example
+
+```
 
 Awesome, we're ready to create our website!
 
