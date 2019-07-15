@@ -2,15 +2,21 @@
 const path = require('path');
 const Browser = require('zombie');
 const express = require('express');
+const fs = require('fs');
 const bodyParser = require('body-parser');
 
 const PORT = 7777;
 const app = express();
 const browser = new Browser();
 const server = `http://localhost:${PORT}/`;
+// read directories that exist on the environment
+const files = fs.readdirSync('../../');
+// get the string that matches the github directory
+const userDir = files.filter(file => /[\w]+\.github\.io/.test(file))[0];
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, '../../../')));
+// use user directory to access static files
+app.use(express.static(path.join(__dirname, `../../../${userDir}`)));
 app.listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
 
 describe('First Website', function(){
