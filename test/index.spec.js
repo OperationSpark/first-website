@@ -10,7 +10,7 @@ const app = express();
 const browser = new Browser();
 const server = `http://localhost:${PORT}/`;
 // read directories that exist on the environment
-const files = fs.readdirSync('../../');
+const files = fs.readdirSync(path.join(__dirname, '../../../'));
 // get the string that matches the github directory
 const userDir = files.filter(file => /[\w]+\.github\.io/.test(file))[0];
 
