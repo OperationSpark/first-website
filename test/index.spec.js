@@ -9,14 +9,9 @@ const PORT = 7777;
 const app = express();
 const browser = new Browser();
 const server = `http://localhost:${PORT}/`;
-// read directories that exist on the environment
-const files = fs.readdirSync(path.join(__dirname, '../../../'));
-// get the string that matches the github directory
-const userDir = files.filter(file => /[\w]+\.github\.io/.test(file))[0];
 
 app.use(bodyParser.urlencoded({ extended: true }));
-// use user directory to access static files
-app.use(express.static(path.join(__dirname, `../../../${userDir}`)));
+app.use(express.static(path.join(__dirname, `../../../`)));
 app.listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
 
 describe('First Website', function(){
