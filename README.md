@@ -126,38 +126,41 @@ GitHub is where we store and version our code. Cloud9 is where we edit our code.
     
     <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/copy-repo-url.png"> 
 
-    Nice, you've copied the required URL to clone your repository into Cloud9, which is what we're gonna do next.
 
-2. If you do not have Cloud9 open, open it now in a new browser tab.
+2. On the left sidebar, go to "Workspaces". Click on "Add Workspace"
 
-3. We need to create a new Cloud9 workspace for our website project. Find the create-new-workspace button in the upper-right-side of the screen, like so:
-
-    <img src="https://raw.githubusercontent.com/OperationSpark/using-c9/master/img/c9-new-dashboard-create-new-button.png">
-
-
-4. The next screen will ask you to enter more details to create your Cloud9 workspace. You should:
+    A) Name: "operation-spark"
     
-    A) Give your Wokspace a name that matches your GitHub repositoy name. Since Cloud9 doesn't allow periods, lets set it as "username-github-io" (See A).
-
-    B) Give your Workspace a short description of your choice. It should relate to the project you are building, i.e. "My first Website" (See B).
+    B) Team: "personal"
     
-    C) THIS IS IMPORTANT: Make sure "Hosted Workspace" is selected on the next row. This will allow you to paste your HTTPS URL from GitHub (See C).
+    C) Select Stack: All
     
-    D) Paste in the URL you copied from your GitHub repository where it says Clone from Git or Mercurial URL (it should still be on your clipboard) (See D).
+    D) Scroll down until you find "Ubuntu"
+      
+    Once you have followed these steps you can create your workspace
     
-    D) Leave "Choose a template" blank. It may appear that HTML5 is highlighted, but don't change or select any new options.
-    
-    E) Finally, click the green button "Create Workspace".
+3. Clone your Github repository into your Codenvy workspace by copy/pasting this command into the terminal at the bottom of your workspace (replace `"my-github-url.github.io"` with your own github url that you copied from step 1):
 
-    <img src="https://raw.githubusercontent.com/magdalenemc/first-website/edit1/img/create-cloud9-workspace.png">
-    
-  
+`git clone "my-github-url.github.io`
 
-When the workspace loads, you'll see something like this:
+## Install `opspark` tool
 
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
+1. Enter this command:
 
-Awesome, we're ready to create our website!
+`curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash`
+
+2. Close your terminal. Select **Run** from the top Menu. Click on **Terminal**
+
+3. Back in your terminal, enter these commands:
+
+```
+nvm install 8
+nvm alias default 8
+npm install -g opspark
+os login
+```
+
+4. When prompted, enter your Github username and password.
 
 ## Lesson Steps
 
