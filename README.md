@@ -12,10 +12,10 @@ We're gonna go live on GitHub with your very own website!
     - [Take Away](#take-away)
     - [Work Flow](#work-flow)
     - [Type of App](#type-of-app)
+    - [The Big 3](#the-big-3)
+    - [HTML in 3 Minutes](#html-in-3-minutes)
   - [Lesson Steps](#lesson-steps)
     - [TODO 1 : Create index.html](#todo-1--create-indexhtml)
-      - [The Big 3](#the-big-3)
-      - [HTML in 3 Minutes](#html-in-3-minutes)
     - [TODO 2 : Add the DOCTYPE](#todo-2--add-the-doctype)
     - [TODO 3 : Add HTML Tags Required For a Webpage](#todo-3--add-html-tags-required-for-a-webpage)
     - [TODO 4 : Add a Title](#todo-4--add-a-title)
@@ -72,25 +72,7 @@ Please follow the instructions closely. Sometimes, however, we may be showing yo
 
 We are building a website, to be viewed live on the web at your GitHub page, and it will be viewed in a web browser, like Chrome.
 
-## Lesson Steps
-
-### TODO 1 : Create index.html
-
-Right-click in the file system and select `New File`
-
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
-
-Name the file, `index.html`, (press return after naming it to save the new name) like so:
-
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/name-it-index.png">
-
-Next, double click the `index.html` file to open it so we can begin editing the file, like so:
-
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/open-index-html.png">
-
-Ok great!  We've created our `index.html` file and opened it in the text editor to start developing our website!
-
-#### The Big 3
+## The Big 3
 
 There's really three parts at play in a webpage:
 
@@ -98,7 +80,7 @@ There's really three parts at play in a webpage:
 * CSS: Cascading Style Sheets - A syntax for specifying a set of rules that _style_ web pages.  CSS is responsible for how a webpage looks!
 * JavaScript: A programming language that allows web pages to respond to user input, to dynamically change the content or appearance of a webpage, or make request to load data into a webpage.  Essentially, JavaScript is responsible for the _behaviour_ of a webpage.
 
-#### HTML in 3 Minutes
+### HTML in 3 Minutes
 
 Very simply put, HTML is a set of text-tags that tell a web browser how to structure and identify the content of a web page. Developers _markup_ or _section off_ the structure and content of a webpage using HTML tags to _section off_ the parts of the page. Take a look at any webpage, and you'll see things like a header with some type of navigation, maybe a sidebar with more navigation options, and then headings, paragraph text, images and buttons.  All of these _page elements_ are marked as such using HTML tags.
 
@@ -134,6 +116,24 @@ Also note that HTML tags are hierarchical, and **need to be indented to illustra
 ```
 
 Above, you'll see this pattern often - notice that we have one `<div>` tag with an id attribute of `content`, and inside this tag, we have two other `<div>` tags, one for a sidebar and one for a main section of the page.  The _content_ `<div>` is the parent of both the _sidebar_ and _main_ `<div>`, while _sidebar_ and _main_ are siblings.  Notice the indentation - this is extremely important as it clearly and visually spells out these hierarchical relationship.  Indentation and relationships of tags (and code blocks) are the things newcomers struggle with the most! Be vigilant here!
+
+## Lesson Steps
+
+### TODO 1 : Create index.html
+
+Right-click in the file system and select `New File`
+
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
+
+Name the file, `index.html`, (press return after naming it to save the new name) like so:
+
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/name-it-index.png">
+
+Next, double click the `index.html` file to open it so we can begin editing the file, like so:
+
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/open-index-html.png">
+
+Ok great!  We've created our `index.html` file and opened it in the text editor to start developing our website!
 
 ### TODO 2 : Add the DOCTYPE
 
