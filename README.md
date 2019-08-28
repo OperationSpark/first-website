@@ -37,9 +37,11 @@ We're gonna go live on GitHub with your very own website!
 
     GitHub is a place on the Internet where we can store code! It's a cool social coding platform, kind of like Facebook for coders.
 
-* [Students will require a Cloud9 account - they will login to Cloud9 using their GitHub credentials](https://c9.io/web/login).
+* [Students will require a Codenvy account](https://codenvy.io/site/login) (or some other IDE)
 
-    Cloud9, or c9, is a place on the Internet where we can _work_ on code. Cloud9 allows us to create virtual workspaces for our coding projects.
+    Codenvy is a place on the Internet where we can _work_ on code. Codenvy allows us to create virtual workspaces for our coding projects.
+    
+* [Students will need to set up a Github repository and Codenvy workspace. Click here to find instructions to complete these steps](https://github.com/OperationSpark/github-ide-setup)
 
 ## Overview
 
