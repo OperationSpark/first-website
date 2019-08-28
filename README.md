@@ -16,24 +16,20 @@ We're gonna go live on GitHub with your very own website!
     - [HTML in 3 Minutes](#html-in-3-minutes)
   - [Lesson Steps](#lesson-steps)
     - [TODO 1 : Create index.html](#todo-1--create-indexhtml)
-    - [TODO 2 : Add the DOCTYPE](#todo-2--add-the-doctype)
-    - [TODO 3 : Add HTML Tags Required For a Webpage](#todo-3--add-html-tags-required-for-a-webpage)
-    - [TODO 4 : Add a Title](#todo-4--add-a-title)
-    - [TODO 5 : Create Sections for the Menu and Main Content](#todo-5--create-sections-for-the-menu-and-main-content)
-    - [TODO 6 : Create Structure for our Content](#todo-6--create-structure-for-our-content)
-    - [TODO 7 : Add Content](#todo-7--add-content)
-  - [Serve Your Website](#serve-your-website)
-  - [Serve Only the index page](#serve-only-the-index-page)
-    - [TODO 8 : Add an Image and List](#todo-8--add-an-image-and-list)
-    - [TODO 9 : Add More Content - Interests](#todo-9--add-more-content---interests)
-    - [TODO 10 : Navigation and Site Title](#todo-10--navigation-and-site-title)
-    - [TODO 11 : Make it Pretty](#todo-11--make-it-pretty)
+    - [TODO 2 : Add a Title](#todo-4--add-a-title)
+    - [TODO 3 : Create Sections for the Menu and Main Content](#todo-5--create-sections-for-the-menu-and-main-content)
+    - [TODO 4 : Create Structure for our Content](#todo-6--create-structure-for-our-content)
+    - [TODO 5 : Add Content](#todo-7--add-content)
+    - [TODO 6 : Add an Image and List](#todo-8--add-an-image-and-list)
+    - [TODO 7 : Add More Content - Interests](#todo-9--add-more-content---interests)
+    - [TODO 8 : Navigation and Site Title](#todo-10--navigation-and-site-title)
+    - [TODO 9 : Make it Pretty](#todo-11--make-it-pretty)
       - [CSS Selectors in a Nutshell](#css-selectors-in-a-nutshell)
       - [Selecting HTML Elements by ID, Class, or by Tag Type](#selecting-html-elements-by-id-class-or-by-tag-type)
-    - [TODO 12 : Play around with the CSS](#todo-12--play-around-with-the-css)
+    - [TODO 10 : Play around with the CSS](#todo-12--play-around-with-the-css)
     - [Extra Credit](#extra-credit)
-    - [TODO 13 : Add C9 to gitignore](#todo-13--add-c9-to-gitignore)
-    - [TODO 14 : Go Live](#todo-14--go-live)
+    - [TODO 11 : Add C9 to gitignore](#todo-13--add-c9-to-gitignore)
+    - [TODO 12 : Go Live](#todo-14--go-live)
 
 ## Prerequisites
 
@@ -121,32 +117,17 @@ Above, you'll see this pattern often - notice that we have one `<div>` tag with 
 
 ### TODO 1 : Create index.html
 
-Right-click in the file system and select `New File`
+1. On the left side of your workspace, click on the Add File Button (See below)
 
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/create-new-file.png">
+2. Select "HTML File". This will create a file with some boilerplate code to get you started!
 
-Name the file, `index.html`, (press return after naming it to save the new name) like so:
+<img src="img/codenvy-make-new-html-file.png">
 
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/name-it-index.png">
+3. Make sure to name the file "index" (See below)
 
-Next, double click the `index.html` file to open it so we can begin editing the file, like so:
+<img src="img/codenvy-name-html-file-index.png">
 
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/open-index-html.png">
-
-Ok great!  We've created our `index.html` file and opened it in the text editor to start developing our website!
-
-### TODO 2 : Add the DOCTYPE
-
-You need to tell the browser you're writing an HTML page by adding the following at the top:
-
-````HTML
-<!DOCTYPE html>
-````
-### TODO 3 : Add HTML Tags Required For a Webpage
-
-If you're not familiar with the basic tags needed for the structure of an HTML page, you'll want to memorize them:  Let's add our `<html>` tags with `<head>` and `<body>` tags nested within.
-
-Like this: 
+The file you just created should now look like this:
 
 ````HTML
 <!DOCTYPE HTML>
@@ -159,6 +140,8 @@ Like this:
 </html>
 ````
 
+If you're not familiar with the basic tags needed for the structure of an HTML page, you'll want to memorize them.
+
 At least for now, every HTML page contains the DOCTYPE, html, head and body tags.  The `<!DOCTYPE HTML>` tag tells the browser you want to render the document using the most recent version of HTML.  The opening and closing tags of `<html></html>` wrap our html page, but are in fact somewhat redundant.
 
 The next two tag sets make up the two sections of any well formed HTML page: The `<head></head>` tag represents metadata for a webpage, that is, information about the web page used by the browser, providing extra information about the webpage, but is not content.  This is similar to the information on the outside of a postal envelope - the to and from address, the stamp, the processing stamp from the post office - information important to the delivery of the letter, but _nothing_ to do with the _content_ of the letter.
@@ -167,7 +150,7 @@ Finally, every page has a `<body></body>` tag, and it is between the body tag th
 
 Ok then, we made the structure of the site so now we need some content! Give your site a title.
 
-### TODO 4 : Add a Title
+### TODO 2 : Add a Title
 
 The `<title>` tag of a webpage belongs inside of the `<head>` tag. So go ahead and add your title `<title></title>` tag to your `<head>` tag. This will add your title text to the browser tab.  When your done step 4, your whole `index.html` file should look like this:
 
@@ -183,7 +166,7 @@ The `<title>` tag of a webpage belongs inside of the `<head>` tag. So go ahead a
 </html>
 ````
 
-### TODO 5 : Create Sections for the Menu and Main Content
+### TODO 3 : Create Sections for the Menu and Main Content
 
 **Please note:** All of the tags used to mark our HTML content will reside _between_ the opening and closing of the `<body>` tag.  So for rest of the HTML tags you create, _make sure_ you place them _between_ `<body>` and `</body>` like so:
 
@@ -215,7 +198,7 @@ In particular, the `id` attribute allows us to _uniquely_ identify an HTML eleme
 
 Finally, inside our _all-contents_ div, we're going to put the site navigation menu and the main content of our site, so we created opening and closing tags for `<nav>` and `<main>`.
 
-### TODO 6 : Create Structure for our Content
+### TODO 4 : Create Structure for our Content
 
 Inside the `<main>` element, create two new `<div>` elements. These will act as the two columns of our page - the sidebar and the main content, as noted by the class we give each:
 
@@ -231,14 +214,14 @@ Inside the `<main>` element, create two new `<div>` elements. These will act as 
 
 Ok, so far, we've sectioned of our webpage, now we need to add some content...
 
-### TODO 7 : Add Content
+### TODO 5 : Add Content
 
 Add the following tags inside of the `<div class="content">` tag:
 
 * Create a `<header>` element and put your name inside of it.
 * Below that make a `<p>` element and inside it put your position or job title such as "Student at XYZ High."
 
-### TODO 8 : Add an Image and List 
+### TODO 6 : Add an Image and List 
 
 * Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
 * We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from Facebook, or anything else using a Google image search. Right-click on the image, and choose 'Copy Image URL.'
@@ -257,7 +240,7 @@ So, your full image tag should look this this:
 Save your page and preview it. You should see the image now. If you don't, go back and double check that there are no
 errors in your `<img>` tag.
 
-### TODO 9 : Add More Content - Interests
+### TODO 7 : Add More Content - Interests
 
 Let's create a section for your interests below the `<p>` tag (inside of the '[class=content]' div) with a list.
 
@@ -282,7 +265,7 @@ Should look something like this:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/second-shot.png">
 
-### TODO 10 : Navigation and Site Title
+### TODO 8 : Navigation and Site Title
 
 We're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
 
@@ -317,7 +300,7 @@ Like this:
 
 Save and view your work. You should see your title inside of the navbar to the left. 
 
-### TODO 11 : Make it Pretty
+### TODO 9 : Make it Pretty
 
 We now have a fairly plain website but it's a website! Let's add some style.  Here's where CSS comes in!
 
@@ -454,7 +437,7 @@ The long form of sidebar class selector is:
 |id    | [id=portfolio] { ... }         | #portfolio { ... }    |
 
 
-### TODO 12 : Play around with the CSS
+### TODO 10 : Play around with the CSS
 
 Check it out! We have some style but not much and some elements are too close together. Let's fix that.
 
@@ -479,7 +462,7 @@ nav {
 * Google `border-radius` and add it to the `<nav>` element.
 * Add a border around the image
 
-### TODO 13 : Add C9 to gitignore
+### TODO 11 : Add C9 to gitignore
 
 We need to do some cleanup before putting your site onto the internet. This step will make working with our site easier in the future by making our site ignore files generated by Cloud 9 and other special directories that we don't need.
 
@@ -488,7 +471,7 @@ We need to do some cleanup before putting your site onto the internet. This step
 * Then, on delete lines 26 and 27 which contain `bower_components`
 * Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
 
-### TODO 14 : Go Live
+### TODO 12 : Go Live
 
 Let's put our site on the Internet so that anyone can look at it!
 
