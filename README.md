@@ -477,15 +477,15 @@ We need to do some cleanup before putting your site onto the internet. This step
 * Click on the _gear_ icon at the top left above the project folders and select "Show Hidden Files."
 * At the bottom of the `.gitignore` file, on a blank line add `.*`
 * Then, on delete lines 26 and 27 which contain `bower_components`
-* Save the `.gitignore` file, and close it.  We've asked git to ignore the Cloud9 IDE configuration files - there's no need for us to manage these in our git version control.
+* Save the `.gitignore` file, and close it.  We've asked git to ignore the Codenvy IDE configuration files - there's no need for us to manage these in our git version control.
 
 ### TODO 12 : Go Live
 
 Let's put our site on the Internet so that anyone can look at it!
 
-With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Cloud9 workspace up to your GitHub repository, your page will be live on the Internet.
+With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Codenvy workspace up to your GitHub repository, your page will be live on the Internet.
 
-To do so, you'll need to enter the following git commands into your bash terminal.  Select the bash terminal in the Console View - the bottom window pane in Cloud9.
+To do so, you'll need to enter the following git commands into your bash terminal.  Select the bash terminal in the Console View - the bottom window pane in Codenvy.
 
 Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
 
@@ -501,7 +501,7 @@ Enter the following commands, and be careful to place your spaces correctly and 
     
         git commit -m 'A basic website'
 
-4. Finally, sync the repository in cloud9 with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
+4. Finally, sync the repository in Codenvy with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
     
         git push
     
