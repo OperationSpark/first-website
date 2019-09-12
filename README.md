@@ -489,9 +489,9 @@ To do so, you'll need to enter the following git commands into your bash termina
 
 Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
 
-1. First, make sure that your _working directory_ is set to be your github repo's folder:
+1. First, make sure that your _working directory_ is set to be your github repo's folder. Replace `my-github-username.github.io` with the folder for your github repo:
 
-        cd <your cloned github repo's directory>
+        cd my-github-username.github.io
 
 2. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
     
