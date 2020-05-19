@@ -28,7 +28,7 @@ We're gonna go live on GitHub with your very own website!
       - [Selecting HTML Elements by ID, Class, or by Tag Type](#selecting-html-elements-by-id-class-or-by-tag-type)
     - [TODO 10 : Play around with the CSS](#todo-10--play-around-with-the-css)
     - [Extra Credit](#extra-credit)
-    - [TODO 11 : Add C9 to gitignore](#todo-11--add-c9-to-gitignore)
+    - [TODO 11 : Add to gitignore](#todo-11--add-update-gitignore)
     - [TODO 12 : Go Live](#todo-12--go-live)
 
 ## Prerequisites
@@ -37,11 +37,12 @@ We're gonna go live on GitHub with your very own website!
 
     GitHub is a place on the Internet where we can store code! It's a cool social coding platform, kind of like Facebook for coders.
 
-* [Students will require a Codenvy account](https://codenvy.io/site/login) (or some other IDE)
+* [Students will require an AWS Educate account](https://aws.amazon.com/education/awseducate/) (or some other IDE)
 
-    Codenvy is a place on the Internet where we can _work_ on code. Codenvy allows us to create virtual workspaces for our coding projects.
+    On AWS Educate we will use the Cloud9 service. Cloud9 is a place on the Internet where we can _work_ on code and create virtual workspaces for our coding projects.
     
-* [Students will need to set up a Github repository and Codenvy workspace. Click here to find instructions to complete these steps](https://github.com/OperationSpark/github-ide-setup)
+* [Students will need to set up a Github repository and Cloud9 workspace]. 
+<!-- Click here to find instructions to complete these steps](https://github.com/OperationSpark/github-ide-setup) -->
 
 ## Overview
 
@@ -513,6 +514,6 @@ If asked, enter your Github username and password.
 
 You just sent your code to github where it will be backed up and made into a website anyone can see. You should be able to see your code should now appear on the github page from the Setup step above.
 
-Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io! (Where 'username' is your own GitHub username.)
+Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io/username.github.io! (Where 'username' is your own GitHub username.)
 
 Congratulations!  You are LIVE ON THE INTERNET!
