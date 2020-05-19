@@ -41,7 +41,7 @@ We're gonna go live on GitHub with your very own website!
 
     On AWS Educate we will use the Cloud9 service. Cloud9 is a place on the Internet where we can _work_ on code and create virtual workspaces for our coding projects.
     
-* [Students will need to set up a Github repository and Cloud9 workspace]. 
+<!-- * [Students will need to set up a Github repository and Cloud9 workspace].  -->
 <!-- Click here to find instructions to complete these steps](https://github.com/OperationSpark/github-ide-setup) -->
 
 ## Overview
@@ -124,11 +124,11 @@ Above, you'll see this pattern often - notice that we have one `<div>` tag with 
 
 2. Right click on the folder and select “New File” (See below)
 
-<img src="img/cloud9-create-new-file.png">
+<img src="img/cloud9-create-new-file.png" style="max-height: 350px">
 
 3. Make sure to name the file `index.html` (See below)
 
-<img src="img/cloud9-name-new-file.png">
+<img src="img/cloud9-name-new-file.png" style="max-height: 350px">
 
 Add the following boilerplate code to get started:
 
@@ -246,9 +246,9 @@ So, your full image tag should look this this:
 </div>
 ````
 
-Save your page and preview it.To preview your page, right click on the `index.html` file and select "Preview" (See Below) 
+Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview" (See Below) 
 
-<img src="img/cloud9-preview-html-file.png">
+<img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
 
 You should see the image now. If you don't, go back and double check that there are no
 errors in your `<img>` tag.
@@ -481,7 +481,7 @@ We need to do some cleanup before putting your site onto the internet. This step
 
 * If using Cloud9: Click on the _gear_ icon at the top left above the project folders and select "Show Hidden Files" (See below)
 
-<img src="img/cloud9-show-hidden-files.png">
+<img src="img/cloud9-show-hidden-files.png" style="max-height: 350px">
 
 * Open the `.gitignore` file
 * Delete line 32 which contains `bower_components`
