@@ -1,6 +1,6 @@
 First Website
 ===
- 
+
 We're gonna go live on GitHub with your very own website!
 
 **Table of Contents**
