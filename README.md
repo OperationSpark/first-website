@@ -492,9 +492,9 @@ We need to do some cleanup before putting your site onto the internet. This step
 
 Let's put our site on the Internet so that anyone can look at it!
 
-With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Codenvy workspace up to your GitHub repository, your page will be live on the Internet.
+With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your AWS Cloud9 workspace up to your GitHub repository, your page will be live on the Internet.
 
-To do so, you'll need to enter the following git commands into your bash terminal.  Select the bash terminal in the Console View - the bottom window pane in Codenvy.
+To do so, you'll need to enter the following git commands into your bash terminal. In the bottom window pane click the plus sign and select "New Terminal".
 
 Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
 
@@ -510,7 +510,7 @@ Enter the following commands, and be careful to place your spaces correctly and 
     
         git commit -m 'A basic website'
 
-4. Finally, sync the repository in Codenvy with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
+4. Finally, sync the repository in Cloud9 with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
     
         git push
     
