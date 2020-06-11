@@ -498,9 +498,9 @@ To do so, you'll need to enter the following git commands into your bash termina
 
 Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
 
-1. First, make sure that your _working directory_ is set to be your github repo's folder. Replace `my-github-username.github.io` with the folder for your github repo:
+1. Change directories into your github folder. The result should look something like this: `cd "hallebot.github.io"` (the github username of the user in this example is `hallebot`). Once your command looks similar to this, press enter to move on to the next command:
 
-        cd my-github-username.github.io
+        cd "replace this with your github repository folder"
 
 2. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
     
