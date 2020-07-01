@@ -20,8 +20,8 @@ We're gonna go live on GitHub with your very own website!
     - [TODO 3 : Create Sections for the Menu and Main Content](#todo-3--create-sections-for-the-menu-and-main-content)
     - [TODO 4 : Create Structure for our Content](#todo-4--create-structure-for-our-content)
     - [TODO 5 : Add Content](#todo-5--add-content)
-    - [TODO 6 : Add an Image and List](#todo-6--add-an-image-and-list)
-    - [TODO 7 : Add More Content - Interests](#todo-7--add-more-content---interests)
+    - [TODO 6 : Add More Content - Interests](#todo-6--add-more-content---interests)
+    - [TODO 7 : Add an Image and List](#todo-7--add-an-image-and-list)
     - [TODO 8 : Navigation and Site Title](#todo-8--navigation-and-site-title)
     - [TODO 9 : Make it Pretty](#todo-9--make-it-pretty)
       - [CSS Selectors in a Nutshell](#css-selectors-in-a-nutshell)
@@ -231,29 +231,7 @@ Add the following tags inside of the `<div class="content">` tag:
 * Create a `<h2> </h2>` element and put your name inside of it.
 * Below that make a `<p> </p>` element and inside it put your position or job title such as "Student at XYZ High."
 
-### TODO 6 : Add an Image and List 
-
-* Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
-* We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from Facebook, or anything else using a Google image search. Right-click on the image, and choose 'Copy Image URL.'
-* Paste that URL into the **src** attribute. 
-
-So, your full image tag should look this this:
-
-
-````HTML
-<div class="sidebar">
-      <img src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
-</div>
-````
-
-Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview" (See Below) 
-
-<img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
-
-You should see the image now. If you don't, go back and double check that there are no
-errors in your `<img>` tag.
-
-### TODO 7 : Add More Content - Interests
+### TODO 6 : Add More Content - Interests
 
 Inside of the `<div class='content'>` element, let's create a section where we can list your interests. Below the `<p>` tag add the following:
 
@@ -272,11 +250,34 @@ Inside of the `<div class='content'>` element, let's create a section where we c
 </div>
 ````
 
-Use your own interests! Save and preview your changes.
+Update the list to display your own interests!
 
-Should look something like this:
+**Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview" (See Below)**
+
+<img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
+
+### TODO 7 : Add an Image and List 
+
+* Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
+* We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from Facebook, or anything else using a Google image search. Right-click on the image, and choose 'Copy Image URL.'
+* Paste that URL into the **src** attribute. 
+
+So, your full image tag should look this this:
+
+
+````HTML
+<div class="sidebar">
+      <img src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
+</div>
+````
+
+Save your code and refresh your preview. It should look something like this:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/second-shot.png">
+
+You should see the image now. If you don't, go back and double check that there are no
+errors in your `<img>` tag.
+
 
 ### TODO 8 : Navigation and Site Title
 
