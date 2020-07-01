@@ -297,6 +297,7 @@ Next, we're going to make a menu. Linking to other pages forms the foundation of
 
 ````HTML
 <nav>
+    <h1>Hallebot's Glorious Website</h1>
     <ul>
         <li>
           <a href="index.html"> Home </a>
