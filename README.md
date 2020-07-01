@@ -242,7 +242,7 @@ So, your full image tag should look this this:
 
 ````HTML
 <div class="sidebar">
-    <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
+      <img src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
 </div>
 ````
 
