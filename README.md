@@ -228,8 +228,8 @@ Ok, so far, we've sectioned of our webpage, now we need to add some content...
 
 Add the following tags inside of the `<div class="content">` tag:
 
-* Create a `<header>` element and put your name inside of it.
-* Below that make a `<p>` element and inside it put your position or job title such as "Student at XYZ High."
+* Create a `<h2> </h2>` element and put your name inside of it.
+* Below that make a `<p> </p>` element and inside it put your position or job title such as "Student at XYZ High."
 
 ### TODO 6 : Add an Image and List 
 
@@ -255,21 +255,21 @@ errors in your `<img>` tag.
 
 ### TODO 7 : Add More Content - Interests
 
-Let's create a section for your interests below the `<p>` tag (inside of the '[class=content]' div) with a list.
+Inside of the `<div class='content'>` element, let's create a section where we can list your interests. Below the `<p>` tag add the following:
 
-* Create a section element with a `class="interests"`
-* Give the list a title with the `<header>` tag and called it 'Interests'
-* Below that create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
+* Create a `<div> </div>` element with an `class="interests"` attribute.
+* Give the list a title with the `<h3>` tag and the text `Interests`.
+* Create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
 
 ````HTML
-<section class="interests">
-    <header>Interests</header>
+<div id="interests">
+    <h3>Interests</h3>
     <ul>
         <li>Thing 1</li>
         <li>Thing 2</li>
         <li>Thing 3</li>
     </ul>
-</section>
+</div>
 ````
 
 Use your own interests! Save and preview your changes.
@@ -280,36 +280,34 @@ Should look something like this:
 
 ### TODO 8 : Navigation and Site Title
 
-We're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
+Your site needs a title! Inside of the `<nav>` add an `<h1> </h1>` element (as in, _header size 1_). Inside the opening and closing brackets, put your website's title, like this:
 
-* Inside of the `<nav>` tag we created earlier create an unordered list using the `<ul>` tag. Inside it create two `<li>` tags to contain your list items
+````HTML
+<nav>
+    <h1>Hallebot's Glorious Website</h1>
+</nav>
+````
+
+Next, we're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
+
+* Below your `<h1>` element, create an unordered list using the `<ul>` tag. Inside it create two `<li>` tags to contain your list items
 * Create a link inside of each list item using the `<a>` tag. 
 * Finally give each menu item a name by inserting Home and Portfolio between the opening and closing tags.  See the example below.
 
 ````HTML
 <nav>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+        <li>
+          <a href="portfolio.html"> Portfolio </a>
+      </li>
     </ul>
 </nav>
 ````
 
 Save and view your work. You now have some menu items! The *Home* link even works since it simply links to the page we are currently working on. The other link is for our portfolio page which we'll build out in the next lesson.
-
-Your site needs a title! Inside of the `<nav>` before the `<ul>` tag add an `<header>` and type your site's title in there.
-
-Like this:
-
-````HTML
-<nav>
-    <header>Sheba's Glorious Website</header>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
-</nav>
-````
 
 Save and view your work. You should see your title inside of the navbar to the left. 
 
@@ -327,10 +325,6 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         padding: 10px;
         font-family: arial;
     }
-    header {
-        font-size: 1.5em;
-        font-weight: bold;
-    }
     #all-contents {
         max-width: 800px;
         margin: auto;
@@ -343,11 +337,12 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         display: flex;
         padding: 10px;
     }
-    nav header {
+    nav h1 {
         display: flex;
         align-items: center;
-        color: rgb(255, 255, 255);
+        color: white;
         flex: 1;
+        margin: 0;
     }
     nav ul {
         list-style-image: none;
@@ -377,8 +372,8 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         flex: 1;
         padding: 15px;
     }
-    .interests header {
-        font-size: 1.25em;
+    h2, h3 {
+        margin: 0px;
     }
 </style>
 ````
