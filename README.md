@@ -20,8 +20,8 @@ We're gonna go live on GitHub with your very own website!
     - [TODO 3 : Create Sections for the Menu and Main Content](#todo-3--create-sections-for-the-menu-and-main-content)
     - [TODO 4 : Create Structure for our Content](#todo-4--create-structure-for-our-content)
     - [TODO 5 : Add Content](#todo-5--add-content)
-    - [TODO 6 : Add an Image and List](#todo-6--add-an-image-and-list)
-    - [TODO 7 : Add More Content - Interests](#todo-7--add-more-content---interests)
+    - [TODO 6 : Add More Content - Interests](#todo-6--add-more-content---interests)
+    - [TODO 7 : Add an Image and List](#todo-7--add-an-image-and-list)
     - [TODO 8 : Navigation and Site Title](#todo-8--navigation-and-site-title)
     - [TODO 9 : Make it Pretty](#todo-9--make-it-pretty)
       - [CSS Selectors in a Nutshell](#css-selectors-in-a-nutshell)
@@ -228,10 +228,35 @@ Ok, so far, we've sectioned of our webpage, now we need to add some content...
 
 Add the following tags inside of the `<div class="content">` tag:
 
-* Create a `<header>` element and put your name inside of it.
-* Below that make a `<p>` element and inside it put your position or job title such as "Student at XYZ High."
+* Create a `<h2> </h2>` element and put your name inside of it.
+* Below that make a `<p> </p>` element and inside it put your position or job title such as "Student at XYZ High."
 
-### TODO 6 : Add an Image and List 
+### TODO 6 : Add More Content - Interests
+
+Inside of the `<div class='content'>` element, let's create a section where we can list your interests. Below the `<p>` tag add the following:
+
+* Create a `<div> </div>` element with an `class="interests"` attribute.
+* Give the list a title with the `<h3>` tag and the text `Interests`.
+* Create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
+
+````HTML
+<div id="interests">
+    <h3>Interests</h3>
+    <ul>
+        <li>Thing 1</li>
+        <li>Thing 2</li>
+        <li>Thing 3</li>
+    </ul>
+</div>
+````
+
+Update the list to display your own interests!
+
+**Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview" (See Below)**
+
+<img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
+
+### TODO 7 : Add an Image and List 
 
 * Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
 * We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from Facebook, or anything else using a Google image search. Right-click on the image, and choose 'Copy Image URL.'
@@ -242,74 +267,49 @@ So, your full image tag should look this this:
 
 ````HTML
 <div class="sidebar">
-    <img src="http://www.adweek.com/tvspy/files/2013/08/turk2_cropped.jpg">
+      <img src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
 </div>
 ````
 
-Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview" (See Below) 
+Save your code and refresh your preview. It should look something like this:
 
-<img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
+<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/second-shot.png">
 
 You should see the image now. If you don't, go back and double check that there are no
 errors in your `<img>` tag.
 
-### TODO 7 : Add More Content - Interests
-
-Let's create a section for your interests below the `<p>` tag (inside of the '[class=content]' div) with a list.
-
-* Create a section element with a `class="interests"`
-* Give the list a title with the `<header>` tag and called it 'Interests'
-* Below that create an unordered list with the `<ul>` tag and three sets of `<li>` tags nested inside
-
-````HTML
-<section class="interests">
-    <header>Interests</header>
-    <ul>
-        <li>Thing 1</li>
-        <li>Thing 2</li>
-        <li>Thing 3</li>
-    </ul>
-</section>
-````
-
-Use your own interests! Save and preview your changes.
-
-Should look something like this:
-
-<img src="https://raw.githubusercontent.com/OperationSpark/first-website/master/img/second-shot.png">
 
 ### TODO 8 : Navigation and Site Title
 
-We're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
+Your site needs a title! Inside of the `<nav>` add an `<h1> </h1>` element (as in, _header size 1_). Inside the opening and closing brackets, put your website's title, like this:
 
-* Inside of the `<nav>` tag we created earlier create an unordered list using the `<ul>` tag. Inside it create two `<li>` tags to contain your list items
+````HTML
+<nav>
+    <h1>Hallebot's Glorious Website</h1>
+</nav>
+````
+
+Next, we're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
+
+* Below your `<h1>` element, create an unordered list using the `<ul>` tag. Inside it create two `<li>` tags to contain your list items
 * Create a link inside of each list item using the `<a>` tag. 
 * Finally give each menu item a name by inserting Home and Portfolio between the opening and closing tags.  See the example below.
 
 ````HTML
 <nav>
+    <h1>Hallebot's Glorious Website</h1>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+        <li>
+          <a href="portfolio.html"> Portfolio </a>
+      </li>
     </ul>
 </nav>
 ````
 
 Save and view your work. You now have some menu items! The *Home* link even works since it simply links to the page we are currently working on. The other link is for our portfolio page which we'll build out in the next lesson.
-
-Your site needs a title! Inside of the `<nav>` before the `<ul>` tag add an `<header>` and type your site's title in there.
-
-Like this:
-
-````HTML
-<nav>
-    <header>Sheba's Glorious Website</header>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
-</nav>
-````
 
 Save and view your work. You should see your title inside of the navbar to the left. 
 
@@ -327,10 +327,6 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         padding: 10px;
         font-family: arial;
     }
-    header {
-        font-size: 1.5em;
-        font-weight: bold;
-    }
     #all-contents {
         max-width: 800px;
         margin: auto;
@@ -343,11 +339,12 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         display: flex;
         padding: 10px;
     }
-    nav header {
+    nav h1 {
         display: flex;
         align-items: center;
-        color: rgb(255, 255, 255);
+        color: white;
         flex: 1;
+        margin: 0;
     }
     nav ul {
         list-style-image: none;
@@ -377,8 +374,8 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         flex: 1;
         padding: 15px;
     }
-    .interests header {
-        font-size: 1.25em;
+    h2, h3 {
+        margin: 0px;
     }
 </style>
 ````
