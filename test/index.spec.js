@@ -111,7 +111,6 @@ describe('First Website', function(){
       browser.assert.elements('li', { atLeast: 3 }, 'Third <li> tags does not exist');
       browser.assert.elements('li', { atLeast: 4 }, 'Fourth <li> tags does not exist');
       browser.assert.elements('li', { atLeast: 5 }, 'Fifth <li> tags does not exist');
-      browser.assert.elements('section.interests > ul > li', 3, '<ul> tag is not inside <section> tag with class "interests"');
       done();
     });
   });
