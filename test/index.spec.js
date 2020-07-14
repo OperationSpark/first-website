@@ -52,6 +52,13 @@ describe('First Website', function(){
       browser.assert.elements('div#all-contents > nav', 1, '<nav> tag is not inside <div> tag with id "all-contents"');
       done();
     });
+    
+//     it('should have <header> tag inside <nav> tag', function(done) {
+//       browser.assert.elements('header', { atLeast: 1 }, '<header> tag does not exist');
+//       browser.assert.elements('nav > header', 1, '<header> tag is not inside <nav> tag');
+//       done();
+//     });
+
 
     it('should have <ul> tag inside <nav> tag', function(done) {
       browser.assert.elements('ul', { atLeast: 1 }, '<ul> tag does not exists');
@@ -99,18 +106,50 @@ describe('First Website', function(){
       browser.assert.elements('main > div.content', { atLeast: 1 }, '<div> tag does not have class "content"');
       done();
     });
+    
+//     it('should have <header> tag inside <div> tag with class "content"', function(done) {
+//       browser.assert.elements('header', { atLeast: 1 }, '<header> tag does not exist');
+//       browser.assert.elements('header', { atLeast: 2 }, 'Second <header> tag does not exist');
+//       browser.assert.elements('div.content > header', 1, '<header> tag is not inside <div> tag with class "content');
+//       done();
+//     });
 
     it('should have <p> tag inside <div> tag with class "content"', function(done) {
       browser.assert.elements('p', { atLeast: 1 }, '<p> tag does not exist');
       browser.assert.elements('div.content > p', 1, '<p> tag is not inside <div> tag with class "content');
       done();
     });
+    
+    
+//     it('should have <section> tag, with class "interests," inside <div> tag with class "content"', function(done) {
+//       browser.assert.elements('section', { atLeast: 1 }, '<section> tag does not exist');
+//       browser.assert.elements('div.content > section', 1, '<section> tag is not inside <div> tag with class "content');
+//       browser.assert.elements('div.content > section.interests', 1, '<section> tag does not have class "interests');
+//       done();
+//     });
+
+//     it('should have <header> tag inside <section> tag with class "interests"', function(done) {
+//       browser.assert.elements('header', { atLeast: 1 }, '<header> tag does not exist');
+//       browser.assert.elements('header', { atLeast: 2 }, 'Second <header> tag does not exist');
+//       browser.assert.elements('header', { atLeast: 3 }, 'Third <header> tag does not exist');
+//       browser.assert.elements('section.interests > header', 1, '<header> tag is not inside <section> tag with class "interests"');
+//       done();
+//     });
+
+    
+//     it('should have <ul> tag inside <section> tag with class "interests"', function(done) {
+//       browser.assert.elements('ul', { atLeast: 1 }, '<ul> tag does not exist');
+//       browser.assert.elements('ul', { atLeast: 2 }, 'Second <ul> tag does not exist');
+//       browser.assert.elements('section.interests > ul', 1, '<ul> tag is not inside <section> tag with class "interests"');
+//       done();
+//     });
 
     it('should have 3 <li> tags for interests inside <ul>', function(done) {
       browser.assert.elements('li', { atLeast: 1 }, '<li> tag does not exist');
       browser.assert.elements('li', { atLeast: 3 }, 'Third <li> tags does not exist');
       browser.assert.elements('li', { atLeast: 4 }, 'Fourth <li> tags does not exist');
       browser.assert.elements('li', { atLeast: 5 }, 'Fifth <li> tags does not exist');
+      //browser.assert.elements('section.interests > ul > li', 3, '<ul> tag is not inside <section> tag with class "interests"');
       done();
     });
   });
