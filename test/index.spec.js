@@ -106,13 +106,6 @@ describe('First Website', function(){
       done();
     });
 
-    it('should have <ul> tag inside <section> tag with class "interests"', function(done) {
-      browser.assert.elements('ul', { atLeast: 1 }, '<ul> tag does not exist');
-      browser.assert.elements('ul', { atLeast: 2 }, 'Second <ul> tag does not exist');
-      browser.assert.elements('section.interests > ul', 1, '<ul> tag is not inside <section> tag with class "interests"');
-      done();
-    });
-
     it('should have 3 <li> tags for interests inside <ul>', function(done) {
       browser.assert.elements('li', { atLeast: 1 }, '<li> tag does not exist');
       browser.assert.elements('li', { atLeast: 3 }, 'Third <li> tags does not exist');
