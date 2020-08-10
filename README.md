@@ -267,7 +267,7 @@ So, your full image tag should look this this:
 
 ````HTML
 <div class="sidebar">
-      <img src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
+      <img id="sidebar-img" src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
 </div>
 ````
 
@@ -367,7 +367,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         margin-right: 25px;
         padding: 10px;
     }
-    img {
+    #sidebar-img {
         width: 200px;
     }
     .content {
@@ -380,7 +380,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
 </style>
 ````
 
-Ok, we've pasted in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your website, you should see that your page is now styled with some colors and some positioning. However, not all of these rules will take effect yet. Some reference classes and ids that have not yet been assigned. That is something for you to do in the next section.
+Ok, we've pasted in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your website, you should see that your page is now styled with some colors and some positioning. **However, not all of these rules will take effect yet.** Some reference classes and ids that have not yet been assigned. That is something for you to do in the next section.
 
 #### CSS Selectors in a Nutshell
 
@@ -487,6 +487,8 @@ Find the `nav` section in your HTML and specifically the `<ul>` and `<li>` tags 
 * Add an id attribute of `id="nav-ul"` to the `<ul>` element
 * Add class attributes of `class="nav-li"` to each `<li>` element
 * Save and view the changes. You'll see that the CSS rules mentioned above now affect those elements!
+
+**\*\*HINT: attributes go in the opening class, e.g. `<li id="nav-ul">`\*\*** 
 
 #### Step 3) Customize colors
 
