@@ -319,7 +319,7 @@ We now have a fairly plain website but it's a website! Let's add some style.  He
 
 Copy the entire below section and place it inside the `<head>` below the `<title>` tag.
 
-````CSS
+```HTML
 <style>
     body {
         background: rgb(125, 198, 205);
@@ -378,7 +378,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         margin: 0px;
     }
 </style>
-````
+```
 
 Ok, we've pasted in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your website, you should see that your page is now styled with some colors and some positioning. **However, not all of these rules will take effect yet.** Some reference classes and ids that have not yet been assigned. That is something for you to do in the next section.
 
