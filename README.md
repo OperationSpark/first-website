@@ -26,7 +26,7 @@ We're gonna go live on GitHub with your very own website!
     - [TODO 9 : Make it Pretty](#todo-9--make-it-pretty)
       - [CSS Selectors in a Nutshell](#css-selectors-in-a-nutshell)
       - [Selecting HTML Elements by ID, Class, or by Tag Type](#selecting-html-elements-by-id-class-or-by-tag-type)
-    - [TODO 10 : Customize CSS](#todo-10--customize-css)
+    - [TODO 10 : Play around with the CSS](#todo-10--play-around-with-the-css)
     - [Extra Credit](#extra-credit)
     - [TODO 11 : Add to gitignore](#todo-11--add-update-gitignore)
     - [TODO 12 : Go Live](#todo-12--go-live)
@@ -267,7 +267,7 @@ So, your full image tag should look this this:
 
 ````HTML
 <div class="sidebar">
-      <img id="sidebar-img" src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
+      <img src="https://github.com/OperationSpark/first-website/blob/master/img/hallebot.png?raw=true">
 </div>
 ````
 
@@ -339,21 +339,21 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         display: flex;
         padding: 10px;
     }
-    h1 {
+    nav h1 {
         display: flex;
         align-items: center;
         color: white;
         flex: 1;
         margin: 0;
     }
-    #nav-ul {
+    nav ul {
         list-style-image: none;
     }
-    .nav-li {
+    nav li {
         display: inline-block;
         padding: 0 10px;
     }
-    a {
+    nav a {
         text-decoration: none;
         color: #fff;
     }
@@ -367,7 +367,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
         margin-right: 25px;
         padding: 10px;
     }
-    #sidebar-img {
+    .sidebar img {
         width: 200px;
     }
     .content {
@@ -380,7 +380,7 @@ Copy the entire below section and place it inside the `<head>` below the `<title
 </style>
 ```
 
-Ok, we've pasted in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your website, you should see that your page is now styled with some colors and some positioning. **However, not all of these rules will take effect yet.** Some reference classes and ids that have not yet been assigned. That is something for you to do in the next section.
+Ok, we've pasted-in a bunch of style rules between the `<style></style>` tag, and if we save your work and reload your website, you should see that your page is now styled with some colors and some positioning.
 
 #### CSS Selectors in a Nutshell
 
@@ -447,11 +447,10 @@ The long form of sidebar class selector is:
 |id    | [id=portfolio] { ... }         | #portfolio { ... }    |
 
 
-### TODO 10 : Customize CSS
+### TODO 10 : Play around with the CSS
 
-Check it out! We have some style but not much and some elements are too close together. Let's fix that, as well as fixing the issues of some rules not yet taking effect. We'll do this in a series of steps.
+Check it out! We have some style but not much and some elements are too close together. Let's fix that.
 
-#### Step 1) Adding more margin
 Find the `nav` CSS selector within the `<style>` you just pasted in place, it looks like this:
 
 ````CSS
@@ -465,36 +464,8 @@ nav {
 
 * Under the style rule: `margin: 0 auto;` add `margin-bottom: 20px;`
 * Save and view the changes. The menu now has some space underneath it!
+* Do you like these colors? Remember that all colors can be represented as a combination of red, green, and blue numbers 0-255. See the `rgb(...)` functions above? Play around with the values in the `rgb(...)` function calls to use your own colors.
 
-
-#### Step 2) Add in class and id attributes
-
-There are two CSS rules that currently don't do anything because they don't reference existing classes or ids. Those are the rules with selectors `#nav-ul` and `.nav-li`. 
-
-Find the `nav` section in your HTML and specifically the `<ul>` and `<li>` tags inside of it. It should look like this:
-
-```HTML
-    <ul>
-        <li>
-          <a href="index.html"> Home </a>
-        </li>
-        <li>
-          <a href="portfolio.html"> Portfolio </a>
-      </li>
-    </ul>
-```
-
-* Add an id attribute of `id="nav-ul"` to the `<ul>` element
-* Add class attributes of `class="nav-li"` to each `<li>` element
-* Save and view the changes. You'll see that the CSS rules mentioned above now affect those elements!
-
-**\*\*HINT: attributes go in the opening class, e.g. `<li id="nav-ul">`\*\*** 
-
-#### Step 3) Customize colors
-
-This one's easy! Just go through your CSS rules and change the `background` and `color` properties to use colors that you like. **Don't keep the default colors!** 
-
-Remember that all colors can be represented as a combination of red, green, and blue numbers 0-255. You can either use rgb values or plug in color names directly. Feel free to check out w3schools for a list of available colors or to use Google's color picker (just search "color picker") to find colors that you like.
 
 ### Extra Credit
 
