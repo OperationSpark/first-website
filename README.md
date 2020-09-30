@@ -1,4 +1,4 @@
-First Website
+MY FIRST AMAZING WEBSITE ON GITHUB
 ===
 
 We're gonna go live on GitHub with your very own website!
