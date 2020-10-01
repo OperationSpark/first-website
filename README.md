@@ -67,7 +67,7 @@ To complete the assignment, below you'll find numbered **TODO** lesson steps.  W
 
 Please follow the instructions closely. Sometimes, however, we may be showing you code examples to make a point, so you only need to add code if we're explicitly telling you to do a lesson step, so please be aware of the actual lesson steps.
 
-### Type of App
+### Types of App
 
 We are building a website, to be viewed live on the web at your GitHub page, and it will be viewed in a web browser, like Chrome.
 
