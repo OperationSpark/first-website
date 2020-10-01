@@ -182,7 +182,7 @@ The `<title>` tag of a webpage belongs inside of the `<head>` tag. So go ahead a
 </body>
 ```
 
-We're going to create `<div>` tags to group our content together.  The `<div>` tag stand for _document division_, and they are special tags that help us divide or group together content on our web page.  You can consider them sort of like containers, into which we group content, and those containers can be invisible or _styled_ with visible properties, like a background color, a border, etc.
+We're going to create `<div>` tags to group our content together.  The `<div>` tag stand for _document division_, and they are special tags that help us divide or group together content on our web page. You can consider them sort of like containers, into which we group content, and those containers can be invisible or _styled_ with visible properties, like a background color, a border, etc.
 
 Go ahead and add the following structure, so that your `<body>` looks like this:
 
