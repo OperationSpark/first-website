@@ -239,8 +239,6 @@ Update the list to display your own interests!
 
 **Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview with Live Server" (See Below)**
 
-<img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
-
 ### TODO 7 : Add an Image and List
 
 * Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
