@@ -237,7 +237,7 @@ Inside of the `<div class='content'>` element, let's create a section where we c
 
 Update the list to display your own interests!
 
-**Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview" (See Below)**
+**Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview with Live Server" (See Below)**
 
 <img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
 
