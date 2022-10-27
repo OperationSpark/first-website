@@ -111,15 +111,9 @@ Above, you'll see this pattern often - notice that we have one `<div>` tag with 
 
 ### TODO 1 : Create index.html
 
-1. On the left side of your workspace, locate your github.io repository folder.
+1. On the left side of your workspace in the whitespace beneath your projects folder, right click and select "New File".
 
-2. Right click on the folder and select “New File” (See below)
-
-<img src="img/cloud9-create-new-file.png" style="max-height: 350px">
-
-3. Make sure to name the file `index.html` (See below)
-
-<img src="img/cloud9-name-new-file.png" style="max-height: 350px">
+2. Make sure to name the file `index.html` (See below)
 
 Add the following boilerplate code to get started:
 
