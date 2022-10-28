@@ -1,8 +1,6 @@
 First Website
 ===
 
-We're gonna go live on GitHub with your very own website!
-
 **Table of Contents**
 
 - [First Website](#first-website)
@@ -37,18 +35,11 @@ We're gonna go live on GitHub with your very own website!
 
     GitHub is a place on the Internet where we can store code! It's a cool social coding platform, kind of like Facebook for coders.
 
-* [Students will require an AWS Educate account](https://aws.amazon.com/education/awseducate/) (or some other IDE)
-
-    On AWS Educate we will use the Cloud9 service. Cloud9 is a place on the Internet where we can _work_ on code and create virtual workspaces for our coding projects.
-    
-<!-- * [Students will need to set up a Github repository and Cloud9 workspace].  -->
-<!-- Click here to find instructions to complete these steps](https://github.com/OperationSpark/github-ide-setup) -->
-
 ## Overview
 
 ### Specs
 
-* At the end of the lesson students will have built and designed their own website that is viewable on the web.
+* At the end of the lesson students will have built and designed their own website that is viewable on the web (if the bonus TODO is completed).
 * The website will be hosted on GitHub under student's own account, and is something they can build upon on over time.
 * The live website is hosted using a service called GitHub Pages: <a href="https://pages.github.com/" target="_blank">If you want to learn more about GitHub Pages, have a look here...</a>
 * The website will be the student's own and will feature a short profile of the student.
@@ -120,15 +111,9 @@ Above, you'll see this pattern often - notice that we have one `<div>` tag with 
 
 ### TODO 1 : Create index.html
 
-1. On the left side of your workspace, locate your github.io repository folder.
+1. On the left side of your workspace in the whitespace beneath your projects folder, right click and select "New File".
 
-2. Right click on the folder and select “New File” (See below)
-
-<img src="img/cloud9-create-new-file.png" style="max-height: 350px">
-
-3. Make sure to name the file `index.html` (See below)
-
-<img src="img/cloud9-name-new-file.png" style="max-height: 350px">
+2. Make sure to name the file `index.html` (See below)
 
 Add the following boilerplate code to get started:
 
@@ -136,11 +121,11 @@ Add the following boilerplate code to get started:
 <!DOCTYPE HTML>
 <html>
     <head>
-      
+
     </head>
-    
+
     <body>
-      
+
     </body>
 </html>
 ````
@@ -165,9 +150,9 @@ The `<title>` tag of a webpage belongs inside of the `<head>` tag. So go ahead a
     <head>
         <title>Sheba's Amazing Website</title>
     </head>
-    
+
     <body>
-      
+
     </body>
 </html>
 ````
@@ -188,7 +173,7 @@ Go ahead and add the following structure, so that your `<body>` looks like this:
 
 ```HTML
 <body>
-    <div id="all-contents"> 
+    <div id="all-contents">
         <nav>
 
         </nav>
@@ -213,11 +198,11 @@ Inside the `<main>` element, create two new `<div>` elements. These will act as 
 ```HTML
 <main>
     <div class="sidebar">
-      
+
     </div>
 
     <div class="content">
-      
+
     </div>
 </main>
 ```
@@ -252,15 +237,13 @@ Inside of the `<div class='content'>` element, let's create a section where we c
 
 Update the list to display your own interests!
 
-**Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview" (See Below)**
+**Save your page and preview it. To preview your page, right click on the `index.html` file and select "Preview with Live Server" (See Below)**
 
-<img src="img/cloud9-preview-html-file.png" style="max-height: 350px">
-
-### TODO 7 : Add an Image and List 
+### TODO 7 : Add an Image and List
 
 * Inside of the `<div class="sidebar">` tag, add an `<img>` tag. More on image tags [here](http://www.w3schools.com/tags/tag_img.asp).
 * We need to add the URL of an actual image with the **src** attribute. Find an image you would like on your page, you can find an image of yourself from Facebook, or anything else using a Google image search. Right-click on the image, and choose 'Copy Image URL.'
-* Paste that URL into the **src** attribute. 
+* Paste that URL into the **src** attribute.
 
 So, your full image tag should look this this:
 
@@ -292,7 +275,7 @@ Your site needs a title! Inside of the `<nav>` add an `<h1> </h1>` element (as i
 Next, we're going to make a menu. Linking to other pages forms the foundation of the web. Early on, the web was nothing but a bunch of HTML pages linked to one another. That's still true today although there's a lot more going on as well. We're going to link to a portfolio page and create it in the next lesson.
 
 * Below your `<h1>` element, create an unordered list using the `<ul>` tag. Inside it create two `<li>` tags to contain your list items
-* Create a link inside of each list item using the `<a>` tag. 
+* Create a link inside of each list item using the `<a>` tag.
 * Finally give each menu item a name by inserting Home and Portfolio between the opening and closing tags.  See the example below.
 
 ````HTML
@@ -311,7 +294,7 @@ Next, we're going to make a menu. Linking to other pages forms the foundation of
 
 Save and view your work. You now have some menu items! The *Home* link even works since it simply links to the page we are currently working on. The other link is for our portfolio page which we'll build out in the next lesson.
 
-Save and view your work. You should see your title inside of the navbar to the left. 
+Save and view your work. You should see your title inside of the navbar to the left.
 
 ### TODO 9 : Make it Pretty
 
@@ -441,7 +424,7 @@ The long form of sidebar class selector is:
 }
 ````
 
-|Type  | Long form                      | Short form            | 
+|Type  | Long form                      | Short form            |
 |------| ------------------------------ |-----------------------|
 |class | [class=all-contents] { ... }   | .all-contents { ... } |
 |id    | [id=portfolio] { ... }         | #portfolio { ... }    |
@@ -472,20 +455,8 @@ nav {
 * Google `border-radius` and add it to the `<nav>` element.
 * Add a border around the image
 
-### TODO 11 : Add Update Gitignore
 
-We need to do some cleanup before putting your site onto the internet. This step will make working with our site easier in the future by making our site ignore files generated by Cloud 9 and other special directories that we don't need.
-
-* If using Cloud9: Click on the _gear_ icon at the top left above the project folders and select "Show Hidden Files" (See below)
-
-<img src="img/cloud9-show-hidden-files.png" style="max-height: 350px">
-
-* Open the `.gitignore` file
-* Delete line 32 which contains `bower_components`
-* Then, at the bottom of the `.gitignore` file, make a new blank line by hitting Enter and then type `.*`
-* Save the `.gitignore` file, and close it.
-
-### TODO 12 : Go Live
+### BONUS - TODO 12 : Go Live
 
 Let's put our site on the Internet so that anyone can look at it!
 
@@ -500,18 +471,18 @@ Enter the following commands, and be careful to place your spaces correctly and 
         cd "replace this with your github repository folder"
 
 2. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
-    
+
         git add -A
 
 3. Then **commit** everything that has been added to the set of changes:
-    
+
         git commit -m 'A basic website'
 
 4. Finally, sync the repository in Cloud9 with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
-    
+
         git push
-    
-If asked, enter your Github username and password. 
+
+If asked, enter your Github username and password.
 **Note:** While entering your password, the cursor will _not_ move as you type. This is an intentional security feature so that if someone is looking at your screen, they can not see the what you're typing.
 
 You just sent your code to github where it will be backed up and made into a website anyone can see. You should be able to see your code should now appear on the github page from the Setup step above.
