@@ -39,7 +39,7 @@ First Website
 
 ### Specs
 
-* At the end of the lesson students will have built and designed their own website that is viewable on the web.
+* At the end of the lesson students will have built and designed their own website that is viewable on the web (if the bonus TODO is completed).
 * The website will be hosted on GitHub under student's own account, and is something they can build upon on over time.
 * The live website is hosted using a service called GitHub Pages: <a href="https://pages.github.com/" target="_blank">If you want to learn more about GitHub Pages, have a look here...</a>
 * The website will be the student's own and will feature a short profile of the student.
