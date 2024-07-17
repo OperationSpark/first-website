@@ -306,7 +306,7 @@ We now have a fairly plain website but it's a website! Let's add some style.  He
 
 Copy the entire below section and place it inside the `<head>` below the `<title>` tag.
 
-```HTML
+```html
 <style>
     body {
         background: rgb(125, 198, 205);
@@ -379,7 +379,7 @@ In order to style HTML elements, we need a way to _select_ the elements.
 
 When we create HTML elements, we can assign them an id or a class. In our HTML so far, we've given one element an id of _all-contents_ and another a class of _sidebar_. We did this by using the id and class attributes of the `<div>`. For example:
 
-````HTML
+````html
 <div id="all-contents">
     <div class="sidebar"></div>
 </div>
@@ -394,7 +394,7 @@ Selecting an element by its tag type or by its class will style all tags of that
 
 Finally, in our CSS, we've also shown you two ways to specify selectors, the long form, which is more explicit, and the short form. This is the long form of for an id selector:
 
-````CSS
+````css
 [id=all-contents] {
     max-width: 800px;
     margin: auto;
@@ -403,7 +403,7 @@ Finally, in our CSS, we've also shown you two ways to specify selectors, the lon
 
 However, the same selector can be spelled using the number symbol `#`, for id, like this:
 
-````CSS
+````css
 #all-contents {
     max-width: 800px;
     margin: auto;
@@ -412,7 +412,7 @@ However, the same selector can be spelled using the number symbol `#`, for id, l
 
 The short form to specify a CSS selector by class is the dot `.`, as in:
 
-````CSS
+````css
 .sidebar {
     margin-right: 25px;
     padding: 10px;
@@ -421,7 +421,7 @@ The short form to specify a CSS selector by class is the dot `.`, as in:
 
 The long form of sidebar class selector is:
 
-````CSS
+````css
 [class=sidebar] {
     margin-right: 25px;
     padding: 10px;
@@ -440,7 +440,7 @@ Check it out! We have some style but not much and some elements are too close to
 
 Find the `nav` CSS selector within the `<style>` you just pasted in place, it looks like this:
 
-````CSS
+````css
 nav {
         background: rgb(239, 80, 41);
         margin: 0 auto;
