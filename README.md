@@ -37,11 +37,8 @@ We're gonna go live on GitHub with your very own website!
 
     GitHub is a place on the Internet where we can store code! It's a cool social coding platform, kind of like Facebook for coders.
 
-* [Students will require an AWS Educate account](https://aws.amazon.com/education/awseducate/) (or some other IDE)
-
-    On AWS Educate we will use the Cloud9 service. Cloud9 is a place on the Internet where we can _work_ on code and create virtual workspaces for our coding projects.
     
-<!-- * [Students will need to set up a Github repository and Cloud9 workspace].  -->
+<!-- * [Students will need to set up a Github repository.  -->
 <!-- Click here to find instructions to complete these steps](https://github.com/OperationSpark/github-ide-setup) -->
 
 ## Overview
@@ -462,3 +459,46 @@ nav {
 * Google `border-radius` and add it to the `<nav>` element.
 * Add a border around the image
 
+### TODO 11 : Add Update Gitignore
+
+We need to do some cleanup before putting your site onto the internet.
+
+* Open the `.gitignore` file
+* Delete line 32 which contains `bower_components`
+* Then, at the bottom of the `.gitignore` file, make a new blank line by hitting Enter and then type `.*`
+* Save the `.gitignore` file, and close it.
+
+### TODO 12 : Go Live
+
+Let's put our site on the Internet so that anyone can look at it!
+
+With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Stackblitz workspace up to your GitHub repository, your page will be live on the Internet.
+
+To do so, you'll need to enter the following git commands into your bash terminal. In the bottom window pane click the plus sign and select "New Terminal".
+
+Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
+
+1. Change directories into your github folder. The result should look something like this: `cd "hallebot.github.io"` (the github username of the user in this example is `hallebot`). Once your command looks similar to this, press enter to move on to the next command:
+
+        cd "replace this with your github repository folder"
+
+2. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
+    
+        git add -A
+
+3. Then **commit** everything that has been added to the set of changes:
+    
+        git commit -m 'A basic website'
+
+4. Finally, sync the repository in Stackblitz with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
+    
+        git push
+    
+If asked, enter your Github username and password. 
+**Note:** While entering your password, the cursor will _not_ move as you type. This is an intentional security feature so that if someone is looking at your screen, they can not see the what you're typing.
+
+You just sent your code to github where it will be backed up and made into a website anyone can see. You should be able to see your code should now appear on the github page from the Setup step above.
+
+Give it a couple minutes and you should be able to view your website live on the web at http://username.github.io/username.github.io! (Where 'username' is your own GitHub username.)
+
+Congratulations!  You are LIVE ON THE INTERNET!
