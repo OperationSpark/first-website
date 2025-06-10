@@ -471,6 +471,13 @@ nav {
 * Google `border-radius` and add it to the `<nav>` element.
 * Add a border around the image
 
+### TODO 12: Update Gitignore
+
+Before putting your site on the internet, we need to check the `.gitignore` file. A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
+
+* Select the `.gitignore` file on the left side of your workspace.
+* Make sure you see `node_modules` listed on line 42.
+
 ### TODO 12 : Go Live
 
 Let's put our site on the Internet so that anyone can look at it!
