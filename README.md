@@ -117,9 +117,15 @@ Above, you'll see this pattern often - notice that we have one `<div>` tag with 
 
 ### TODO 1 : Create index.html
 
-1. On the left side of your workspace, right click and select "New File".
+1. Locate the file structure on the left side of your workspace.
+
+2. Right click and select “New File” (See below)
+
+<img src="img/new-file.png" style="max-height: 350px">
 
 3. Make sure to name the file `index.html` (See below)
+
+<img src="img/index.png" style="max-height: 350px">
 
 Add the following boilerplate code to get started:
 
@@ -242,6 +248,11 @@ Inside of the `<div class='content'>` element, let's create a section where we c
 ````
 
 Update the list to display your own interests!
+
+**Save your page and preview it.**
+* To preview your page, right click on the `index.html` file and select "Open with Live Server" (See Below)**
+
+<img src="img/live-server.png" style="max-height: 350px">
 
 ### TODO 7 : Add an Image and List 
 
@@ -459,38 +470,30 @@ nav {
 * Google `border-radius` and add it to the `<nav>` element.
 * Add a border around the image
 
-### TODO 11 : Add Update Gitignore
+### TODO 11: Update Gitignore
 
-We need to do some cleanup before putting your site onto the internet.
+Before putting your site on the internet, we need to check the `.gitignore` file. A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
 
-* Open the `.gitignore` file
-* Delete line 32 which contains `bower_components`
-* Then, at the bottom of the `.gitignore` file, make a new blank line by hitting Enter and then type `.*`
-* Save the `.gitignore` file, and close it.
+* Select the `.gitignore` file on the left side of your workspace.
+* Make sure you see `node_modules` listed on line 42.
 
 ### TODO 12 : Go Live
 
 Let's put our site on the Internet so that anyone can look at it!
 
-With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Stackblitz workspace up to your GitHub repository, your page will be live on the Internet.
+With <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, once you push your changes from your Stackblitz up to your GitHub repository, your page will be live on the Internet.
 
-To do so, you'll need to enter the following git commands into your bash terminal. In the bottom window pane click the plus sign and select "New Terminal".
+To do so, you'll need to enter the following git commands into your bash terminal.
 
-Enter the following commands, and be careful to place your spaces correctly and press `ENTER` after each one. Read the results of each command and check for errors.
-
-1. Change directories into your github folder. The result should look something like this: `cd "hallebot.github.io"` (the github username of the user in this example is `hallebot`). Once your command looks similar to this, press enter to move on to the next command:
-
-        cd "replace this with your github repository folder"
-
-2. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
+1. First, **add** all the files we worked into git so that they can be archived into a set of changes in our source control:
     
-        git add -A
+        git add .
 
-3. Then **commit** everything that has been added to the set of changes:
+2. Then **commit** everything that has been added to the set of changes:
     
         git commit -m 'A basic website'
 
-4. Finally, sync the repository in Stackblitz with the one on github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
+3. Finally, save the changes from the Stackblitz workspace to github by **pushing** your set of changes. **If** you are prompted, just type 'yes' to proceed, but you may not be asked.
     
         git push
     
